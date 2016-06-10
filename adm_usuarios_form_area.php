@@ -337,10 +337,22 @@
                                                 <label for="curp">CURP</label>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-4">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="lugar" name="lugar">
                                                 <label for="lugar">Lugar de nacimiento</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="form-material form-material-primary floating">
+                                                <select class="form-control input-sm" id="estado_civil" name="estado_civil">
+                                                    <option></option>
+                                                    <option value="soltera">Soltera(o)</option>
+                                                    <option value="casada">Casada(o)</option>
+                                                    <option value="union_libre">Unión Libre</option>
+                                                    <option value="viuda">Viuda(o)</option>
+                                                </select>
+                                                <label for="estado_civil">Estado Civil</label>
                                             </div>
                                         </div>
                                     </div>
@@ -389,10 +401,10 @@
                                                 <label for="coo">Coordenada</label>
                                             </div>
                                         </div>
-                                        <div class="col-sm-5">
-                                            <label class="col-sm-12" for="example-file-input">Fotografía</label>
-                                            <div class="col-sm-12">
-                                                <input type="file" id="example-file-input" name="example-file-input">
+                                        <div class="col-sm-2">
+                                            <div class="form-material form-material-primary floating">
+                                                <input class="form-control input-sm" type="text" id="red" name="red">
+                                                <label for="red">Red</label>
                                             </div>
                                         </div>
                                     </div>

@@ -8,7 +8,7 @@
             <i class="fa fa-times"></i>
         </button>
         <span>
-            <img class="img-avatar img-avatar32" src="assets/img/avatars/avatar10.jpg" alt="">
+                <img class="img-avatar img-avatar32" src="assets/img/avatars/avatar10.jpg" alt="">
             <span class="font-w600 push-10-l">PAKAL AI</span>
         </span>
     </div>

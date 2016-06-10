@@ -409,6 +409,7 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <!--
                                     <div class="col-xs-6 col-sm-4 col-lg-2">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
@@ -417,6 +418,7 @@
                                             </div>
                                         </a>
                                     </div>
+                                    -->
                                     <div class="col-xs-6 col-sm-4 col-lg-2">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
@@ -497,7 +499,7 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th class="text-center">P/A</th>
+                                            <th class="text-center">P/A/C</th>
                                             <th class="text-center">Clave</th>
                                             <th class="text-left">Área a revisar</th>
                                             <th class="text-left">Inicio</th>

@@ -385,7 +385,7 @@
                                             <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Seguimientos</th>
                                             <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Observaciones</th>
                                             <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> PRAS</th>
-                                            <th class="text-center" style=""><i class="fa fa-warning text-gray"></i> Validar</th>
+                                            <th class="text-center" style=""><i class="fa fa-warning text-gray"></i> Autorizado</th>
                                         </tr>
                                     </thead>
                                     <tbody>

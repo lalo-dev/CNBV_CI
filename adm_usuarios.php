@@ -149,10 +149,10 @@
                                             <th class="text-center">#</th>
                                             <th class="text-left">Cargo</th>
                                             <th class="text-left">Nombre</th>
-                                            <th class="text-left">Apellido Paterno</th>
-                                            <th class="text-left">Apellido Materno</th>
-                                            <th class="text-center">Área</th>
-                                            <th class="text-left">Nivel</th>
+                                            <th class="text-left">A. Paterno</th>
+                                            <th class="text-left">A. Materno</th>
+                                            <th class="text-center"># Expediente</th>
+                                            <th class="text-left">Grado</th>
                                             <th class="text-left">Acciones</th>
                                             <th class="text-center">Activo</th>
                                         </tr>
@@ -164,8 +164,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-center">OIC</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-center">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -194,8 +194,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-center">OIC</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-center">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -224,8 +224,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-center">OIC</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-center">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -254,8 +254,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-center">OIC</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-center">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -284,8 +284,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-center">OIC</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-center">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -325,9 +325,10 @@
                                             <th class="text-left">Área</th>
                                             <th class="text-left">Cargo</th>
                                             <th class="text-left">Nombre</th>
-                                            <th class="text-left">Apellido Paterno</th>
-                                            <th class="text-left">Apellido Materno</th>
-                                            <th class="text-left">Nivel</th>
+                                            <th class="text-left">A. Paterno</th>
+                                            <th class="text-left">A. Materno</th>
+                                            <th class="text-left"># Expediente</th>
+                                            <th class="text-left">Grado</th>
                                             <th class="text-left">Acciones</th>
                                             <th class="text-center">Activo</th>
                                         </tr>
@@ -341,7 +342,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-left">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -372,7 +374,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-left">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -403,7 +406,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-left">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -434,7 +438,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-left">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">
@@ -465,7 +470,8 @@
                                             <td class="text-left">Guillermo</td>
                                             <td class="text-left">Apellido</td>
                                             <td class="text-left">Apellido</td>
-                                            <td class="text-left">Director de área</td>
+                                            <td class="text-left">006</td>
+                                            <td class="text-left">Licenciatura</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
                                                     <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="CV" href="./archivos/CV.docx">

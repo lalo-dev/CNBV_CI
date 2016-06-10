@@ -31,19 +31,19 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Planeación anual</span></a>
                                 <ul>
                                     <li>
-                                        <a class="submenuCnbv" href="m1_0_pat_completo">PAT</a>
+                                        <a class="submenuCnbv" href="../m1_0_pat_completo">PAT</a>
                                     </li>
                                     <li>
-                                        <a class="submenuCnbv" href="presentaciones/presentacion_form">Presentación ejecutiva</a>
+                                        <a class="submenuCnbv" href="../presentaciones/presentacion_form">Presentación ejecutiva</a>
                                     </li>
                                     <li>
-                                        <a class="submenuCnbv" href="m1_4_mapa_riesgos">Mapa de riesgos</a>
+                                        <a class="submenuCnbv" href="../m1_4_mapa_riesgos">Mapa de riesgos</a>
                                     </li>
                                     <li>
-                                        <a class="submenuCnbv" href="m1_5_semanas_hombre">Semanas hombre</a>
+                                        <a class="submenuCnbv" href="../m1_5_semanas_hombre">Semanas hombre</a>
                                     </li>
                                     <li>
-                                        <a class="submenuCnbv" href="m1_6_equipo_trabajo">Equipo de trabajo</a>
+                                        <a class="submenuCnbv" href="../m1_6_equipo_trabajo">Equipo de trabajo</a>
                                     </li>
                                 </ul>
                             </li>
@@ -51,16 +51,16 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Auditoría</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m2_1_planeacaion_detallada">Planeación detallada</a>
+                                        <a href="../m2_1_planeacaion_detallada">Planeación detallada</a>
                                     </li>
                                     <li>
-                                        <a href="m2_2_ejecucion">Ejecución</a>
+                                        <a href="../m2_2_ejecucion">Ejecución</a>
                                     </li>
                                     <li>
-                                        <a href="m2_3_informe">Informe</a>
+                                        <a href="../m2_3_informe">Informe</a>
                                     </li>
                                     <li>
-                                        <a href="m2_4_cierre">Cierre</a>
+                                        <a href="../m2_4_cierre">Cierre</a>
                                     </li>
                                 </ul>
                             </li>
@@ -68,13 +68,13 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Seguimiento</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m3_1_ejecucion">Ejecución</a>
+                                        <a href="../m3_1_ejecucion">Ejecución</a>
                                     </li>
                                     <li>
-                                        <a href="m3_2_informe">Informe</a>
+                                        <a href="../m3_2_informe">Informe</a>
                                     </li>
                                     <li>
-                                        <a href="m3_3_cierre">Cierre</a>
+                                        <a href="../m3_3_cierre">Cierre</a>
                                     </li>
                                 </ul>
                             </li>
@@ -82,19 +82,19 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">PRAS</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m4_1_informe_pra">Informe de PRAS</a>
+                                        <a href="../m4_1_informe_pra">Informe de PRAS</a>
                                     </li>
                                     <li>
-                                        <a href="m4_2_solicitud_asesor">Solicitud asesor</a>
+                                        <a href="../m4_2_solicitud_asesor">Solicitud asesor</a>
                                     </li>
                                     <li>
-                                        <a href="m4_3_informe_invio">Informe de envío</a>
+                                        <a href="../m4_3_informe_invio">Informe de envío</a>
                                     </li>
                                     <li>
-                                        <a href="m4_4_requerimiento">Requerimiento información</a>
+                                        <a href="../m4_4_requerimiento">Requerimiento información</a>
                                     </li>
                                     <li>
-                                        <a href="m4_5_anexos">Anexos al informe de PRAS</a>
+                                        <a href="../m4_5_anexos">Anexos al informe de PRAS</a>
                                     </li>
                                 </ul>
                             </li>
@@ -102,7 +102,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Reportes</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m5_1_reporte_auditorias">Auditorías</a>
+                                        <a href="../m5_1_reporte_auditorias">Auditorías</a>
                                     </li>
                                     <li>
                                         <a href="">Seguimientos</a>
@@ -119,7 +119,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Estadísticas</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m6_1_estadistica_auditorias">Auditorías ?</a>
+                                        <a href="../m6_1_estadistica_auditorias">Auditorías ?</a>
                                     </li>
                                     <li>
                                         <a href="">Seguimientos ?</a>
@@ -136,16 +136,16 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-calendar"></i><span class="sidebar-mini-hide">Actividades</span></a>
                                 <ul>
                                     <li>
-                                        <a href="registro_actividades">Registrar</a>
+                                        <a href="../registro_actividades">Registrar</a>
                                     </li>
                                     <li>
-                                        <a href="consultar_actividades">Consultar</a>
+                                        <a href="../consultar_actividades">Consultar</a>
                                     </li>
                                     <li>
-                                        <a href="actividades_generales">General</a>
+                                        <a href="../actividades_generales">General</a>
                                     </li>
                                     <li>
-                                        <a href="configurar_actividades">Configuración</a>
+                                        <a href="../configurar_actividades">Configuración</a>
                                     </li>
                                 </ul>
                             </li>
@@ -154,16 +154,16 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-docs"></i><span class="sidebar-mini-hide">Normativa</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m7_1_normativa_aai">AAI</a>
+                                        <a href="../m7_1_normativa_aai">AAI</a>
                                     </li>
                                     <li>
-                                        <a href="m7_2_normativa_cnbv">CNBV</a>
+                                        <a href="../m7_2_normativa_cnbv">CNBV</a>
                                     </li>
                                     <li>
-                                        <a href="m7_3_plantillas">Plantillas</a>
+                                        <a href="../m7_3_plantillas">Plantillas</a>
                                     </li>
                                     <li>
-                                        <a href="m7_4_glosario">Glosario</a>
+                                        <a href="../m7_4_glosario">Glosario</a>
                                     </li>
                                 </ul>
                             </li>
@@ -171,58 +171,58 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-docs"></i><span class="sidebar-mini-hide">Otras actividades</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m8_1_adquisiciones">Adquisiciones</a>
+                                        <a href="../m8_1_adquisiciones">Adquisiciones</a>
                                     </li>
                                     <li>
-                                        <a href="m8_2_comsoc">COMSOC</a>
+                                        <a href="../m8_2_comsoc">COMSOC</a>
                                     </li>
                                     <li>
-                                        <a href="m8_3_actas_entrega">Actas de entrega</a>
+                                        <a href="../m8_3_actas_entrega">Actas de entrega</a>
                                     </li>
                                     <li>
-                                        <a href="m8_4_auditores_externos">Auditores externos</a>
+                                        <a href="../m8_4_auditores_externos">Auditores externos</a>
                                     </li>
                                     <li>
-                                        <a href="m8_5_asf">ASF</a>
+                                        <a href="../m8_5_asf">ASF</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
                             <li>
-                                <a href="adm_usuarios"><i class="si si-users"></i><span class="sidebar-mini-hide">Usuarios</span></a>
+                                <a href="../adm_usuarios"><i class="si si-users"></i><span class="sidebar-mini-hide">Usuarios</span></a>
                             </li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-list"></i><span class="sidebar-mini-hide">Catálogos</span></a>
                                 <ul>
                                     <li>
-                                        <a href="cat_riesgos">Riesgos</a>
+                                        <a href="../cat_riesgos">Riesgos</a>
                                     </li>
                                     <li>
-                                        <a href="cat_clave">Clave de programa</a>
+                                        <a href="../cat_clave">Clave de programa</a>
                                     </li>
                                     <li>
-                                        <a href="cat_areas">Áreas</a>
+                                        <a href="../cat_areas">Áreas</a>
                                     </li>
                                     <li>
-                                        <a href="cat_empleados">Empleados</a>
+                                        <a href="../cat_empleados">Empleados</a>
                                     </li>
                                     <li>
-                                        <a href="cat_estatus">Estatus documentos</a>
+                                        <a href="../cat_estatus">Estatus documentos</a>
                                     </li>
                                     <li>
-                                        <a href="cat_criterios">Criterios para las cédulas</a>
+                                        <a href="../cat_criterios">Criterios para las cédulas</a>
                                     </li>
                                     <li>
-                                        <a href="cat_empleados">Empleados</a>
+                                        <a href="../cat_empleados">Empleados</a>
                                     </li>
                                     <li>
-                                        <a href="cat_mapa">Mapa de riesgos</a>
+                                        <a href="../cat_mapa">Mapa de riesgos</a>
                                     </li>
                                     <li>
-                                        <a href="cat_justificacion">Justificación ?</a>
+                                        <a href="../cat_justificacion">Justificación ?</a>
                                     </li>
                                     <li>
-                                        <a href="cat_calendario">Calendario</a>
+                                        <a href="../cat_calendario">Calendario</a>
                                     </li>
                                 </ul>
                             </li>
