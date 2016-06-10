@@ -103,13 +103,14 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Planeación anual <small>Descripción</small>
+                                General <small>Auditoría</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Auditoría</li>
-                                <li><a class="link-effect" href="">Planeación Anual</a></li>
+                                <li>REPORTES</li>
+                                <li>AUDITORÍA</li>
+                                <li>GENERAL</li>
                             </ol>
                         </div>
                     </div>
@@ -117,59 +118,695 @@
                 <!-- END Page Header -->
 
                 <!-- Page Content -->
-                <div class="content content-narrow">
+                <div class="content">
+                    <div class="block">
+                        <ul class="nav nav-tabs" data-toggle="tabs">
 
-                    <!-- Multi Rows Tiles -->
-                    <h2 class="content-heading">Actividades</h2>
+                            <li class="active">
+                                <a href="#search-graficos">Gráficos</a>
+                            </li>
+                            <li>
+                                <a href="#search-detalles">Detalles</a>
+                            </li>
 
-                    <!-- Background Colored Tiles -->
-                    <div class="row">
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-info">
-                                    <i class="si si-doc fa-5x text-white"></i>
+                            <li class="pull-right">
+                                <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
+                            </li>
+                            <li class="pull-right">
+                                <ul class="block-options push-10-t push-10-r">
+                                    <li>
+                                        <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="block-content tab-content bg-white">
+                        
+                        	<!-- Grafica -->
+                            <div class="tab-pane fade fade-up in active" id="search-graficos">
+                                <div class="border-b push-30">
+                                    <h2 class="push-10">1 <span class="h5 font-w400 text-muted">Una gráfica</span></h2>
                                 </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>PAT detallado</strong>
+
+                                <div class="block-header bg-primary">
+                                    <h3 class="block-title">
+                                        Gráfica de algo
+                                    </h3>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-primary">
-                                    <i class="si si-doc fa-5x text-white"></i>
+                                Aquí la gráfica de algo ! ! !
+                            </div>
+
+                            <!-- END Grafica -->
+                        	<!-- Resumen -->
+                            <div class="tab-pane fade fade-up" id="search-detalles">
+                                <div class="border-b push-30">
+                                    <h2 class="push-10">16 <span class="h5 font-w400 text-muted">Registros encontrados</span></h2>
                                 </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>PAT resumen</strong>
+
+                                <div class="block-header bg-primary">
+                                    <h3 class="block-title">
+                                        AUDITORÍA 05/15 DIRECCIÓN GENERAL DE DELITOS Y SANCIONES
+                                    </h3>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-modern-dark">
-                                    <i class="si si-camcorder fa-5x text-white"></i>
+
+                                <div class="table-responsive">
+
+                                    <table class="table table-striped table-vcenter table-condensed">
+                                        <thead>
+	                                        <tr>
+	                                            <th class="text-left" data-toggle="tooltip" data-placement="top" title="#" rowspan="2">#</th>
+	                                            <th rowspan="2">DESCRIPCIÓN DE ACTIVIDADES A DESARROLLAR</th>
+	                                            <th class="text-center" colspan="2">FECHA PROGRAMADA</th>
+	                                            <th class="text-center" rowspan="2">AVANCE</th>
+	                                            <th class="text-center" colspan="3">PAPELES DE TRABAJO</th>
+	                                            <th class="text-center" colspan="2">HALLAZGOS</th>
+	                                            <th class="text-center" rowspan="1">AVANCE-SEMANAS</th>
+	                                        </tr>
+	                                        <tr>
+	                                        	
+	                                            <th class="text-center">INICIO DÍA/MES/AÑO</th>
+	                                            <th class="text-center">TÉRMINO DÍA/MES/AÑO</th>
+	                                            
+	                                            <th class="text-center">AVANCE</th>
+	                                            <th class="text-center">REVISION</th>
+	                                            <th class="text-center">FIRMA</th>
+	                                            <th class="text-center">TOTALES</th>
+	                                            <th class="text-center">DETALLE</th>
+	                                            <th class="text-center">01-05 JUNIO</th>
+	                                        </tr>
+                                        </thead>
+                                        <tbody>
+	                                        <tr>
+	                                        	<td>1</td>
+	                                            <td>Elaborar y entregar la Orden de auditoría y el Acta de inicio</td>
+	                                            <td class="text-center">13/04/15</td>
+	                                            <td class="text-center">14/04/15</td>
+	                                            <td class="text-center">
+					                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+					                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+					                                        	 50%
+					                                       	</div>
+	                                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center">
+	                                            	<p><i class="glyphicon glyphicon-ok fa-2x"></i></p>
+	                                            </td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	3
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">1%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>2</td>
+	                                            <td>Solicitar información y documentación al área auditada</td>
+	                                            <td class="text-center">15/04/15</td>
+	                                            <td class="text-center">02/06/15</td>
+	                                            <td class="text-center">
+	                                            	<div class="progress">
+				                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+				                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+				                                        	 80%
+				                                       	</div>
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+	                                            	<p><i class="glyphicon glyphicon-ok fa-2x"></i></p>
+	                                            </td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	1
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">83%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>3</td>
+	                                            <td>Elaborar la Carta de Planeación, el Programa de Trabajo y la Programación del Cronograma de Actividades</td>
+	                                            <td class="text-center">20/04/15</td>
+	                                            <td class="text-center">24/04/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+			                                        	 100%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+			                                        	 100%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+	                                            	<p><i class="glyphicon glyphicon-ok fa-2x"></i></p>
+	                                            </td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	2
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">1%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>4</td>
+	                                            <td>Desarrollar los antecedentes de la auditoría</td>
+	                                            <td class="text-center">22/04/15</td>
+	                                            <td class="text-center">30/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+			                                        	 100%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+			                                        	 100%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+	                                            	<p><i class="glyphicon glyphicon-remove fa-2x"></i></p>
+	                                            </td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	4
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>5</td>
+	                                            <td>Elaborar la cedula del examen y evaluación del Control Interno, basado en las "Normas Generales de Control Interno</td>
+	                                            <td class="text-center">1/06/15</td>
+	                                            <td class="text-center">15/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			                                        	 40%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			                                        	 40%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	7
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>6</td>
+	                                            <td>Revisar la estructura orgánica autorizada y funcional</td>
+	                                            <td class="text-center">4/05/15</td>
+	                                            <td class="text-center">11/05/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+			                                        	 100%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+	                                            	<p><i class="glyphicon glyphicon-remove fa-2x"></i></p>
+	                                            </td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	4
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>7</td>
+	                                            <td>Verificar el cumplimiento de metas y objetivos</td>
+	                                            <td class="text-center">11/05/15</td>
+	                                            <td class="text-center">13/05/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	3
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>8</td>
+	                                            <td>Analizar los indicadores y medición del desempeño del área (eficiencia y eficacia)</td>
+	                                            <td class="text-center">11/05/15</td>
+	                                            <td class="text-center">13/05/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+			                                        	 60%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	4
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>9</td>
+	                                            <td>Verificar la participación de la Dirección General en la Administración de Riesgos Institucionales</td>
+	                                            <td class="text-center">30/04/15</td>
+	                                            <td class="text-center">07/05/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	3
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>10</td>
+	                                            <td>Revisar el impacto de la realizacíon de las funciones de la Dirección General para inhibir malas prácticas en las entidades financieras supervisadas (oportunidad y calidad)</td>
+	                                            <td class="text-center">11/05/15</td>
+	                                            <td class="text-center">03/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+			                                        	 80%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	5
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>11</td>
+	                                            <td>Elaborar estadísticas en la atención de solicitudes de sanción</td>
+	                                            <td class="text-center">18/05/15</td>
+	                                            <td class="text-center">28/05/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+			                                        	 90%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+			                                        	 90%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	2
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>12</td>
+	                                            <td>Identificar los controles implementados para la recepción, manejo y divulgación de la información</td>
+	                                            <td class="text-center">25/05/15</td>
+	                                            <td class="text-center">05/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+			                                        	 15%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+			                                        	 10%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	11
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>13</td>
+	                                            <td>Verificar la coordinación entre las Direcciones Generales Adjuntas</td>
+	                                            <td class="text-center">25/05/15</td>
+	                                            <td class="text-center">09/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+			                                        	 10%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+			                                        	 5%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	15
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>14</td>
+	                                            <td>Indicar los avances del proyecto estratégico denominado "Replanteamiento de la visión de sanciones" (4 Líneas de acción)</td>
+	                                            <td class="text-center">15/04/15</td>
+	                                            <td class="text-center">02/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+			                                        	 15%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+			                                        	 5%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	13
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>15</td>
+	                                            <td>Comprobar en un caso, el cumplimiento de la normativa y lineamientos internos en cuanto al Proceso de Sanciones</td>
+	                                            <td class="text-center">09/06/15</td>
+	                                            <td class="text-center">11/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			                                        	 40%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	17
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>16</td>
+	                                            <td>Elaborar en su caso, del proyecto de observaciones para revisión de Subdirector (Jefe de Grupo) y realizar la confronta con el área auditada para formalizar las cédulas de observaciones</td>
+	                                            <td class="text-center">08/06/15</td>
+	                                            <td class="text-center">15/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+			                                        	 0%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	10
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>17</td>
+	                                            <td>Elaborar y revisar el Oficio de Informe de Auditoría y turnario del Titular del Área de Auditoría Interna para su autorización y emisión</td>
+	                                            <td class="text-center">16/06/15</td>
+	                                            <td class="text-center">22/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+			                                        	 60%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+			                                        	 60%
+			                                       	</div>
+					                            </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	3
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>18</td>
+	                                            <td>Elaborar, revisar y autorizar la Cédula Única de Auditoría, la Cédula de Supervisón de Auditoría y el Cronograma (tiempos reales)</td>
+	                                            <td class="text-center">23/06/15</td>
+	                                            <td class="text-center">30/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+			                                        	 60%
+			                                       	</div>
+			                                    </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+			                                        	 60%
+			                                       	</div>
+			                                    </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	3
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td>19</td>
+	                                            <td>Integrar y cerrar el Legajo de los Papeles de Trabajo de Auditoría</td>
+	                                            <td class="text-center">23/06/15</td>
+	                                            <td class="text-center">30/06/15</td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+			                                        	 50%
+			                                       	</div>
+			                                    </td>
+	                                            <td class="text-center">
+			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
+			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+			                                        	 50%
+			                                       	</div>
+			                                    </td>
+	                                            <td class="text-center"></td>
+	                                            <td class="text-center"><p><i class="glyphicon glyphicon-ok fa-2x"></i></p></td>
+	                                            <td class="text-center">
+	                                            	6
+	                                            </td>
+	                                            <td>
+	                                            	<button class="btn btn-info btn-xs" type="button" data-toggle="modal" data-target="#modal-popin" data-placement="top" title="Consulta"><i class="fa fa-eye"></i></button>
+	                                            </td>
+	                                            <td class="text-center">%</td>
+	                                        </tr>
+										</tbody>
+										<!--
+										<tfoot>
+	                                        <tr>
+	                                        	<th></th>
+											</tr>
+                                        </tfoot>
+                                        -->
+                                    </table>
                                 </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>Presentación ejecutiva</strong>
+                            </div>
+
+                            <!-- END Resumen -->
+                        	
+                        	<div class="tab-pane" id="btabs-alt-static-settings">
+                                <h4 class="font-w300 push-15">Opciones</h4>
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-5">
+                                        <a class="block block-link-hover3 text-center" href="captura_semanas_form.php">
+                                            <div class="block-content block-content-full">
+                                                <!-- <i class="si si-paper-plane fa-4x text-primary"></i> -->
+                                                <i class="si si-doc fa-4x text-primary"></i>
+                                                <!-- <div class="font-w600 push-15-t">Revisión</div> -->
+                                                <div class="font-w600 push-15-t">Capturar avances</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--
+                                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
+                                            <div class="block-content block-content-full">
+                                                <i class="si si-printer fa-4x text-primary"></i>
+                                                <div class="font-w600 push-15-t">Imprimir lista</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    -->
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-danger">
-                                    <i class="si si-graph fa-5x text-white"></i>
-                                </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>Mapa de riesgos</strong>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
-                    <!-- END Background Colored Tiles -->
-                    <!-- END Multi Rows Tiles -->
-
+                    
+                    
+                    <!-- MODALES -->
+                    	<div class="modal fade" id="modal-popin" tabindex="-1" role="dialog" aria-hidden="true">
+				            <div class="modal-dialog modal-dialog-popin">
+				                <div class="modal-content">
+				                    <div class="block block-themed block-transparent remove-margin-b">
+				                        <div class="block-header bg-primary-dark">
+				                            <ul class="block-options">
+				                                <li>
+				                                    <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+				                                </li>
+				                            </ul>
+				                            <h3 class="block-title">Hallazgos</h3>
+				                        </div>
+				                        <div class="block-content">
+				                        	
+				                        	
+				                        	<div class="table-responsive">
+					                        	<table class="table table-striped table-vcenter table-condensed">
+			                                        <thead>
+				                                        <tr>
+				                                            <th class="text-left">#</th>
+				                                            <th class="text-center">Descripción</th>
+				                                        </tr>
+			                                        </thead>
+			                                        <tbody>
+				                                        <tr>
+				                                        	<td>1</td>
+				                                            <td>Aqui el hallazgo uno</td>
+				                                        </tr>
+				                                        <tr>
+				                                        	<td>2</td>
+				                                            <td>Este es un tercer hallazgo de prueba</td>
+				                                        </tr>
+				                                        <tr>
+				                                        	<td>3</td>
+				                                            <td>Se necesita una prueba mas asi que esta linea gunge como un hallazgo mas esperando que ocupe mas de una línea</td>
+				                                        </tr>
+													</tbody>
+												</table>
+											</div>
+				                        	
+				                        	
+				                        </div>
+				                    </div>
+				                    <div class="modal-footer">
+				                        <button class="btn btn-sm btn-default" type="button" data-dismiss="modal">Cerrar</button>
+<!-- 				                        <button class="btn btn-sm btn-primary" type="button" data-dismiss="modal"><i class="fa fa-check"></i> Ok</button> -->
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+                    <!-- END MODALES -->
+                    
+                    
+                    
                 </div>
                 <!-- END Page Content -->
+
             </main>
             <!-- END Main Container -->
 
