@@ -115,20 +115,19 @@
                         </div>
                     </div>
                 </div>
+                
                 <!-- END Page Header -->
-
                 <!-- Page Content -->
+                
                 <div class="content">
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
-
                             <li class="active">
                                 <a href="#search-graficos">Gráficos</a>
                             </li>
                             <li>
                                 <a href="#search-detalles">Detalles</a>
                             </li>
-
                             <li class="pull-right">
                                 <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
                             </li>
@@ -141,23 +140,401 @@
                             </li>
                         </ul>
                         <div class="block-content tab-content bg-white">
-                        
-                        	<!-- Grafica -->
                             <div class="tab-pane fade fade-up in active" id="search-graficos">
                                 <div class="border-b push-30">
                                     <h2 class="push-10">1 <span class="h5 font-w400 text-muted">Una gráfica</span></h2>
                                 </div>
-
                                 <div class="block-header bg-primary">
                                     <h3 class="block-title">
-                                        Gráfica de algo
+                                    	Titulo para esta sección
                                     </h3>
                                 </div>
-                                Aquí la gráfica de algo ! ! !
+                                
+                                <!-- Grafica -->
+                                
+                                <div class="content content-narrow">
+                                	<div class="row">
+                                		<div class="col-lg-12">
+				                            <!-- Bars Chart -->
+				                            <div class="block">
+				                                <div class="block-header">
+				                                    <ul class="block-options">
+				                                        <li>
+				                                            <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo"><i class="si si-refresh"></i></button>
+				                                        </li>
+				                                    </ul>
+				                                    <h3 class="block-title">Resumen</h3>
+				                                </div>
+				                                <div class="block-content block-content-full text-center">
+				                                    <!-- Bars Chart Container -->
+				                                    <div style="height: 330px;"><canvas class="js-chartjs-bars"></canvas></div>
+				                                </div>
+				                            </div>
+				                            <!-- END Bars Chart -->
+		                        		</div>
+		                        	</div>
+		                        </div>
+                                <div class="content content-narrow">
+                                	<div class="row">
+                                		<div class="col-lg-12">
+				                            <!-- Bars Chart -->
+				                            <div class="block">
+				                                <div class="block-header">
+				                                    <ul class="block-options">
+				                                        <li>
+				                                            <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo"><i class="si si-refresh"></i></button>
+				                                        </li>
+				                                    </ul>
+				                                    <h3 class="block-title">
+				                                    	Auditoría 05/15 DGDS<br/>
+				                                    	BOTO/MRCP/SCLG
+				                                    </h3>
+				                                </div>
+				                                <div class="block-content block-content-full text-center">
+				                                
+				                                    <!-- Bars Chart Container -->
+				                                    <!-- SAS -->
+				                                    
+				                                    <table class="table table-condensed" style="font-size: 12px;">
+				                                        <tbody>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar y entregar la Orden de Auditoría y el Acta de inicio.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Solicitar información y documentación del área auditada.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar la Carta de Planeación, el Programa de Trabajo y la Programación del Cronograma de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 800%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Desarrollar los antecedentes de la auditoría.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar la Cédula de exámen y evaluación del Control Interno, basado en las "Normas...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Revisar la estructura orgánica autorizada y funcional.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="40%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar el cumplimiento de metas y objetivos.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Analizar los indicadores y medición del desempeño del área (eficiencia y eficacia).</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar la participación de la Dirección General de la Administración de Riesgos Institucionales.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Revisar el impato de la realización de las funciones de la Dirección General para inhibir malas...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar estadísticas en la atención de solicitudes de sanción.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Identificar los controles implementados para la recepción, manejo y divugación de la...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="90%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verifucar la coordinación entre las Direcciones Generales Adjuntas.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Identificar los avances del proyecto estrátegico denominado "Replanteamiento de la visión de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="15%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 15%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Comprobrar en su caso, el cumplimiento de la normativa y lineamientos internos en cuanto al...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="10%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar en su caso, del proyecto de observaciones para revisión del Subdirector (Jefe de Grupo)...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="15%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 15%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar y revisar el Oficio de Informe de Auditoría e Informe de Auditoria y turnarlo al Titular...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="40%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar, revisar y autorizar la Cédula Única de Auditoría, la Cédula de Supervisión de Auditoría...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Integrar y cerrar el Legajo de los Papeles del Trabajo de Auditoría.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="60%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div></div></td>
+					                                        </tr>
+														</tbody>
+				                                    </table>
+				                                    
+				                                    <!-- END SAS -->
+					                                <!-- END Bars Chart -->
+					                                
+				                                </div>
+				                                
+				                                <div class="block-header">
+				                                    <ul class="block-options">
+				                                        <li>
+				                                            <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo"><i class="si si-refresh"></i></button>
+				                                        </li>
+				                                    </ul>
+				                                    <h3 class="block-title">
+				                                    	Auditoría 06/15 DGMAR<br/>
+				                                    	JCDLG/MCOA
+				                                    </h3>
+				                                </div>
+				                                <div class="block-content block-content-full text-center">
+				                                
+				                                    <!-- Bars Chart Container -->
+				                                    <!-- SAS -->
+				                                    
+				                                    <table class="table table-condensed" style="font-size: 12px;">
+				                                        <tbody>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar y entregar la Orden de Auditoría y el Acta de Inicio.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Solicitar información y documentación del área sujeta a revisión.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="90%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar la Carta de Planeación, el Programa de Trabajo y la Programación del Cronograma de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Investigar y documentar los antecendentes de la auditoría.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elabora las cédulas de análisis al examen y evaluacion del Control Interno, basado en las..</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="10%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar que la esructura orgánica del área corresponda a la autorizada y de existir personal...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Investigar, analizar y evaluar en su caso los controles que tengan implementados en el área...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="30%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar que las funciones que realizan en el área, correspondan a las facultades contenidas en...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="40%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar que los productos de las mediciones de análisis de riesgo de mercado, liquidez y de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="50%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%"></td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="30%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verifucar la coordinación entre las Direcciones Generales Adjuntas.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="80%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Identificar los avances del proyecto estrátegico denominado "Replanteamiento de la visión de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="50%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Comprobrar en su caso, el cumplimiento de la normativa y lineamientos internos en cuanto al...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar en su caso, del proyecto de observaciones para revisión del Subdirector (Jefe de Grupo)...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar y revisar el Oficio de Informe de Auditoría e Informe de Auditoria y turnarlo al Titular...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar, revisar y autorizar la Cédula Única de Auditoría, la Cédula de Supervisión de Auditoría...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Integrar y cerrar el Legajo de los Papeles del Trabajo de Auditoría.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+														</tbody>
+				                                    </table>
+				                                    
+				                                    <!-- END SAS -->
+					                                <!-- END Bars Chart -->
+					                                
+					                                <!-- END Bars Chart -->
+					                                
+				                                </div>
+				                                
+				                                <div class="block-header">
+				                                    <ul class="block-options">
+				                                        <li>
+				                                            <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo"><i class="si si-refresh"></i></button>
+				                                        </li>
+				                                    </ul>
+				                                    <h3 class="block-title">
+				                                    	Auditoría 06/15 DGMAR<br/>
+				                                    	JCDLG/MCOA
+				                                    </h3>
+				                                </div>
+				                                <div class="block-content block-content-full text-center">
+				                                
+				                                    <!-- Bars Chart Container -->
+				                                    <!-- SAS -->
+				                                    
+				                                    <table class="table table-condensed" style="font-size: 12px;">
+				                                        <tbody>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar y entregar la Orden de Auditoría y el Acta de Inicio.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Solicitar información y documentación del área sujeta a revisión.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="60%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar la Carta de Planeación, el Programa de Trabajo y la Programación del Cronograma de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="100%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Investigar y documentar los antecendentes de la auditoría.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="90%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elabora las cédulas de análisis al examen y evaluacion del Control Interno, basado en las..</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar que la esructura orgánica del área corresponda a la autorizada y de existir personal...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="95%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Investigar, analizar y evaluar en su caso los controles que tengan implementados en el área...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="90%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar que las funciones que realizan en el área, correspondan a las facultades contenidas en...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="850%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 850%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verificar que los productos de las mediciones de análisis de riesgo de mercado, liquidez y de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="75%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar la Cédula del análisis al examen y evaluación del Control Interno, basadio en la...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Verifucar la coordinación entre las Direcciones Generales Adjuntas.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="85%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Identificar los avances del proyecto estrátegico denominado "Replanteamiento de la visión de...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="85%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Comprobrar en su caso, el cumplimiento de la normativa y lineamientos internos en cuanto al...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="85%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar en su caso, del proyecto de observaciones para revisión del Subdirector (Jefe de Grupo)...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="75%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar y revisar el Oficio de Informe de Auditoría e Informe de Auditoria y turnarlo al Titular...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Elaborar, revisar y autorizar la Cédula Única de Auditoría, la Cédula de Supervisión de Auditoría...</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+					                                        <tr>
+					                                            <td class="text-right" width="65%">Integrar y cerrar el Legajo de los Papeles del Trabajo de Auditoría.</td>
+					                                            <td class="text-left" width="35%" data-toggle="tooltip" data-placement="top" title="0%">
+					                                            	<div class="progress progress-mini"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div></td>
+					                                        </tr>
+														</tbody>
+				                                    </table>
+				                                    
+				                                    <!-- END SAS -->
+					                                <!-- END Bars Chart -->
+					                                
+				                                </div>
+				                                
+				                            </div>
+		                        		</div>
+		                        	</div>
+		                        </div>
+		                        
+		                        <!-- END Grafica -->
+		                        
                             </div>
-
-                            <!-- END Grafica -->
+                            
                         	<!-- Resumen -->
+                        	
                             <div class="tab-pane fade fade-up" id="search-detalles">
                                 <div class="border-b push-30">
                                     <h2 class="push-10">16 <span class="h5 font-w400 text-muted">Registros encontrados</span></h2>
@@ -201,11 +578,7 @@
 	                                            <td>Elaborar y entregar la Orden de auditoría y el Acta de inicio</td>
 	                                            <td class="text-center">13/04/15</td>
 	                                            <td class="text-center">14/04/15</td>
-	                                            <td class="text-center">
-					                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
-					                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-					                                        	 50%
-					                                       	</div>
+	                                            <td class="text-center"><div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
 	                                            </td>
 	                                            <td class="text-center"></td>
 	                                            <td class="text-center">
@@ -225,19 +598,8 @@
 	                                            <td>Solicitar información y documentación al área auditada</td>
 	                                            <td class="text-center">15/04/15</td>
 	                                            <td class="text-center">02/06/15</td>
-	                                            <td class="text-center">
-	                                            	<div class="progress">
-				                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
-				                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-				                                        	 80%
-				                                       	</div>
-			                                       	</div>
-					                            </td>
-	                                            <td class="text-center">
-			                                        <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar"
-			                                        	 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-			                                        	 80%
-			                                       	</div>
+	                                            <td class="text-center"><div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+	                                            <td class="text-center"><div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
 					                            </td>
 	                                            <td class="text-center">
 	                                            	<p><i class="glyphicon glyphicon-ok fa-2x"></i></p>
@@ -707,13 +1069,6 @@
 	                                            <td class="text-center">%</td>
 	                                        </tr>
 										</tbody>
-										<!--
-										<tfoot>
-	                                        <tr>
-	                                        	<th></th>
-											</tr>
-                                        </tfoot>
-                                        -->
                                     </table>
                                 </div>
                             </div>
@@ -733,16 +1088,6 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <!--
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                            <div class="block-content block-content-full">
-                                                <i class="si si-printer fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Imprimir lista</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    -->
                                 </div>
                             </div>
                         </div>
@@ -801,12 +1146,8 @@
 				            </div>
 				        </div>
                     <!-- END MODALES -->
-                    
-                    
-                    
                 </div>
                 <!-- END Page Content -->
-
             </main>
             <!-- END Main Container -->
 
@@ -832,5 +1173,23 @@
         <script src="assets/js/core/jquery.placeholder.min.js"></script>
         <script src="assets/js/core/js.cookie.min.js"></script>
         <script src="assets/js/app.js"></script>
+        
+        <!-- Page JS Plugins -->
+        <script src="assets/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <script src="assets/js/plugins/easy-pie-chart/jquery.easypiechart.min.js"></script>
+        <script src="assets/js/plugins/chartjs/Chart.min.js"></script>
+        <script src="assets/js/plugins/flot/jquery.flot.min.js"></script>
+        <script src="assets/js/plugins/flot/jquery.flot.pie.min.js"></script>
+        <script src="assets/js/plugins/flot/jquery.flot.stack.min.js"></script>
+        <script src="assets/js/plugins/flot/jquery.flot.resize.min.js"></script>
+        
+        <!-- Page JS Code -->
+        <script src="assets/js/pages/base_comp_charts_2.js"></script>
+        <script>
+            jQuery(function () {
+                // Init page helpers (Easy Pie Chart plugin)
+                App.initHelpers('easy-pie-chart');
+            });
+        </script>
     </body>
 </html>
