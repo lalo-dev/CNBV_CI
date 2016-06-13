@@ -103,13 +103,13 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Adquisiciones <small>Descripción</small>
+                                Adquisiciones <small>Otras actividades</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Otras actividades</li>
-                                <li><a class="link-effect" href="">Adquisiciones</a></li>
+                                <li>Adquisiciones</li>
                             </ol>
                         </div>
                     </div>
@@ -117,179 +117,6 @@
                 <!-- END Page Header -->
 
                 <!-- Page Content -->
-<!--                 <div class="content content-narrow"> -->
-
-                    <!-- Background Colored Tiles -->
-<!--                     <div class="row"> -->
-<!--                         <div class="col-xs-12"> -->
-<!--                             <div class="block"> -->
-<!--                                 <div class="block-header"> -->
-<!--                                     <ul class="block-options"> -->
-<!--                                         <li> -->
-<!--                                             <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button> -->
-<!--                                         </li> -->
-<!--                                         <li> -->
-<!--                                             <button type="button" data-toggle="block-option" data-action="content_toggle"></button> -->
-<!--                                         </li> -->
-<!--                                         <li> -->
-<!--                                             <button type="button" data-toggle="block-option" data-action="close"><i class="si si-close"></i></button> -->
-<!--                                         </li> -->
-<!--                                     </ul> -->
-<!--                                     <h3 class="block-title">Tema 01</h3> -->
-<!--                                 </div> -->
-<!--                                 <div class="block-content"> -->
-                                    <!-- Header BG Table -->
-<!--                                     <div class="block"> -->
-<!--                                         <div class="block-content"> -->
-<!--                                             <table class="table table-borderless table-header-bg table-condensed"> -->
-<!--                                                 <thead> -->
-<!--                                                     <tr> -->
-<!--                                                         <th class="text-center">#</th> -->
-<!--                                                         <th>Descripción</th> -->
-<!--                                                        <th style="width: 190px;">Responsable</th> -->
-<!--                                                         <th>Normativa</th> -->
-<!--                                                        <th style="width: 170px;">Archivos adjuntos</th> -->
-<!--                                                        <th class="text-center" style="width: 90px;">Fecha</th> -->
-<!--                                                     </tr> -->
-<!--                                                 </thead> -->
-<!--                                                 <tbody> -->
-<!--                                                     <tr> -->
-<!--                                                         <td class="text-center">1</td> -->
-<!--                                                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td> -->
-<!--                                                         <td>Nombre Apellido Apellido</td> -->
-<!--                                                         <td> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                         </td> -->
-<!--                                                         <td> -->
-<!--                                                             <a href="">Archivo adjunto.pdf</a> -->
-<!--                                                         </td> -->
-<!--                                                         <td class="text-center">12-12-2015</td> -->
-<!--                                                     </tr> -->
-<!--                                                     <tr> -->
-<!--                                                         <td class="text-center">2</td> -->
-<!--                                                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td> -->
-<!--                                                         <td>Nombre Apellido Apellido</td> -->
-<!--                                                         <td> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                         </td> -->
-<!--                                                         <td> -->
-<!--                                                             <a href="">Archivo adjunto.pdf</a> -->
-<!--                                                         </td> -->
-<!--                                                         <td class="text-center">12-12-2015</td> -->
-<!--                                                     </tr> -->
-<!--                                                     <tr> -->
-<!--                                                         <td class="text-center">3</td> -->
-<!--                                                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td> -->
-<!--                                                         <td>Nombre Apellido Apellido</td> -->
-<!--                                                         <td> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                         </td> -->
-<!--                                                         <td> -->
-<!--                                                             <a href="">Archivo adjunto.pdf</a> -->
-<!--                                                         </td> -->
-<!--                                                         <td class="text-center">12-12-2015</td> -->
-<!--                                                     </tr> -->
-<!--                                                 </tbody> -->
-<!--                                             </table> -->
-<!--                                         </div> -->
-<!--                                     </div> -->
-                                    <!-- END Header BG Table -->
-<!--                                 </div> -->
-<!--                             </div> -->
-<!--                         </div> -->
-
-<!--                         <div class="col-xs-12"> -->
-<!--                             <div class="block"> -->
-<!--                                 <div class="block-header"> -->
-<!--                                     <ul class="block-options"> -->
-<!--                                         <li> -->
-<!--                                             <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button> -->
-<!--                                         </li> -->
-<!--                                         <li> -->
-<!--                                             <button type="button" data-toggle="block-option" data-action="content_toggle"></button> -->
-<!--                                         </li> -->
-<!--                                         <li> -->
-<!--                                             <button type="button" data-toggle="block-option" data-action="close"><i class="si si-close"></i></button> -->
-<!--                                         </li> -->
-<!--                                     </ul> -->
-<!--                                     <h3 class="block-title">Tema 02</h3> -->
-<!--                                 </div> -->
-<!--                                 <div class="block-content"> -->
-                                    <!-- Header BG Table -->
-<!--                                     <div class="block"> -->
-<!--                                         <div class="block-content"> -->
-<!--                                             <table class="table table-borderless table-header-bg table-condensed"> -->
-<!--                                                 <thead> -->
-<!--                                                     <tr> -->
-<!--                                                         <th class="text-center">#</th> -->
-<!--                                                         <th>Descripción</th> -->
-<!--                                                        <th style="width: 190px;">Responsable</th> -->
-<!--                                                         <th>Normativa</th> -->
-<!--                                                        <th style="width: 170px;">Archivos adjuntos</th> -->
-<!--                                                        <th class="text-center" style="width: 90px;">Fecha</th> -->
-<!--                                                     </tr> -->
-<!--                                                 </thead> -->
-<!--                                                 <tbody> -->
-<!--                                                     <tr> -->
-<!--                                                         <td class="text-center">1</td> -->
-<!--                                                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td> -->
-<!--                                                         <td>Nombre Apellido Apellido</td> -->
-<!--                                                         <td> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                         </td> -->
-<!--                                                         <td> -->
-<!--                                                             <a href="">Archivo adjunto.pdf</a> -->
-<!--                                                         </td> -->
-<!--                                                         <td class="text-center">12-12-2015</td> -->
-<!--                                                     </tr> -->
-<!--                                                     <tr> -->
-<!--                                                         <td class="text-center">2</td> -->
-<!--                                                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td> -->
-<!--                                                         <td>Nombre Apellido Apellido</td> -->
-<!--                                                         <td> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                         </td> -->
-<!--                                                         <td> -->
-<!--                                                             <a href="">Archivo adjunto.pdf</a> -->
-<!--                                                         </td> -->
-<!--                                                         <td class="text-center">12-12-2015</td> -->
-<!--                                                     </tr> -->
-<!--                                                     <tr> -->
-<!--                                                         <td class="text-center">3</td> -->
-<!--                                                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td> -->
-<!--                                                         <td>Nombre Apellido Apellido</td> -->
-<!--                                                         <td> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                             <span class="label label-primary">Normativa aaaaa</span> -->
-<!--                                                         </td> -->
-<!--                                                         <td> -->
-<!--                                                             <a href="">Archivo adjunto.pdf</a> -->
-<!--                                                         </td> -->
-<!--                                                         <td class="text-center">12-12-2015</td> -->
-<!--                                                     </tr> -->
-<!--                                                 </tbody> -->
-<!--                                             </table> -->
-<!--                                         </div> -->
-<!--                                     </div> -->
-                                    <!-- END Header BG Table -->
-<!--                                 </div> -->
-<!--                             </div> -->
-<!--                         </div> -->
-<!--                     </div> -->
-                    <!-- END Background Colored Tiles -->
-                    <!-- END Multi Rows Tiles -->
-
-                </div>
-                <!-- END Page Content -->
-                
-                
-                <!-- Page Content -->
-                <div class="content content-narrow">
                 <div class="content">
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
@@ -310,103 +137,255 @@
                         <div class="block-content tab-content bg-white">
                             <!-- Documentos -->
                             <div class="tab-pane fade fade-up in active" id="search-documentos">
+                                
+                                <!-- Tabla_Tema-->
                                 <div class="col-md-12">
-                                    <!-- Blockquotes -->
-                                    <div class="block block-themed">
-                                        <div class="block-header bg-info">
-                                            <h3 class="block-title">Tema 01</h3>
-                                        </div>
-                                        <div class="block-content">
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                        </div>
+                                	<!-- Block -->
+                                	<div class="block">
+                                		
+                                		<div class="block-header">
+		                                    <ul class="block-options">
+		                                        <li>
+		                                            <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+		                                        </li>
+		                                        <li>
+		                                            <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
+		                                        </li>
+		                                    </ul>
+		                                </div>
+	                                    <!-- Blockquotes -->
+	                                    <div class="block block-themed">
+	                                    	<h3 class="block-title">Tema 01</h3>
+	                                        <div class="block-content">
+	                                            <div class="block-content">
+		                                            <table class="table table-borderless table-header-bg table-condensed">
+		                                                <thead>
+		                                                    <tr>
+		                                                        <th class="text-center">#</th>
+		                                                        <th>Descripción</th>
+		                                                        <th style="width: 190px;">Responsable</th>
+		                                                        <th>Normativa</th>
+		                                                        <th style="width: 170px;">Archivos adjuntos</th>
+		                                                        <th class="text-center" style="width: 90px;">Fecha</th>
+		                                                    </tr>
+		                                                </thead>
+		                                                <tbody>
+		                                                    <tr>
+		                                                        <td class="text-center">1</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                    <tr>
+		                                                        <td class="text-center">2</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                    <tr>
+		                                                        <td class="text-center">3</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                </tbody>
+		                                            </table>
+		                                        </div>
+	                                        </div>
+	                                    </div>
+	                                    <!-- END Blockquotes -->
                                     </div>
-                                    <!-- END Blockquotes -->
+                                    <!-- END Block -->
                                 </div>
+                                <!-- END Tabla_Tema-->
+                                
+                                <!-- Tabla_Tema-->
                                 <div class="col-md-12">
-                                    <!-- Blockquotes -->
-                                    <div class="block block-themed">
-                                        <div class="block-header bg-info">
-                                            <h3 class="block-title">Tema 02</h3>
-                                        </div>
-                                        <div class="block-content">
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                        </div>
+                                	
+                                	<!-- Block -->
+                                	<div class="block">
+                                		
+                                		<div class="block-header">
+		                                    <ul class="block-options">
+		                                        <li>
+		                                            <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+		                                        </li>
+		                                        <li>
+		                                            <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
+		                                        </li>
+		                                    </ul>
+		                                </div>
+	                                
+	                                    <!-- Blockquotes -->
+	                                    <div class="block block-themed">
+	                                    	<h3 class="block-title">Tema 02</h3>
+	                                        <div class="block-content">
+	                                            <div class="block-content">
+		                                            <table class="table table-borderless table-header-bg table-condensed">
+		                                                <thead>
+		                                                    <tr>
+		                                                        <th class="text-center">#</th>
+		                                                        <th>Descripción</th>
+		                                                        <th style="width: 190px;">Responsable</th>
+		                                                        <th>Normativa</th>
+		                                                        <th style="width: 170px;">Archivos adjuntos</th>
+		                                                        <th class="text-center" style="width: 90px;">Fecha</th>
+		                                                    </tr>
+		                                                </thead>
+		                                                <tbody>
+		                                                    <tr>
+		                                                        <td class="text-center">1</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                    <tr>
+		                                                        <td class="text-center">2</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                    <tr>
+		                                                        <td class="text-center">3</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                </tbody>
+		                                            </table>
+		                                        </div>
+	                                        </div>
+	                                    </div>
+	                                    <!-- END Blockquotes -->
                                     </div>
-                                    <!-- END Blockquotes -->
+                                    <!-- END Block -->
                                 </div>
+                                <!-- END Tabla_Tema-->
+                                
+                                <!-- Tabla_Tema-->
                                 <div class="col-md-12">
-                                    <!-- Blockquotes -->
-                                    <div class="block block-themed">
-                                        <div class="block-header bg-info">
-                                            <h3 class="block-title">Tema 03</h3>
-                                        </div>
-                                        <div class="block-content">
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                            <blockquote>
-                                                <footer>AAAAAA</footer>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            </blockquote>
-                                        </div>
+                                	<!-- Block -->
+                                	<div class="block">
+                                		
+                                		<div class="block-header">
+		                                    <ul class="block-options">
+		                                        <li>
+		                                            <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+		                                        </li>
+		                                        <li>
+		                                            <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
+		                                        </li>
+		                                    </ul>
+		                                </div>
+	                                    <!-- Blockquotes -->
+	                                    <div class="block block-themed">
+	                                    	<h3 class="block-title">Tema 03</h3>
+	                                        <div class="block-content">
+	                                            <div class="block-content">
+		                                            <table class="table table-borderless table-header-bg table-condensed">
+		                                                <thead>
+		                                                    <tr>
+		                                                        <th class="text-center">#</th>
+		                                                        <th>Descripción</th>
+		                                                        <th style="width: 190px;">Responsable</th>
+		                                                        <th>Normativa</th>
+		                                                        <th style="width: 170px;">Archivos adjuntos</th>
+		                                                        <th class="text-center" style="width: 90px;">Fecha</th>
+		                                                    </tr>
+		                                                </thead>
+		                                                <tbody>
+		                                                    <tr>
+		                                                        <td class="text-center">1</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                    <tr>
+		                                                        <td class="text-center">2</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                    <tr>
+		                                                        <td class="text-center">3</td>
+		                                                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+		                                                        <td>Nombre Apellido Apellido</td>
+		                                                        <td>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                            <span class="label label-primary">Normativa aaaaa</span>
+		                                                        </td>
+		                                                        <td>
+		                                                            <a href="">Archivo adjunto.pdf</a>
+		                                                        </td>
+		                                                        <td class="text-center">12-12-2015</td>
+		                                                    </tr>
+		                                                </tbody>
+		                                            </table>
+		                                        </div>
+	                                        </div>
+	                                    </div>
+	                                    <!-- END Blockquotes -->
                                     </div>
-                                    <!-- END Blockquotes -->
+                                    <!-- END Block -->
                                 </div>
+                                <!-- END Tabla_Tema-->
+                                
                             </div>
                             <!-- END Documentos -->
                             
@@ -431,10 +410,10 @@
                                         </a>
                                     </div>
                                     <div class="col-xs-6 col-sm-2 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="m7_4_glosario_form.php">
+                                        <a class="block block-link-hover3 text-center" href="m8_1_adquisiciones_form.php">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-doc fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Agregar Termino</div>
+                                                <div class="font-w600 push-15-t">Agregar Adquisición</div>
                                             </div>
                                         </a>
                                     </div>
@@ -444,9 +423,7 @@
                         </div>
                     </div>
                 </div>
-                </div>
                 <!-- END Page Content -->
-                
                 
             </main>
             <!-- END Main Container -->
