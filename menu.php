@@ -187,47 +187,26 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                                <a href="blogLista">
+                                    <i class="si si-notebook"></i><span class="sidebar-mini-hide">Blog</span>
+                                </a>
+                            </li>
                             <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
                             <li>
-                                <a href="adm_usuarios"><i class="si si-users"></i><span class="sidebar-mini-hide">Usuarios</span></a>
+                                <a href="adm_usuarios">
+                                    <i class="si si-users"></i><span class="sidebar-mini-hide">Usuarios</span>
+                                </a>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-list"></i><span class="sidebar-mini-hide">Catálogos</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="cat_riesgos">Riesgos</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_clave">Clave de programa</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_areas">Áreas</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_empleados">Empleados</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_estatus">Estatus documentos</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_criterios">Criterios para las cédulas</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_empleados">Empleados</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_mapa">Mapa de riesgos</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_justificacion">Justificación ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="cat_calendario">Calendario</a>
-                                    </li>
-                                </ul>
+                                <a href="m50_1_catalogos.php">
+                                    <i class="si si-list"></i><span class="sidebar-mini-hide">Catálogos</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="blog"><i class="si si-speech"></i><span class="sidebar-mini-hide">Blog</span></a>
+                                <a href="blogAdmin">
+                                    <i class="si si-speech"></i><span class="sidebar-mini-hide">Blog</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -237,7 +216,7 @@
             </div>
             <!-- END Sidebar Scroll Container -->
         </nav>
-        <script>
+        <!--<script>
             //Mostrar que link del menu esta activo
             $('.submenuCnbv').on('click',function(){
                 alert('menu');
@@ -247,4 +226,4 @@
                 $(this).parent().parent().parent().addClass('active');
                 $(this).parent().parent().css({ display: 'block' });
             });
-        </script>
+        </script>-->

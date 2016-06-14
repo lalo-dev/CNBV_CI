@@ -14,6 +14,16 @@ var BaseTableDatatables = function() {
         });
     };
 
+    // Init full extra DataTable, for more examples you can check out https://www.datatables.net/
+    var initDataTableFullPagination = function() {
+        jQuery('.js-dataTable-full-pagination').dataTable({
+            pagingType: "full_numbers",
+            columnDefs: [ { orderable: false, targets: [ 4 ] } ],
+            pageLength: 10,
+            lengthMenu: [[5, 10, 15, 20], [5, 10, 15, 20]]
+        });
+    };
+
     // Init simple DataTable, for more examples you can check out https://www.datatables.net/
     var initDataTableSimple = function() {
         jQuery('.js-dataTable-simple').dataTable({
@@ -188,6 +198,7 @@ var BaseTableDatatables = function() {
             bsDataTables();
             initDataTableSimple();
             initDataTableFull();
+            initDataTableFullPagination();
         }
     };
 }();

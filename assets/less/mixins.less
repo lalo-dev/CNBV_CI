@@ -65,7 +65,7 @@
 }
 
 // Transformations
-.transform(@scale, @rotate) {
+.transform(@scale; @rotate) {
     -webkit-transform: @arguments;
     -ms-transform: @arguments;
     transform: @arguments;
@@ -392,7 +392,7 @@
 // UI Framework Mixins
 
 // Layout
-.content-layout(@x, @y, @overflow) {
+.content-layout(@x; @y; @overflow) {
     margin: 0 auto;
     padding: @y @x 1px;
     max-width: 100%;
@@ -733,6 +733,10 @@
     }
 
     // Layout
+    #page-loader:after {
+        background-color: @brand-primary;
+    }
+
     .header-navbar-transparent.header-navbar-fixed.header-navbar-scroll {
         #header-navbar {
             background-color: @brand-dark;
@@ -887,5 +891,9 @@
         .select2-results__option--highlighted[aria-selected] {
             background-color: @brand-primary;
         }
+    }
+
+    .autocomplete-suggestion b {
+        color: @brand-primary;
     }
 }

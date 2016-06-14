@@ -98,6 +98,18 @@
         }
     }
 
+    @media screen and (max-width: @screen-xs-max) {
+        .img-options {
+            display: none;
+        }
+
+        &:hover {
+            .img-options {
+                display: block;
+            }
+        }
+    }
+
     // Image hover effects
     &.fx-img-zoom-in:hover > img {
         .scale(1.2);

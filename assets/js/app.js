@@ -136,8 +136,8 @@ var App = function() {
             // If screen width is greater than 991 pixels and .side-scroll is added to #page-container
             if ($windowW > 991 && $lPage.hasClass('side-scroll')) {
                 // Turn scroll lock off (sidebar and side overlay - slimScroll will take care of it)
-                jQuery($lSidebar).scrollLock('off');
-                jQuery($lSideOverlay).scrollLock('off');
+                jQuery($lSidebar).scrollLock('disable');
+                jQuery($lSideOverlay).scrollLock('disable');
 
                 // If sidebar scrolling does not exist init it..
                 if ($lSidebarScroll.length && (!$lSidebarScroll.parent('.slimScrollDiv').length)) {
@@ -378,7 +378,11 @@ var App = function() {
                         $elBlock.toggleClass('block-opt-fullscreen');
 
                         // Enable/disable scroll lock to block
-                        $elBlock.hasClass('block-opt-fullscreen') ? jQuery($elBlock).scrollLock() : jQuery($elBlock).scrollLock('off');
+                        if ($elBlock.hasClass('block-opt-fullscreen')) {
+                            jQuery($elBlock).scrollLock();
+                        } else {
+                            jQuery($elBlock).scrollLock('disable');
+                        }
 
                         // Update block option icon
                         if ($btnFullscreen.length) {
@@ -410,7 +414,7 @@ var App = function() {
                         $elBlock.removeClass('block-opt-fullscreen');
 
                         // Disable scroll lock to block
-                        jQuery($elBlock).scrollLock('off');
+                        jQuery($elBlock).scrollLock('disable');
 
                         // Update block option icon
                         if ($btnFullscreen.length) {
@@ -612,6 +616,25 @@ var App = function() {
         }
     };
 
+    // Manage page loading screen functionality
+    var uiLoader = function($mode) {
+        var $lpageLoader = jQuery('#page-loader');
+
+        if ($mode === 'show') {
+            if ($lpageLoader.length) {
+                $lpageLoader.fadeIn(250);
+            } else {
+                $lBody.prepend('<div id="page-loader"></div>');
+            }
+        } else if ($mode === 'hide') {
+            if ($lpageLoader.length) {
+                $lpageLoader.fadeOut(250);
+            }
+        }
+
+        return false;
+    };
+
     /*
      ********************************************************************************************
      *
@@ -653,58 +676,63 @@ var App = function() {
 
     // Table sections functionality
     var uiHelperTableToolsSections = function(){
-        var $table      = jQuery('.js-table-sections');
-        var $tableRows  = jQuery('.js-table-sections-header > tr', $table);
+        // For each table
+        jQuery('.js-table-sections').each(function(){
+            var $table = jQuery(this);
 
-        // When a row is clicked in tbody.js-table-sections-header
-        $tableRows.click(function(e) {
-            var $row    = jQuery(this);
-            var $tbody  = $row.parent('tbody');
+            // When a row is clicked in tbody.js-table-sections-header
+            jQuery('.js-table-sections-header > tr', $table).on('click', function(e) {
+                var $row    = jQuery(this);
+                var $tbody  = $row.parent('tbody');
 
-            if (! $tbody.hasClass('open')) {
-                jQuery('tbody', $table).removeClass('open');
-            }
+                if (! $tbody.hasClass('open')) {
+                    jQuery('tbody', $table).removeClass('open');
+                }
 
-            $tbody.toggleClass('open');
+                $tbody.toggleClass('open');
+            });
         });
     };
 
     // Checkable table functionality
     var uiHelperTableToolsCheckable = function() {
-        var $table = jQuery('.js-table-checkable');
+        // For each table
+        jQuery('.js-table-checkable').each(function(){
+            var $table = jQuery(this);
 
-        // When a checkbox is clicked in thead
-        jQuery('thead input:checkbox', $table).click(function() {
-            var $checkedStatus = jQuery(this).prop('checked');
+            // When a checkbox is clicked in thead
+            jQuery('thead input:checkbox', $table).on('click', function() {
+                var $checkedStatus = jQuery(this).prop('checked');
 
-            // Check or uncheck all checkboxes in tbody
-            jQuery('tbody input:checkbox', $table).each(function() {
+                // Check or uncheck all checkboxes in tbody
+                jQuery('tbody input:checkbox', $table).each(function() {
+                    var $checkbox = jQuery(this);
+
+                    $checkbox.prop('checked', $checkedStatus);
+                    uiHelperTableToolscheckRow($checkbox, $checkedStatus);
+                });
+            });
+
+            // When a checkbox is clicked in tbody
+            jQuery('tbody input:checkbox', $table).on('click', function() {
                 var $checkbox = jQuery(this);
 
-                $checkbox.prop('checked', $checkedStatus);
-                uiHelperTableToolscheckRow($checkbox, $checkedStatus);
+                uiHelperTableToolscheckRow($checkbox, $checkbox.prop('checked'));
             });
-        });
 
-        // When a checkbox is clicked in tbody
-        jQuery('tbody input:checkbox', $table).click(function() {
-            var $checkbox = jQuery(this);
+            // When a row is clicked in tbody
+            jQuery('tbody > tr', $table).on('click', function(e) {
+                if (e.target.type !== 'checkbox'
+                        && e.target.type !== 'button'
+                        && e.target.tagName.toLowerCase() !== 'a'
+                        && !jQuery(e.target).parent('label').length) {
+                    var $checkbox       = jQuery('input:checkbox', this);
+                    var $checkedStatus  = $checkbox.prop('checked');
 
-            uiHelperTableToolscheckRow($checkbox, $checkbox.prop('checked'));
-        });
-
-        // When a row is clicked in tbody
-        jQuery('tbody > tr', $table).click(function(e) {
-            if (e.target.type !== 'checkbox'
-                    && e.target.type !== 'button'
-                    && e.target.tagName.toLowerCase() !== 'a'
-                    && !jQuery(e.target).parent('label').length) {
-                var $checkbox       = jQuery('input:checkbox', this);
-                var $checkedStatus  = $checkbox.prop('checked');
-
-                $checkbox.prop('checked', ! $checkedStatus);
-                uiHelperTableToolscheckRow($checkbox, ! $checkedStatus);
-            }
+                    $checkbox.prop('checked', ! $checkedStatus);
+                    uiHelperTableToolscheckRow($checkbox, ! $checkedStatus);
+                }
+            });
         });
     };
 
@@ -1046,7 +1074,7 @@ var App = function() {
                     },
                     offset: 20,
                     spacing: 10,
-                    z_index: 1031,
+                    z_index: 1033,
                     delay: 5000,
                     timer: 1000,
                     animate: {
@@ -1170,7 +1198,9 @@ var App = function() {
         jQuery('.js-rangeslider').each(function(){
             var $input = jQuery(this);
 
-            $input.ionRangeSlider();
+            $input.ionRangeSlider({
+                input_values_separator: ';'
+            });
         });
     };
 
@@ -1204,6 +1234,9 @@ var App = function() {
                 case 'uiYearCopy':
                     uiYearCopy();
                     break;
+                case 'uiLoader':
+                    uiLoader('hide');
+                    break;
                 default:
                     // Init all vital functions
                     uiInit();
@@ -1215,10 +1248,14 @@ var App = function() {
                     uiToggleClass();
                     uiScrollTo();
                     uiYearCopy();
+                    uiLoader('hide');
             }
         },
         layout: function($mode) {
             uiLayoutApi($mode);
+        },
+        loader: function($mode) {
+            uiLoader($mode);
         },
         blocks: function($block, $mode) {
             uiBlocksApi($block, $mode);

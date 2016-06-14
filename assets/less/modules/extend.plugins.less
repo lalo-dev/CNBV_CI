@@ -4,6 +4,11 @@
 // Overwrite/Extend styles of various JS plugins
 // --------------------------------------------------
 
+// jQuery AutoComplete
+.autocomplete-suggestion b {
+    color: @brand-primary;
+}
+
 // Ion Range Slider
 .irs {
     &-line {
@@ -255,6 +260,10 @@ div.tagsinput {
         border-color: @form-border-color;
         .border-bottom-radius(3px);
     }
+
+    .select2-search--inline .select2-search__field {
+        margin-top: 6px;
+    }
 }
 
 .select2-container--default {
@@ -290,6 +299,7 @@ div.tagsinput {
     &.select2-container--focus .select2-selection--multiple {
         border-color: @form-border-color;
         border-radius: 3px;
+        min-height: 34px;
 
         .form-material & {
             border: none;
@@ -372,63 +382,32 @@ div.tagsinput {
 
 // Slick
 .slick-slider {
-    margin-bottom: 45px;
+    &.slick-dotted {
+        margin-bottom: 45px;
 
-    &.slick-padding-dots {
+        .slick-dots {
+            bottom: -35px;
+        }
+    }
+
+    &.slick-dotted.slick-padding-dots {
         padding-bottom: 45px;
         margin-bottom: 0;
 
         .slick-dots {
-            bottom: 0;
+            bottom: 10px;
         }
-    }
-
-    &.slick-nav-hover {
-        .slick-prev,
-        .slick-next {
-            opacity: 0;
-            .transition(opacity .25s ease-out);
-        }
-
-        &:hover {
-            .slick-prev,
-            .slick-next {
-                opacity: .25;
-
-                &:hover {
-                    opacity: .6;
-                }
-            }
-        }
-    }
-
-    &.slick-nav-white {
-        .slick-prev,
-        .slick-next {
-            background-color: #fff;
-
-            &:hover {
-                background-color: #fff;
-            }
-
-            &:before {
-                color: #000;
-            }
-        }
-    }
-
-    .slick-dots {
-        bottom: -45px;
     }
 
     .slick-prev,
     .slick-next {
-        margin-top: -15px;
+        margin-top: -5px;
         width: 40px;
         height: 40px;
         text-align: center;
         background-color: #000;
         opacity: .25;
+        z-index: 10;
 
         &:hover {
             background-color: #000;
@@ -457,11 +436,53 @@ div.tagsinput {
             content: "\f061";
         }
     }
+
+    &.slick-nav-white {
+        .slick-prev,
+        .slick-next {
+            background-color: #fff;
+            opacity: .4;
+
+            &:hover {
+                background-color: #fff;
+                opacity: .8;
+            }
+
+            &:before {
+                color: #000;
+            }
+        }
+    }
+
+    &.slick-nav-hover {
+        .slick-prev,
+        .slick-next {
+            opacity: 0;
+            .transition(opacity .25s ease-out);
+        }
+
+        &:hover {
+            .slick-prev,
+            .slick-next {
+                opacity: .25;
+
+                &:hover {
+                    opacity: .6;
+                }
+            }
+        }
+    }
 }
 
 // Summernote
 .note-editor {
-    border-color: #ddd;
+    .note-toolbar {
+        background-color: #fcfcfc !important;
+    }
+
+    &.note-frame {
+        border-color: #ddd;
+    }
 
     .note-toolbar {
         border-bottom-color: #ddd;
