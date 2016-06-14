@@ -116,7 +116,6 @@
                 </div>
                 <!-- END Page Header -->
 
-                
                 <!-- Page Content -->
                 <div class="content">
                     <div class="block">
@@ -125,7 +124,7 @@
                                 <a href="#search-info">Info</a>
                             </li>
                             <li>
-                                <a href="#search-registro">Registro</a>
+                                <a href="#search-projects">Registro</a>
                             </li>
                             <li class="pull-right">
                                 <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
@@ -173,161 +172,168 @@
                                 </div>
                             </div>
                             <!-- End General -->
-                            <!-- Área de Formulario -->
-                            <div class="tab-pane fade fade-up" id="search-registro">
+                            <!-- Revisiones -->
+                            <div class="tab-pane fade fade-up" id="search-projects">
                                 <div class="border-b push-30">
                                     <h2 class="push-10">10 <span class="h5 font-w400 text-muted">Actividades relacionadas</span></h2>
                                 </div>
-                                <!-- Formulario -->
-                                <div class="block block-themed block-opt-hidden">
-                                    <div class="block-header bg-primary">
-                                        <ul class="block-options">
-                                            <li>
-                                                <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-                                            </li>
-                                        </ul>
-                                        <h3 class="block-title">Agregar tema</h3>
-                                    </div>
-                                    <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
-
+                                <div class="block">
+                                    <div class="block-content block-content-narrow">
+                                        <!-- jQuery Validation (.js-validation-material class is initialized in js/pages/base_forms_validation.js) -->
+                                        <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
+                                        <form class="js-validation-material form-horizontal push-10-t" action="#" method="post">
                                             <div class="form-group">
-                                                <div class="col-sm-6">
+                                                <div class="col-md-3">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="estatus" name="estatus">
-                                                            <option></option>
-                                                            <option value="1">Tema 01</option>
-                                                            <option value="2">Tema 02</option>
-                                                            <option value="3">Tema 03</option>
-                                                            <option value="4">Tema 04</option>
-                                                            <option value="5">Tema 05</option>
-                                                        </select>
-                                                        <label for="estatus">Tema</label>
+                                                        <input class="js-datepicker form-control input-sm" type="text" id="example-datepicker4" name="example-datepicker4" data-date-format="mm/dd/yy">
+                                                        <label for="example-datepicker4">Fecha</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6">
+                                                <div class="col-sm-9">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="nombre" name="nombre">
-                                                        <label for="nombre">Tema</label>
-                                                        <div class="help-block text-right">Agregar nuevo tema si no existe</div>
+                                                        <select class="form-control input-sm" id="val-skill1" name="val-skill1">
+                                                            <option></option>
+                                                            <option value="pr">Actividad 01</option>
+                                                            <option value="ad">Actividad 02</option>
+                                                            <option value="ad">Actividad 03</option>
+                                                            <option value="ad">Actividad 04</option>
+                                                            <option value="ad">Actividad 05</option>
+                                                            <option value="ad">Actividad 06</option>
+                                                        </select>
+                                                        <label for="val-skill1">Actividad</label>
                                                     </div>
                                                 </div>
                                             </div>
-											<div class="form-group">
-                                            	<div class="col-sm-12">
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
                                                     <div class="form-material form-material-primary floating">
-                                                        <textarea class="form-control input-sm" id="actividades" name="actividades" rows="4"></textarea>
-                                                        <label for="actividades">Descripción</label>
-                                                    </div>
-                                                </div>
-	                                        </div>
-	                                        <div class="form-group">
-	                                        	<div class="col-sm-6">
-                                                    <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="responsable" name="responsable">
+                                                        <select class="form-control input-sm" id="val-skill1" name="val-skill1">
                                                             <option></option>
-                                                            <option value="1">Cristian Vazquez Hernandez</option>
-                                                            <option value="2">Juan Esteban Alcantara Contreras</option>
-                                                            <option value="3">Elena Domingez Quintana</option>
-                                                            <option value="4">Carlos Buendia Salazar</option>
-                                                            <option value="5">Carmen Estrada Quintero</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
                                                         </select>
-                                                        <label for="estatus">Responsable</label>
+                                                        <label for="val-skill1">Tiempo(hrs)</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6">
+                                                <div class="col-sm-9">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="normativa" name="normativa">
-                                                            <option></option>
-                                                            <option value="1">Normativa AAAAA</option>
-                                                            <option value="2">Normativa BBBBB</option>
-                                                            <option value="3">Normativa CCCCC</option>
-                                                            <option value="4">Normativa DDDDD</option>
-                                                            <option value="5">Normativa EEEEE</option>
-                                                        </select>
-                                                        <label for="normativa">Normativa</label>
+                                                        <input class="form-control input-sm" type="text" id="val-username2" name="val-username2">
+                                                        <label for="val-username2">Especificar actividad</label>
                                                     </div>
                                                 </div>
-	                                        </div>
-	                                        <div class="form-group">
-                                                <div class="col-sm-12">
-	                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-	                                                <div class="col-sm-12">
-	                                                    <input type="file" id="example-file-input" name="example-file-input">
-	                                                </div>
-	                                            </div>
                                             </div>
-	                                        <div class="form-group">
-	                                        	&nbsp;
-	                                        </div>
+                                            
                                             <div class="form-group">
                                                 <div class="col-xs-12">
                                                     <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
                                 </div>
-                                <!-- END Formulario -->
+                                <!-- Table Sections (.js-table-sections class is initialized in App() -> uiHelperTableToolsSections()) -->
+                                <div class="block">
+                                    <div class="block-content">
+                                        <table class="js-table-sections table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 30px;"></th>
+                                                    <th>Actividad</th>
+                                                    <th>Días naturales</th>
+                                                    <th>Semanas-Hombre</th>
+                                                    <th>Fecha</th>
+                                                    <th>Acciones</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="js-table-sections-header open">
+                                                <tr>
+                                                    <td class="text-center">
+                                                        <i class="fa fa-angle-right"></i>
+                                                    </td>
+                                                    <td class="font-w600">A. Vacantes</td>
+                                                    <td>
+                                                        <span class="label label-primary">2</span>
+                                                    </td>
+                                                    <td class="hidden-xs">
+                                                        <em class="text-muted">0.4</em>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center"></td>
+                                                    <td class="font-w600 text-success">De XX a XX</td>
+                                                    <td>
+                                                        <small>1</small>
+                                                    </td>
+                                                    <td class="hidden-xs">
+                                                        <small class="text-muted">0.2</small>
+                                                    </td>
+                                                    <td>12-12-15</td>
+                                                    <td class="text-center">
+                                                        <div class="btn-group">
+                                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </a>
+                                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center"></td>
+                                                    <td class="font-w600 text-success">De XX a XX</td>
+                                                    <td>
+                                                        <small>1</small>
+                                                    </td>
+                                                    <td class="hidden-xs">
+                                                        <small class="text-muted">0.2</small>
+                                                    </td>
+                                                    <td>12-12-15</td>
+                                                    <td class="text-center">
+                                                        <div class="btn-group">
+                                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                <i class="fa fa-pencil"></i>
+                                                            </a>
+                                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tbody class="js-table-sections-header">
+                                                <tr>
+                                                    <td class="text-center">
+                                                        <i class="fa fa-angle-right"></i>
+                                                    </td>
+                                                    <td class="font-w600">B. Vacaciones</td>
+                                                    <td>
+                                                        <span class="label label-warning">5</span>
+                                                    </td>
+                                                    <td class="hidden-xs">
+                                                        <em class="text-muted">1</em>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- END Table Sections -->
                             </div>
-                            <!-- END Área de Formulario -->
-                            
-                            
-                            <div class="row">&nbsp;</div>
-                            
-                            <!-- Tab's -->
-                            	<div class="block">
-			                        <ul class="nav nav-tabs" data-toggle="tabs">
-			                            <li class="active">
-			                                <a href="#search-lunes">Lunes</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-martes">Martes</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-miercoles">Miercoles</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-jueves">jueves</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-viernes">Viernes</a>
-			                            </li>
-			                            <li class="pull-right">
-			                                <ul class="block-options push-10-t push-10-r">
-			                                    <li>
-			                                        <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
-			                                    </li>
-			                                </ul>
-			                            </li>
-			                        </ul>
-			                        <div class="block-content tab-content bg-white">
-			                            <!-- Tab lunes -->
-			                            <div class="tab-pane fade fade-up in active" id="search-lunes">
-			                            </div>
-			                            <!-- END Tab lunes -->
-			                            <!-- Tab Martes -->
-			                            <div class="tab-pane fade fade-up" id="search-martes">
-			                            </div>
-			                            <!-- END Tab Martes -->
-			                            <!-- Tab Miercoles -->
-			                            <div class="tab-pane fade fade-up" id="search-miercoles">
-			                            </div>
-			                            <!-- END Tab Miercoles -->
-			                            <!-- Tab jueves -->
-			                            <div class="tab-pane fade fade-up" id="search-jueves">
-			                            </div>
-			                            <!-- END Tab Jueves -->
-			                            <!-- Tab Viernes -->
-			                            <div class="tab-pane fade fade-up" id="search-viernes">
-			                            </div>
-			                            <!-- END Tab Viernes -->
-			                        </div>
-			                    </div>
-                            <!-- END Tab's -->
-                            
+                            <!-- END Revisiones -->
                             <!-- Settings -->
                             <div class="tab-pane" id="btabs-alt-static-settings">
                                 <h4 class="font-w300 push-15">Opciones</h4>

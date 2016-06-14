@@ -134,7 +134,7 @@
                         <div class="block-content tab-content bg-white">
                             <!-- Escolaridad -->
                             <div class="tab-pane fade fade-up in active" id="search-escolaridad">
-                                <!-- Agregar termino -->
+                                <!-- Agregar adquisición -->
                                 <div class="block block-themed block-opt-hidden">
                                     <div class="block-header bg-primary">
                                         <ul class="block-options">
@@ -148,7 +148,7 @@
                                         <form class="form-horizontal push-10-t" action="#" method="post">
 
                                             <div class="form-group">
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
                                                         <select class="form-control input-sm" id="estatus" name="estatus">
                                                             <option></option>
@@ -161,14 +161,24 @@
                                                         <label for="estatus">Tema</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
                                                         <input class="form-control input-sm" type="text" id="nombre" name="nombre">
                                                         <label for="nombre">Tema</label>
                                                         <div class="help-block text-right">Agregar nuevo tema si no existe</div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
+                                            </div>
+											<div class="form-group">
+                                            	<div class="col-sm-12">
+                                                    <div class="form-material form-material-primary floating">
+                                                        <textarea class="form-control input-sm" id="actividades" name="actividades" rows="4"></textarea>
+                                                        <label for="actividades">Descripción</label>
+                                                    </div>
+                                                </div>
+	                                        </div>
+	                                        <div class="form-group">
+	                                        	<div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
                                                         <select class="form-control input-sm" id="responsable" name="responsable">
                                                             <option></option>
@@ -181,10 +191,7 @@
                                                         <label for="estatus">Responsable</label>
                                                     </div>
                                                 </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
                                                         <select class="form-control input-sm" id="normativa" name="normativa">
                                                             <option></option>
@@ -197,23 +204,18 @@
                                                         <label for="normativa">Normativa</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
+	                                        </div>
+	                                        <div class="form-group">
+                                                <div class="col-sm-12">
 	                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
 	                                                <div class="col-sm-12">
 	                                                    <input type="file" id="example-file-input" name="example-file-input">
 	                                                </div>
 	                                            </div>
                                             </div>
-                                            
-                                            <div class="form-group">
-                                            	<div class="col-sm-12">
-                                                    <div class="form-material form-material-primary floating">
-                                                        <textarea class="form-control input-sm" id="actividades" name="actividades" rows="4"></textarea>
-                                                        <label for="actividades">Descripción</label>
-                                                    </div>
-                                                </div>
+	                                        <div class="form-group">
+	                                        	&nbsp;
 	                                        </div>
-
                                             <div class="form-group">
                                                 <div class="col-xs-12">
                                                     <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
@@ -224,7 +226,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <!-- End Agregar termino -->
+                                <!-- End Agregar adquisición -->
                                 <div class="row">&nbsp;</div>
                                 <!-- Lista -->
                                 <div class="table-responsive">

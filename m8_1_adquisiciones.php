@@ -115,7 +115,7 @@
                     </div>
                 </div>
                 <!-- END Page Header -->
-
+                
                 <!-- Page Content -->
                 <div class="content">
                     <div class="block">
@@ -410,10 +410,10 @@
                                         </a>
                                     </div>
                                     <div class="col-xs-6 col-sm-2 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="m8_1_adquisiciones_form.php">
+                                        <a class="block block-link-hover3 text-center" href="m8_2_comsoc_form.php">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-doc fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Agregar Adquisición</div>
+                                                <div class="font-w600 push-15-t">Agregar COMSOC</div>
                                             </div>
                                         </a>
                                     </div>
