@@ -116,7 +116,6 @@
                 </div>
                 <!-- END Page Header -->
 
-                
                 <!-- Page Content -->
                 <div class="content">
                     <div class="block">
@@ -125,7 +124,7 @@
                                 <a href="#search-info">Info</a>
                             </li>
                             <li>
-                                <a href="#search-registro">Registro</a>
+                                <a href="#search-projects">Registro</a>
                             </li>
                             <li class="pull-right">
                                 <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
@@ -173,161 +172,655 @@
                                 </div>
                             </div>
                             <!-- End General -->
-                            <!-- Área de Formulario -->
-                            <div class="tab-pane fade fade-up" id="search-registro">
+                            <!-- Revisiones -->
+                            <div class="tab-pane fade fade-up" id="search-projects">
                                 <div class="border-b push-30">
                                     <h2 class="push-10">10 <span class="h5 font-w400 text-muted">Actividades relacionadas</span></h2>
                                 </div>
-                                <!-- Formulario -->
-                                <div class="block block-themed block-opt-hidden">
-                                    <div class="block-header bg-primary">
-                                        <ul class="block-options">
-                                            <li>
-                                                <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-                                            </li>
-                                        </ul>
-                                        <h3 class="block-title">Agregar tema</h3>
-                                    </div>
-                                    <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
-
+                                <div class="block">
+                                    <div class="block-content block-content-narrow">
+                                        <!-- jQuery Validation (.js-validation-material class is initialized in js/pages/base_forms_validation.js) -->
+                                        <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
+                                        <form class="js-validation-material form-horizontal push-10-t" action="#" method="post">
                                             <div class="form-group">
-                                                <div class="col-sm-6">
+                                                <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="estatus" name="estatus">
+                                                        <select class="form-control input-sm" id="dia" name="dia">
                                                             <option></option>
-                                                            <option value="1">Tema 01</option>
-                                                            <option value="2">Tema 02</option>
-                                                            <option value="3">Tema 03</option>
-                                                            <option value="4">Tema 04</option>
-                                                            <option value="5">Tema 05</option>
+                                                            <option value="1">Lunes</option>
+                                                            <option value="2">Martes</option>
+                                                            <option value="3">Miercoles</option>
+                                                            <option value="4">Jueves</option>
+                                                            <option value="5">Viernes</option>
                                                         </select>
-                                                        <label for="estatus">Tema</label>
+                                                        <label for="dia">Día</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6">
+                                                <div class="col-sm-4">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="nombre" name="nombre">
-                                                        <label for="nombre">Tema</label>
-                                                        <div class="help-block text-right">Agregar nuevo tema si no existe</div>
+                                                        <select class="form-control input-sm" id="asignados" name="asignados">
+                                                            <option></option>
+                                                            <option value="1">Asignados 01</option>
+                                                            <option value="2">Asignados 02</option>
+                                                            <option value="3">Asignados 03</option>
+                                                            <option value="4">Asignados 04</option>
+                                                            <option value="5">Asignados 05</option>
+                                                        </select>
+                                                        <label for="dia">Asignados</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="form-material form-material-primary floating">
+                                                        <select class="form-control input-sm" id="actividades" name="actividades">
+                                                            <option></option>
+                                                            <option value="1">Actividades 01</option>
+                                                            <option value="2">Actividades 02</option>
+                                                            <option value="3">Actividades 03</option>
+                                                            <option value="4">Actividades 04</option>
+                                                            <option value="5">Actividades 05</option>
+                                                        </select>
+                                                        <label for="actividades">Actividades</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="push-30">
+                                                        <h2 class="push-10">22 <span class="h5 font-w400 text-muted">Horas acumuladas<!-- </span> Tema 1 --></h2>
                                                     </div>
                                                 </div>
                                             </div>
-											<div class="form-group">
-                                            	<div class="col-sm-12">
-                                                    <div class="form-material form-material-primary floating">
-                                                        <textarea class="form-control input-sm" id="actividades" name="actividades" rows="4"></textarea>
-                                                        <label for="actividades">Descripción</label>
-                                                    </div>
-                                                </div>
-	                                        </div>
-	                                        <div class="form-group">
-	                                        	<div class="col-sm-6">
-                                                    <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="responsable" name="responsable">
-                                                            <option></option>
-                                                            <option value="1">Cristian Vazquez Hernandez</option>
-                                                            <option value="2">Juan Esteban Alcantara Contreras</option>
-                                                            <option value="3">Elena Domingez Quintana</option>
-                                                            <option value="4">Carlos Buendia Salazar</option>
-                                                            <option value="5">Carmen Estrada Quintero</option>
-                                                        </select>
-                                                        <label for="estatus">Responsable</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="normativa" name="normativa">
-                                                            <option></option>
-                                                            <option value="1">Normativa AAAAA</option>
-                                                            <option value="2">Normativa BBBBB</option>
-                                                            <option value="3">Normativa CCCCC</option>
-                                                            <option value="4">Normativa DDDDD</option>
-                                                            <option value="5">Normativa EEEEE</option>
-                                                        </select>
-                                                        <label for="normativa">Normativa</label>
-                                                    </div>
-                                                </div>
-	                                        </div>
-	                                        <div class="form-group">
-                                                <div class="col-sm-12">
-	                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-	                                                <div class="col-sm-12">
-	                                                    <input type="file" id="example-file-input" name="example-file-input">
-	                                                </div>
-	                                            </div>
-                                            </div>
-	                                        <div class="form-group">
-	                                        	&nbsp;
-	                                        </div>
                                             <div class="form-group">
-                                                <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
-                                                    <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                                <div class="col-sm-1">
+                                                    <div class="form-material form-material-primary floating">
+                                                        <input class="form-control input-sm" type="text" id="horas" name="horas">
+                                                        <label for="horas">Horas</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-8">
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="form-material form-material-primary floating">
+                                                        <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                        <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                                    </div>
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
                                 </div>
-                                <!-- END Formulario -->
+                                <!-- Table Sections (.js-table-sections class is initialized in App() -> uiHelperTableToolsSections()) -->
+                                <div class="block">
+                                    <div class="block-content">
+
+                                        <!-- Tab´s dias semanas -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="block">
+                                                    <ul class="nav nav-tabs" data-toggle="tabs">
+                                                        <li class="active">
+                                                            <a href="#search-lunes">
+                                                                Lunes <span class="badge badge-warning"><i class="fa fa-info-circle"> 3</i></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#search-martes">
+                                                                Martes <span class="badge badge-success"><i class="fa fa-check"></i> 8</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#search-miercoles">
+                                                                Miercoles <span class="badge badge-warning"><i class="fa fa-info-circle"></i> 5</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#search-jueves">
+                                                                Jueves <span class="badge badge-warning"><i class="fa fa-info-circle"></i> 2</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#search-viernes">
+                                                                Viernes <span class="badge badge-warning"><i class="fa fa-info-circle"></i> 4</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="pull-right">
+                                                            <ul class="block-options push-10-t push-10-r">
+                                                                <li>
+                                                                    <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="block-content tab-content">
+                                                        <div class="tab-pane active" id="search-lunes">
+                                                            <div class="table-responsive">
+                                                                <!-- <div class="border-b push-30">
+                                                                    <h2 class="push-10">5 <span class="h5 font-w400 text-muted">Elementos encontrados</span> Tema 1</h2>
+                                                                </div> -->
+                                                                <table class="table table-striped table-vcenter table-condensed table-header-bg">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th class="text-center" width="5">#</th>
+                                                                        <th class="text-left" width="25%">Asignados</th>
+                                                                        <th class="text-left" width="50%">Actividades</th>
+                                                                        <th class="text-left" width="10%">Horas</th>
+                                                                        <th class="text-center" width="10%">Acciones</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td class="text-left">Asignado 01</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 01
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2</td>
+                                                                        <td class="text-left">Asignado 02</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 02
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3</td>
+                                                                        <td class="text-left">Asignado 03</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 03
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4</td>
+                                                                        <td class="text-left">Asignado 04</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 04
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3</td>
+                                                                        <td class="text-left">Asignado 03</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 03
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane" id="search-martes">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-striped table-vcenter table-condensed table-header-bg">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th class="text-center" width="5">#</th>
+                                                                        <th class="text-left" width="25%">Asignados</th>
+                                                                        <th class="text-left" width="50%">Actividades</th>
+                                                                        <th class="text-left" width="10%">Horas</th>
+                                                                        <th class="text-center" width="10%">Acciones</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td class="text-left">Asignado 01</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 01
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2</td>
+                                                                        <td class="text-left">Asignado 02</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 02
+                                                                        </td>
+                                                                        <td class="text-center">3</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3</td>
+                                                                        <td class="text-left">Asignado 03</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 03
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4</td>
+                                                                        <td class="text-left">Asignado 04</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 04
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>5</td>
+                                                                        <td class="text-left">Asignado 05</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 05
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>6</td>
+                                                                        <td class="text-left">Asignado 06</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 06
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>7</td>
+                                                                        <td class="text-left">Asignado 07</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 07
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>8</td>
+                                                                        <td class="text-left">Asignado 08</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 08
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane" id="search-miercoles">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-striped table-vcenter table-condensed table-header-bg">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th class="text-center" width="5">#</th>
+                                                                        <th class="text-left" width="25%">Asignados</th>
+                                                                        <th class="text-left" width="50%">Actividades</th>
+                                                                        <th class="text-left" width="10%">Horas</th>
+                                                                        <th class="text-center" width="10%">Acciones</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td class="text-left">Asignado 01</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 01
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3</td>
+                                                                        <td class="text-left">Asignado 03</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 03
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4</td>
+                                                                        <td class="text-left">Asignado 04</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 04
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane" id="search-jueves">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-striped table-vcenter table-condensed table-header-bg">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th class="text-center" width="5">#</th>
+                                                                        <th class="text-left" width="25%">Asignados</th>
+                                                                        <th class="text-left" width="50%">Actividades</th>
+                                                                        <th class="text-left" width="10%">Horas</th>
+                                                                        <th class="text-center" width="10%">Acciones</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td class="text-left">Asignado 01</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 01
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2</td>
+                                                                        <td class="text-left">Asignado 02</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 02
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3</td>
+                                                                        <td class="text-left">Asignado 03</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 03
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4</td>
+                                                                        <td class="text-left">Asignado 04</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 04
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>5</td>
+                                                                        <td class="text-left">Asignado 05</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 05
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane" id="search-viernes">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-striped table-vcenter table-condensed table-header-bg">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th class="text-center" width="5">#</th>
+                                                                        <th class="text-left" width="25%">Asignados</th>
+                                                                        <th class="text-left" width="50%">Actividades</th>
+                                                                        <th class="text-left" width="10%">Horas</th>
+                                                                        <th class="text-center" width="10%">Acciones</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td class="text-left">Asignado 01</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 01
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4</td>
+                                                                        <td class="text-left">Asignado 04</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 04
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>5</td>
+                                                                        <td class="text-left">Asignado 05</td>
+                                                                        <td class="text-left">
+                                                                            Actividad 05
+                                                                        </td>
+                                                                        <td class="text-center">1</td>
+                                                                        <td class="text-center">
+                                                                            <div class="btn-group">
+                                                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                                                    <i class="fa fa-pencil"></i>
+                                                                                </a>
+                                                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                                                    <i class="fa fa-times"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- END Tab´s dias semanas -->
+
+                                    </div>
+                                </div>
+                                <!-- END Table Sections -->
                             </div>
-                            <!-- END Área de Formulario -->
-                            
-                            
-                            <div class="row">&nbsp;</div>
-                            
-                            <!-- Tab's -->
-                            	<div class="block">
-			                        <ul class="nav nav-tabs" data-toggle="tabs">
-			                            <li class="active">
-			                                <a href="#search-lunes">Lunes</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-martes">Martes</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-miercoles">Miercoles</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-jueves">jueves</a>
-			                            </li>
-			                            <li>
-			                                <a href="#search-viernes">Viernes</a>
-			                            </li>
-			                            <li class="pull-right">
-			                                <ul class="block-options push-10-t push-10-r">
-			                                    <li>
-			                                        <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
-			                                    </li>
-			                                </ul>
-			                            </li>
-			                        </ul>
-			                        <div class="block-content tab-content bg-white">
-			                            <!-- Tab lunes -->
-			                            <div class="tab-pane fade fade-up in active" id="search-lunes">
-			                            </div>
-			                            <!-- END Tab lunes -->
-			                            <!-- Tab Martes -->
-			                            <div class="tab-pane fade fade-up" id="search-martes">
-			                            </div>
-			                            <!-- END Tab Martes -->
-			                            <!-- Tab Miercoles -->
-			                            <div class="tab-pane fade fade-up" id="search-miercoles">
-			                            </div>
-			                            <!-- END Tab Miercoles -->
-			                            <!-- Tab jueves -->
-			                            <div class="tab-pane fade fade-up" id="search-jueves">
-			                            </div>
-			                            <!-- END Tab Jueves -->
-			                            <!-- Tab Viernes -->
-			                            <div class="tab-pane fade fade-up" id="search-viernes">
-			                            </div>
-			                            <!-- END Tab Viernes -->
-			                        </div>
-			                    </div>
-                            <!-- END Tab's -->
-                            
+                            <!-- END Revisiones -->
                             <!-- Settings -->
                             <div class="tab-pane" id="btabs-alt-static-settings">
                                 <h4 class="font-w300 push-15">Opciones</h4>

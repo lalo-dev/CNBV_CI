@@ -51,7 +51,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Auditoría</span></a>
                                 <ul>
                                     <li>
-                                        <a href="../m2_1_planeacaion_detallada">Planeación detallada</a>
+                                        <a href="../m2_1_planeacion_detallada">Planeación detallada</a>
                                     </li>
                                     <li>
                                         <a href="../m2_2_ejecucion">Ejecución</a>
