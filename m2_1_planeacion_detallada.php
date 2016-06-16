@@ -43,24 +43,6 @@
     </head>
     <body>
         <!-- Page Container -->
-        <!--
-            Available Classes:
-
-            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
-
-            'sidebar-l'                  Left Sidebar and right Side Overlay
-            'sidebar-r'                  Right Sidebar and left Side Overlay
-            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
-            'sidebar-o'                  Visible Sidebar by default (> 991px)
-            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
-
-            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
-            'side-overlay-o'             Visible Side Overlay by default (> 991px)
-
-            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
-
-            'header-navbar-fixed'        Enables fixed header
-        -->
         <div id="page-container" class="sidebar-l sidebar-o side-scroll header-navbar-fixed">
             <!-- Side Overlay-->
             <?php include_once('sideContent.php'); ?>
@@ -103,13 +85,13 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Planeación anual <small>Descripción</small>
+                                Planeación detallada <small>Auditoría</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Auditoría</li>
-                                <li><a class="link-effect" href="">Planeación Anual</a></li>
+                                <li>Planeación detallada</li>
                             </ol>
                         </div>
                     </div>
@@ -117,57 +99,101 @@
                 <!-- END Page Header -->
 
                 <!-- Page Content -->
-                <div class="content content-narrow">
-
-                    <!-- Multi Rows Tiles -->
-                    <h2 class="content-heading">Actividades</h2>
-
-                    <!-- Background Colored Tiles -->
-                    <div class="row">
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-info">
-                                    <i class="si si-doc fa-5x text-white"></i>
+                <div class="content">
+                    <div class="block">
+                        <ul class="nav nav-tabs" data-toggle="tabs">
+                            <li class="active">
+                                <a href="#search-projects">PATs</a>
+                            </li>
+                            <li class="pull-right">
+                                <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
+                            </li>
+                            <li class="pull-right">
+                                <ul class="block-options push-10-t push-10-r">
+                                    <li>
+                                        <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="block-content tab-content bg-white">
+                            <!-- Projects -->
+                            <div class="tab-pane fade fade-up in active" id="search-projects">
+                                <div class="border-b push-30">
+                                    <h2 class="push-10">2 <span class="h5 font-w400 text-muted">Auditorías encontradas</span></h2>
                                 </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>PAT detallado</strong>
+                                <table class="table table-striped table-vcenter table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 30%;"><i class="fa fa-folder-open-o text-gray"></i> Auditoría</th>
+                                            <th class="text-left" style=""><i class="fa fa-file-o text-gray"></i> Dirección General</th>
+                                            <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Auditores</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <h3 class="h5 font-w600 push-10">
+                                                    <a class="link-effect" href="m2_1_form_planeacion_detallada">Auditoría XXXX XXXXX</a>
+                                                </h3>
+                                            </td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h3 class="h5 font-w600 push-10">
+                                                    <a class="link-effect" href="m2_1_form_planeacion_detallada">Auditoría XXXX XXXXX</a>
+                                                </h3>
+                                            </td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h3 class="h5 font-w600 push-10">
+                                                    <a class="link-effect" href="m1_0_0_form_pat_completo.php">Auditoría XXXX XXXXX</a>
+                                                </h3>
+                                            </td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h3 class="h5 font-w600 push-10">
+                                                    <a class="link-effect" href="m1_0_0_form_pat_completo.php">Auditoría XXXX XXXXX</a>
+                                                </h3>
+                                            </td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- END Projects -->
+                            <div class="tab-pane" id="btabs-alt-static-settings">
+                                <h4 class="font-w300 push-15">Opciones</h4>
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-lg-2 col-lg-offset-4">
+                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
+                                            <div class="block-content block-content-full">
+                                                <i class="si si-printer fa-4x text-primary"></i>
+                                                <div class="font-w600 push-15-t">Imprimir lista</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
+                                            <div class="block-content block-content-full">
+                                                <i class="si si-folder fa-4x text-success"></i>
+                                                <div class="font-w600 push-15-t">Nuevo PAT</div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-primary">
-                                    <i class="si si-doc fa-5x text-white"></i>
-                                </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>PAT resumen</strong>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-modern-dark">
-                                    <i class="si si-camcorder fa-5x text-white"></i>
-                                </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>Presentación ejecutiva</strong>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <a class="block block-link-hover1 text-center" href="javascript:void(0)">
-                                <div class="block-content block-content-full bg-danger">
-                                    <i class="si si-graph fa-5x text-white"></i>
-                                </div>
-                                <div class="block-content block-content-full block-content-mini">
-                                    <strong>Mapa de riesgos</strong>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
-                    <!-- END Background Colored Tiles -->
-                    <!-- END Multi Rows Tiles -->
-
                 </div>
                 <!-- END Page Content -->
             </main>
