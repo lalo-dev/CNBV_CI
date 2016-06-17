@@ -113,6 +113,15 @@
                                     <li>
                                         <a href="">PRAS</a>
                                     </li>
+                                    <li>
+                                        <a href="reportes_adisionales">Adisionales</a>
+                                    </li>
+                                    <li>
+                                        <a href="reportes_hallazgos">Hallagos</a>
+                                    </li>
+                                    <li>
+                                        <a href="reportes_observaciones">Observaciones</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
