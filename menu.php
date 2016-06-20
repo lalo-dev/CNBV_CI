@@ -154,7 +154,7 @@
                                         <a href="reportes_adisionales">Adisionales</a>
                                     </li>
                                     <li>
-                                        <a href="reportes_hallazgos">Hallagos</a>
+                                        <a href="reportes_hallazgos">Hallazgos</a>
                                     </li>
                                     <li>
                                         <a href="reportes_observaciones">Observaciones</a>

@@ -103,12 +103,12 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Reportes <small>Observaciones</small>
+                                Reportes <small>Hallazgos</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Observaciones</li>
+                                <li>Hallazgos</li>
                                 <li>Reportes</li>
                             </ol>
                         </div>
