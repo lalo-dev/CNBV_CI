@@ -141,19 +141,26 @@
                                         <legend>Datos generales</legend>
 
                                         <div class="form-group">
-                                            <div class="col-sm-4">
+                                            <div class="col-md-4">
                                                 <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val1" name="val1" value="006">
-                                                    <label for="val1">#</label>
+                                                    <select class="form-control input-sm" id="val-skill4" name="civil">
+                                                        <option></option>
+                                                        <option value="1">Administrador</option>
+                                                        <option value="2">Coordinador</option>
+                                                        <option value="3">Jefe de grupo</option>
+                                                        <option value="4">Contralor</option>
+                                                        <option value="5">Consulta</option>
+                                                    </select>
+                                                    <label for="civil">Rol</label>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-md-4">
                                                 <div class="form-material form-material-primary floating">
                                                     <input class="form-control input-sm" type="text" value="nombreUsuario">
                                                     <label for="val1">Usuario</label>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-md-4">
                                                 <div class="form-material form-material-primary floating">
                                                     <input class="form-control input-sm" type="password" value="12345678">
                                                     <label for="val1">Contraseña</label>
@@ -302,13 +309,18 @@
                                         <legend>Datos laborales</legend>
 
                                         <div class="form-group">
-                                            <div class="col-sm-2">
+                                            <div class="col-md-2">
+                                                <label class="css-input switch switch-primary">
+                                                    <input type="checkbox" checked><span></span> Estructura
+                                                </label>
+                                            </div>
+                                            <div class="col-md-2">
                                                 <div class="form-material form-material-primary floating">
                                                     <input class="form-control input-sm" type="text" id="val2" name="val2" value="6">
                                                     <label for="val2">No. Expediente</label>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-5">
+                                            <div class="col-md-4">
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="val3" name="val3">
                                                         <option></option>
@@ -320,7 +332,7 @@
                                                     <label for="val3">Área</label>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-5">
+                                            <div class="col-sm-4">
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="val7" name="val7">
                                                         <option></option>
