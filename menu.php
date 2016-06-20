@@ -51,7 +51,44 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Auditoría</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m2_1_planeacion_detallada">Planeación detallada</a>
+                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#">Planeación detallada</a>
+                                        <ul>
+                                            <li>
+                                                <a href="m2_1_planeacion_detallada">Carta de planeación</a>
+                                            </li>
+                                            <li>
+                                                <a href="m2_1_programa_trabajo">Programa de trabajo</a>
+                                            </li>
+											<li>
+                                                <a href="m2_1_cronograma">Cronograma</a>
+                                            </li>
+											<li>
+                                                <a href="m2_1_orden_auditoria">Orden de auditoría</a>
+                                            </li>
+											<li class="">
+												<a class="nav-submenu" data-toggle="nav-submenu">Oficio complementario</a>
+												<ul>
+													<li>
+														<a href="m2_1_oficio_complementario">Modificaci&oacute;n</a>
+													</li>
+													<li>
+														<a href="m2_1_oficio_general">Oficio General</a>
+													</li>
+													<li>
+														<a href="m2_1_sustitucion">Sustituci&oacute;n</a>
+													</li>
+													<li>
+														<a href="m2_1_ampliacion">Ampliaci&oacute;n</a>
+													</li>
+													<li>
+														<a href="m2_1_desincorporacion">Desincorporaci&oacute;n</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+                                                <a href="m2_1_acta_inicio">Acta de inicio</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="m2_2_ejecucion">Ejecución</a>

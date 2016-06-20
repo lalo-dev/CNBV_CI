@@ -85,13 +85,14 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Carta de planeaci&oacute;n <small>Planeación detallada</small>
+                                Ampliaci&oacute;n <small>Oficio complementario</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Auditoría</li>
-                                <li>Planeación detallada</li>
+								<li>Planeación detallada</li>
+								<li>Oficio complementario</li>
                             </ol>
                         </div>
                     </div>
@@ -120,7 +121,7 @@
                             <!-- Projects -->
                             <div class="tab-pane fade fade-up in active" id="search-projects">
                                 <div class="border-b push-30">
-                                    <h2 class="push-10">2 <span class="h5 font-w400 text-muted">Auditorías encontradas</span></h2>
+                                    <h2 class="push-10">4 <span class="h5 font-w400 text-muted">Auditorías encontradas</span></h2>
                                 </div>
                                 <table class="table table-striped table-vcenter table-condensed">
                                     <thead>
@@ -134,7 +135,7 @@
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="m2_1_form_planeacion_detallada">Auditoría XXXX XXXXX</a>
+                                                    <a class="link-effect" href="m2_1_form_ampliacion_detallada">Auditoría XXXX XXXXX</a>
                                                 </h3>
                                             </td>
                                             <td class="text-left">Dirección general auditada</td>
@@ -143,7 +144,7 @@
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="m2_1_form_planeacion_detallada">Auditoría XXXX XXXXX</a>
+                                                    <a class="link-effect" href="m2_1_form_ampliacion_detallada">Auditoría XXXX XXXXX</a>
                                                 </h3>
                                             </td>
                                             <td class="text-left">Dirección general auditada</td>

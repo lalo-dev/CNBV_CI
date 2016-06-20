@@ -85,14 +85,15 @@
             <div class="row items-push">
                 <div class="col-sm-7">
                     <h1 class="page-heading">
-                        Carta de planeación<small></small>
+                        Detalle<small></small>
                     </h1>
                 </div>
                 <div class="col-sm-5 text-right hidden-xs">
                     <ol class="breadcrumb push-10-t">
                         <li>Auditoría</li>
-                        <li><a href="m2_1_planeacion_detallada">Planeación detallada</a></li>
-                        <li>Carta de planeación</li>
+                        <li>Planeación detallada</li>
+                        <li><a href="m2_1_planeacion_detallada">Carta de planeación</a></li>
+						<li>Detalle</li>
                     </ol>
                 </div>
             </div>
@@ -147,44 +148,7 @@
                 <div class="block-content tab-content bg-white">
                     <!-- Info -->
                     <div class="tab-pane fade fade-up in active" id="search-info">
-                        <div class="border-b push-30">
-                            <h2 class="push-10">Estatus <span class="h5 font-w400 text-muted">Carta planeación</span></h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-2 col-lg-2 col-lg-offset-2">
-                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                    <div class="block-content block-content-full">
-                                        <i class="fa fa-battery-0 fa-4x text-success"></i>
-                                        <div class="font-w600 push-15-t">Creado</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                    <div class="block-content block-content-full">
-                                        <i class="fa fa-battery-1 fa-4x text-muted"></i>
-                                        <div class="font-w600 push-15-t">En revisión</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                    <div class="block-content block-content-full">
-                                        <i class="fa fa-battery-2 fa-4x text-muted"></i>
-                                        <div class="font-w600 push-15-t">Finalizado</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                    <div class="block-content block-content-full">
-                                        <i class="fa fa-battery-4 fa-4x text-muted"></i>
-                                        <div class="font-w600 push-15-t">Emitido</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
+                        
                         <div class="border-b push-30">
                             <h2 class="push-10">Opciones <span class="h5 font-w400 text-muted">Documento</span></h2>
                         </div>
