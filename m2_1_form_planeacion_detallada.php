@@ -85,7 +85,8 @@
             <div class="row items-push">
                 <div class="col-sm-7">
                     <h1 class="page-heading">
-                        Detalle<small></small>
+                        Detalle<small> Carta de planeación</small>
+						
                     </h1>
                 </div>
                 <div class="col-sm-5 text-right hidden-xs">

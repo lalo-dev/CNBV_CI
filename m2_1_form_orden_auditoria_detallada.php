@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
 <head>
@@ -85,7 +86,7 @@
             <div class="row items-push">
                 <div class="col-sm-7">
                     <h1 class="page-heading">
-                        Detalle<small></small>
+                        Detalle<small> Orden de auditoría</small>
                     </h1>
                 </div>
                 <div class="col-sm-5 text-right hidden-xs">
