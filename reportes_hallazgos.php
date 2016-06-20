@@ -144,117 +144,101 @@
 									<table class="table table-striped table-vcenter table-condensed table-header-bg">
 										<thead>
 											<tr>
-												<th class="text-center" colspan="13">2016</br>XXXXXXXXXX Trimestre</br>Reporte de Observaciones</th>
+												<th class="text-center" colspan="11">2016</br>XXXXXXXXXX Trimestre</br>Reporte de Hallazgos</th>
 											</tr>
 											<tr>
 												<th class="text-center">No. de Auditoría</th>
-												<th class="text-center">No. de Obs</th>
 												<th class="text-center">Área auditada</th>
-												<th class="text-center">Titulo de la Observación</th>
-												<th class="text-center">Recomendación(es) Correctiva(s)</th>
-												<th class="text-center">Recomendación(es) Preventiva(s)</th>
+												<th class="text-center">No. de Hallazgo</th>
+												<th class="text-center">Titulo del Hallazgo</th>
 												<th class="text-center">Auditor que la Origina</th>
 												<th class="text-center">Jefe de Grupo</th>
+												<th class="text-center">Fecha de Elaboración</th>
+												<th class="text-center">Fecha de Discución</th>
 												<th class="text-center">Fecha de Firma</th>
-												<th class="text-center">Fecha de compromiso de Solventación</th>
-												<th class="text-center">Liga del Documento</th>
-												<th class="text-center">Número de Hallazgos del que proviene</th>
-												<th class="text-center">Liga al Hallazgo de que proviene</th>
+												<th class="text-center">Firma por parte del Área Auditada</th>
+												<th class="text-center">Liga al documento</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<th class="text-center">01/16</td>
-												<th class="text-center">1</td>
 												<th class="text-center">DGSUC</td>
-												<th class="text-center">Debilidad en la oportuna presentación de SS</td>
-												<th class="text-center">XXXXX</td>
-												<th class="text-center">XXXXXXXX</td>
-												<th class="text-center">VMM/FMZA</td>
-												<th class="text-center">SCLG</td>
-												<th class="text-center">15/03/2016</td>
-												<th class="text-center">30/05/2016</td>
-												<th class="text-center">X</td>
 												<th class="text-center">1</td>
+												<th class="text-center">Debilidad en la oportuna presentación de SS</td>
+												<th class="text-center">VMM</td>
+												<th class="text-center">SCLG</td>
+												<th class="text-center">02/03/2016</td>
+												<th class="text-center">04/03/2016</td>
+												<th class="text-center">06/03/2016</td>
+												<th class="text-center">FFFF</td>
 												<th class="text-center">X</td>
 											</tr>
 											<tr>
 												<th class="text-center">01/16</td>
-												<th class="text-center">2</td>
 												<th class="text-center">DGSUC</td>
+												<th class="text-center">2</td>
 												<th class="text-center">Retrasos en SS</td>
-												<th class="text-center">XXXXX</td>
-												<th class="text-center">XXXXXXXX</td>
-												<th class="text-center">MFZA</td>
+												<th class="text-center">FMZA</td>
 												<th class="text-center">SCLG</td>
-												<th class="text-center">15/03/2016</td>
-												<th class="text-center">30/05/2016</td>
-												<th class="text-center">X</td>
-												<th class="text-center">2</td>
-												<th class="text-center">X</td>
-											</tr>
-											
-											
-											<tr>
-												<th class="text-center">02/16</td>
-												<th class="text-center">2</td>
-												<th class="text-center">DGSSFP</td>
-												<th class="text-center">Diferencias en Reportes</td>
-												<th class="text-center">XXXXX</td>
-												<th class="text-center">XXXXXXXX</td>
-												<th class="text-center">MFZA</td>
-												<th class="text-center">ICM</td>
-												<th class="text-center">16/03/2016</td>
-												<th class="text-center">01/06/2016</td>
-												<th class="text-center">X</td>
-												<th class="text-center">1</td>
+												<th class="text-center">04/03/2016</td>
+												<th class="text-center">04/03/2016</td>
+												<th class="text-center">06/03/2016</td>
+												<th class="text-center">FFFF</td>
 												<th class="text-center">X</td>
 											</tr>
 											<tr>
 												<th class="text-center">03/16</td>
-												<th class="text-center">2</td>
-												<th class="text-center">DGSCAP</td>
-												<th class="text-center">Diferencias en Reportes</td>
-												<th class="text-center">XXXXXX</td>
-												<th class="text-center">XXXXXXXX</td>
-												<th class="text-center">JCDLG</td>
-												<th class="text-center">SCLG</td>
-												<th class="text-center">17/03/2016</td>
-												<th class="text-center">02/06/2016</td>
-												<th class="text-center">X</td>
+												<th class="text-center">DGSSFP</td>
 												<th class="text-center">1</td>
+												<th class="text-center">Diferencias en Reportes</td>
+												<th class="text-center">FMZA</td>
+												<th class="text-center">ICM</td>
+												<th class="text-center">27/02/2016</td>
+												<th class="text-center">02/03/2016</td>
+												<th class="text-center">06/03/2016</td>
+												<th class="text-center">FFFF</td>
 												<th class="text-center">X</td>
 											</tr>
-											
-											
 											<tr>
 												<th class="text-center">04/16</td>
-												<th class="text-center">2</td>
 												<th class="text-center">DGSSFP</td>
-												<th class="text-center">Diferencias en plazas vacantes</td>
-												<th class="text-center">XXXXX</td>
-												<th class="text-center">XXXXXXXX</td>
-												<th class="text-center">MFZA</td>
-												<th class="text-center">ICM</td>
-												<th class="text-center">16/03/2016</td>
-												<th class="text-center">01/06/2016</td>
-												<th class="text-center">X</td>
 												<th class="text-center">1</td>
+												<th class="text-center">Diferencias en Reportes</td>
+												<th class="text-center">JCDLG</td>
+												<th class="text-center">SCLG</td>
+												<th class="text-center">28/02/2016</td>
+												<th class="text-center">03/03/2016</td>
+												<th class="text-center">07/03/2016</td>
+												<th class="text-center">FFFF</td>
 												<th class="text-center">X</td>
 											</tr>
 											<tr>
 												<th class="text-center">05/16</td>
-												<th class="text-center">2</td>
-												<th class="text-center">DGSCAP</td>
-												<th class="text-center">Fundamentos legales insuficientes</td>
-												<th class="text-center">XXXXXX</td>
-												<th class="text-center">XXXXXXXX</td>
-												<th class="text-center">JCDLG</td>
-												<th class="text-center">SCLG</td>
-												<th class="text-center">17/03/2016</td>
-												<th class="text-center">02/06/2016</td>
-												<th class="text-center">X</td>
+												<th class="text-center">DGPORPI</td>
 												<th class="text-center">1</td>
+												<th class="text-center">Fundamentos legales insuficientes</td>
+												<th class="text-center">VMM</td>
+												<th class="text-center">SCLG</td>
+												<th class="text-center">01/03/2016</td>
+												<th class="text-center">05/06/2016</td>
+												<th class="text-center">09/06/2016</td>
+												<th class="text-center">FFFF</td>
+												<th class="text-center">X</td>
+											</tr>
+											
+											
+											<tr>
+												<th class="text-center">06/16</td>
+												<th class="text-center">DGGSSFP</td>
+												<th class="text-center">1</td>
+												<th class="text-center">Falta de Soprtes</td>
+												<th class="text-center">VMM</td>
+												<th class="text-center">ICM</td>
+												<th class="text-center">02/03/2016</td>
+												<th class="text-center">06/03/2016</td>
+												<th class="text-center">10/06/2016</td>
+												<th class="text-center">FFFF</td>
 												<th class="text-center">X</td>
 											</tr>
 										</tbody>
@@ -276,7 +260,7 @@
 		                                        <thead>
 		                                            <tr>
 		                                                <th class="text-center" style="width: 50px;">No. Auditoría</th>
-		                                                <th>Numero de Observaciones</th>
+		                                                <th>Número de Hallazgos</th>
 		                                            </tr>
 		                                        </thead>
 		                                        <tbody>
@@ -319,7 +303,7 @@
 <!-- 					                                            <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo"><i class="si si-refresh"></i></button> -->
 <!-- 					                                        </li> -->
 <!-- 					                                    </ul> -->
-					                                    <h3 class="block-title">Número de observaciones por auditoría</h3>
+					                                    <h3 class="block-title">Número de hallazgos por auditoría</h3>
 					                                </div>
 <!-- 					                                <div class="block-content block-content-full text-center"> -->
 					                                    <!-- Bars Chart Container -->
@@ -395,7 +379,7 @@
 		                                        <thead>
 		                                            <tr>
 		                                                <th class="text-center" style="width: 50px;">No. Auditoría</th>
-		                                                <th>Numero de Observaciones</th>
+		                                                <th>Numero de Hallazgos</th>
 		                                            </tr>
 		                                        </thead>
 		                                        <tbody>
@@ -433,7 +417,7 @@
 					                            <!-- Bars Chart -->
 					                            <div class="block">
 					                                <div class="block-header">
-					                                    <h3 class="block-title">Número de observaciones por auditoría</h3>
+					                                    <h3 class="block-title">Número de hallazgos por auditoría</h3>
 					                                </div>
 					                                    <!-- Bars Chart Container -->
 					                                    <div style="height: 330px;"><canvas class="js-chartjs-bars"></canvas></div>
@@ -485,7 +469,7 @@
                                         <a class="block block-link-hover3 text-center" href="m1_0_0_form_pat_agregar.php">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-doc fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Agregar Revisión</div>
+                                                <div class="font-w600 push-15-t">Agregar Hallazgo</div>
                                             </div>
                                         </a>
                                     </div>
