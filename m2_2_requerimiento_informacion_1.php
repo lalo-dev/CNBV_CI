@@ -85,14 +85,13 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Modificaci&oacute;n <small>Oficio complementario</small>
+                                Requerimiento informaci&oacute;n 1<small> Ejecuci&oacute;n</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Auditoría</li>
-								<li>Planeación detallada</li>
-								<li>Oficio complementario</li>
+                                <li>Ejecuci&oacute;n</li>
                             </ol>
                         </div>
                     </div>
@@ -135,7 +134,7 @@
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="m2_1_form_oficio_complementario_detallada">Auditoría XXXX XXXXX</a>
+                                                    <a class="link-effect" href="m2_1_form_req_inf_detallada">Auditoría XXXX XXXXX</a>
                                                 </h3>
                                             </td>
                                             <td class="text-left">Dirección general auditada</td>
@@ -144,7 +143,7 @@
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="m2_1_form_oficio_complementario_detallada">Auditoría XXXX XXXXX</a>
+                                                    <a class="link-effect" href="m2_1_form_req_inf_detallada">Auditoría XXXX XXXXX</a>
                                                 </h3>
                                             </td>
                                             <td class="text-left">Dirección general auditada</td>
@@ -183,7 +182,6 @@
                                             </div>
                                         </a>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>

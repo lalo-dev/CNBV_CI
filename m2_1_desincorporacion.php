@@ -2,6 +2,7 @@
 <!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
     <head>
+    <head>
         <meta charset="utf-8">
 
         <title>CNBV</title>
@@ -180,14 +181,6 @@
                                             <div class="block-content block-content-full">
                                                 <i class="si si-printer fa-4x text-primary"></i>
                                                 <div class="font-w600 push-15-t">Imprimir lista</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                            <div class="block-content block-content-full">
-                                                <i class="si si-folder fa-4x text-success"></i>
-                                                <div class="font-w600 push-15-t">Nuevo PAT</div>
                                             </div>
                                         </a>
                                     </div>

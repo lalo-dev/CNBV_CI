@@ -91,7 +91,33 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="m2_2_ejecucion">Ejecución</a>
+                                        <a href="#" class="nav-submenu" data-toggle="nav-submenu">Ejecución</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="m2_2_requerimiento_informacion_1">Requerimiento informaci&oacute;n 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="m2_2_requerimiento_informacion_2">Requerimiento informaci&oacute;n 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="m2_2_cedula_trabajo">C&eacute;dula de trabajo</a>
+                                                </li>
+                                                <li>
+                                                    <a href="m2_2_cedula_hallazgos">C&eacute;dula de hallazgos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">C&eacute;dula Resumen de actividades</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">C&eacute;dula de control interno</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">C&eacute;dula de observaciones</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Acta Administrativa</a>
+                                                </li>
+                                            </ul>
                                     </li>
                                     <li>
                                         <a href="m2_3_informe">Informe</a>
