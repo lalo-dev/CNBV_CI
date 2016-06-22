@@ -33,6 +33,11 @@
     <!-- Web fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
 
+    <!-- Page JS Plugins CSS -->
+    <link rel="stylesheet" href="assets/js/plugins/slick/slick.min.css">
+    <link rel="stylesheet" href="assets/js/plugins/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="assets/js/plugins/magnific-popup/magnific-popup.min.css">
+
     <!-- Bootstrap and OneUI CSS framework -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" id="css-main" href="assets/css/oneui.css">
@@ -130,13 +135,7 @@
                                 <form class="form-horizontal push-10-t" action="#" method="post">
 
                                     <div class="form-group">
-                                        <div class="col-md-4">
-                                            <div class="form-material">
-                                                <input class="js-datepicker form-control" type="text" id="example-datepicker6" name="example-datepicker6" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy">
-                                                <label for="example-datepicker6">Fecha</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-12">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="titulo" name="titulo">
                                                 <label for="titulo">Título</label>
@@ -153,27 +152,107 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="estatus" name="estatus">
-                                                    <option></option>
-                                                    <option value="1">Word</option>
-                                                    <option value="2">Excel</option>
-                                                    <option value="3">PDF</option>
-                                                    <option value="4">Power Point</option>
-                                                    <option value="5">Imagen</option>
-                                                </select>
-                                                <label for="estatus">Tipo</label>
-                                            </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <fieldset>
+                                                <legend>Tipo</legend>
+                                                <div class="form-group">
+                                                    <div class="col-sm-12">
+                                                        <div class="form-material form-material-primary floating">
+                                                            <select class="form-control input-sm" id="estatus" name="estatus">
+                                                                <option></option>
+                                                                <option value="1">Info</option>
+                                                                <option value="2">Noticia</option>
+                                                                <option value="3">Fecha limite de entrega</option>
+                                                                <option value="4">Documentos entregados</option>
+                                                                <option value="5">Actualización del sistema</option>
+                                                                <option value="6">Cumpleaños</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+
                                         </div>
-                                        <div class="col-sm-9">
-                                            <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-                                            <div class="col-sm-12">
-                                                <input type="file" id="example-file-input" name="example-file-input">
-                                            </div>
+                                        <div class="col-md-3">
+                                            <fieldset>
+                                                <legend>URL's</legend>
+                                                <div class="form-group">
+                                                    <div class="col-sm-12">
+                                                        <div class="form-material form-material-primary floating">
+                                                            <input class="form-control input-sm" type="text" id="url">
+                                                            <label for="url">1</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <div class="form-material form-material-primary floating">
+                                                            <input class="form-control input-sm" type="text" id="url">
+                                                            <label for="url">2</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <div class="form-material form-material-primary floating">
+                                                            <input class="form-control input-sm" type="text" id="url">
+                                                            <label for="url">3</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <div class="form-material form-material-primary floating">
+                                                            <input class="form-control input-sm" type="text" id="url">
+                                                            <label for="url">4</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <fieldset>
+                                                <legend>Imagenes</legend>
+                                                <div class="form-group">
+                                                    <div class="col-md-3">
+                                                        <img class="img-responsive" src="assets/img/photos/photo19.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="col-sm-12">
+                                                            <input type="file" id="imagen1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-3">
+                                                        <img class="img-responsive" src="assets/img/photos/photo18.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="col-sm-12">
+                                                            <input type="file" id="imagen1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-3">
+                                                        <img class="img-responsive" src="assets/img/photos/photo17.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="col-sm-12">
+                                                            <input type="file" id="imagen1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-3">
+                                                        <img class="img-responsive" src="assets/img/photos/photo16.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="col-sm-12">
+                                                            <input type="file" id="imagen1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
                                         </div>
                                     </div>
+
+
 
                                     <div class="form-group">
                                         <div class="col-xs-12">
@@ -194,96 +273,182 @@
                             </div>
                             <table class="table table-striped table-vcenter table-condensed">
                                 <thead>
-                                <tr>
-                                    <th class="text-center">#</th>
-                                    <th class="text-center">Fecha</th>
-                                    <th class="text-center">Tipo</th>
-                                    <th class="text-left">Título</th>
-                                    <th class="text-left">Contenido</th>
-                                    <th class="text-center">Link</th>
-                                    <th class="text-center">Imagen</th>
-                                    <th class="text-center">Acciones</th>
-                                </tr>
+                                    <tr>
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Tipo</th>
+                                        <th class="text-left">Título</th>
+                                        <th class="text-left">Contenido</th>
+                                        <th class="text-left">Links</th>
+                                        <th class="text-center">Imagenes</th>
+                                        <th class="text-center">Acciones</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>12-12-2016</td>
-                                    <td>Noticia</td>
-                                    <td class="text-left">Título de la noticia</td>
-                                    <td class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </td>
-                                    <td><a href="#">Link a alguna página</a></td>
-                                    <td><a href="#">Imagen 0001</a></td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>12-12-2016</td>
-                                    <td>Noticia</td>
-                                    <td class="text-left">Título de la noticia</td>
-                                    <td class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </td>
-                                    <td><a href="#">Link a alguna página</a></td>
-                                    <td><a href="#">Imagen 0001</a></td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>12-12-2016</td>
-                                    <td>Noticia</td>
-                                    <td class="text-left">Título de la noticia</td>
-                                    <td class="text-left">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </td>
-                                    <td><a href="#">Link a alguna página</a></td>
-                                    <td><a href="#">Imagen 0001</a></td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Noticia</td>
+                                        <td class="text-left">Título de la noticia</td>
+                                        <td class="text-left">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </td>
+                                        <td style="width: 200px;">
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                        </td>
+                                        <td style="width: 100px;">
+
+                                                <div class="row js-gallery">
+                                                    <div class="col-xs-12">
+                                                        <a class="img-link" href="assets/img/photos/photo19@2x.jpg">
+                                                            <img class="img-responsive" src="assets/img/photos/photo19.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <a class="img-link" href="assets/img/photos/photo20@2x.jpg">
+                                                            <img class="img-responsive" src="assets/img/photos/photo20.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <a class="img-link" href="assets/img/photos/photo21@2x.jpg">
+                                                            <img class="img-responsive" src="assets/img/photos/photo21.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <a class="img-link" href="assets/img/photos/photo22@2x.jpg">
+                                                            <img class="img-responsive" src="assets/img/photos/photo22.jpg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                    <i class="fa fa-pencil"></i>
+                                                </a>
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Actualización del sistema</td>
+                                        <td class="text-left">Título de la noticia</td>
+                                        <td class="text-left">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </td>
+                                        <td style="width: 200px;">
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                        </td>
+                                        <td style="width: 100px;">
+
+                                            <div class="row js-gallery">
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo19@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo19.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo20@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo20.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo21@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo21.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo22@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo22.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                    <i class="fa fa-pencil"></i>
+                                                </a>
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Fechas de entrega</td>
+                                        <td class="text-left">Título de la noticia</td>
+                                        <td class="text-left">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </td>
+                                        <td style="width: 200px;">
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                            <p><a href="#">Link a alguna página</a></p>
+                                        </td>
+                                        <td style="width: 100px;">
+
+                                            <div class="row js-gallery">
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo19@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo19.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo20@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo20.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo21@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo21.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <a class="img-link" href="assets/img/photos/photo22@2x.jpg">
+                                                        <img class="img-responsive" src="assets/img/photos/photo22.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
+                                                    <i class="fa fa-pencil"></i>
+                                                </a>
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -449,6 +614,18 @@
     $(function () {
         // Init page helpers (BS Datepicker + BS Datetimepicker + BS Colorpicker + BS Maxlength + Select2 + Masked Input + Range Sliders + Tags Inputs plugins)
         App.initHelpers(['datepicker', 'datetimepicker', 'colorpicker', 'maxlength', 'select2', 'masked-inputs', 'rangeslider', 'tags-inputs']);
+    });
+</script>
+
+<!-- Page Plugins -->
+<script src="assets/js/plugins/slick/slick.min.js"></script>
+<script src="assets/js/plugins/magnific-popup/magnific-popup.min.js"></script>
+
+<!-- Page JS Code -->
+<script>
+    jQuery(function () {
+        // Init page helpers (Slick Slider + Magnific Popup plugins)
+        App.initHelpers(['slick', 'magnific-popup']);
     });
 </script>
 </body>

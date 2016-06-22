@@ -135,6 +135,19 @@
                         <div class="block-content tab-content bg-white">
                             <!-- Usuario generales -->
                             <div class="tab-pane fade fade-up in active" id="search-datos">
+                                <div class="bg-image" style="background-image: url('assets/img/photos/photo6@2x.jpg');">
+                                    <div class="block-content bg-primary-dark-op text-center overflow-hidden">
+                                        <div class="push-30-t push animated fadeInDown">
+                                            <img class="img-avatar img-avatar96 img-avatar-thumb" src="assets/img/avatars/avatar4.jpg" alt="">
+                                        </div>
+                                        <div class="push-30 animated fadeInUp">
+                                            <h2 class="h4 font-w600 text-white push-5">PAKAL AI</h2>
+                                            <h3 class="h5 text-gray">CNBV OIC</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">&nbsp;</div>
                     
                                 <form class="js-validation-material form-horizontal push-10-t" action="#" method="post">
                                     <fieldset>
@@ -485,77 +498,84 @@
                                         
                                     </div>
 
-                                    <fieldset>
-                                        <legend>Currículum</legend>
-                                        <div class="form-group">
-                                            <div class="col-sm-6">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text">
-                                                    <label for="des">Descripción</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <fieldset>
+                                                <legend>Currículum</legend>
+                                                <div class="form-group">
+                                                    <div class="col-sm-2">
+                                                        <button class="btn btn-info btn-sm" type="button">
+                                                            <i class="fa fa-download"></i> Descargar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
+                                                        <div class="col-sm-12">
+                                                            <input type="file" id="example-file-input" name="example-file-input">
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-                                                <div class="col-sm-12">
-                                                    <input type="file" id="example-file-input" name="example-file-input">
-                                                </div>
-                                            </div>
+                                            </fieldset>
                                         </div>
-                                    </fieldset>
+                                        <div class="col-md-6">
+                                            <fieldset>
+                                                <legend>Perfil de puesto</legend>
+                                                <div class="form-group">
+                                                    <div class="col-sm-2">
+                                                        <button class="btn btn-info btn-sm" type="button">
+                                                            <i class="fa fa-download"></i> Descargar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
+                                                        <div class="col-sm-12">
+                                                            <input type="file">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
 
-                                    <fieldset>
-                                        <legend>Perfil de puesto</legend>
-                                        <div class="form-group">
-                                            <div class="col-sm-6">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text">
-                                                    <label for="des">Descripción</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <legend>Desempeño</legend>
+                                            <div class="form-group">
+                                                <div class="col-sm-2">
+                                                    <button class="btn btn-info btn-sm" type="button">
+                                                        <i class="fa fa-download"></i> Descargar
+                                                    </button>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
+                                                    <div class="col-sm-12">
+                                                        <input type="file">
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6">
-                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-                                                <div class="col-sm-12">
-                                                    <input type="file">
-                                                </div>
-                                            </div>            
+                                            </fieldset>
                                         </div>
-                                    </fieldset>
+                                        <div class="col-md-6">
+                                            <legend>Fotografia</legend>
+                                            <div class="form-group">
+                                                <div class="col-sm-2">
+                                                    <button class="btn btn-info btn-sm" type="button">
+                                                        <i class="fa fa-download"></i> Descargar
+                                                    </button>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
+                                                    <div class="col-sm-12">
+                                                        <input type="file">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
 
-                                    <fieldset>
-                                        <legend>Desempeño</legend>
-                                        <div class="form-group">
-                                            <div class="col-sm-6">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text">
-                                                    <label for="des">Descripción</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-                                                <div class="col-sm-12">
-                                                    <input type="file">
-                                                </div>
-                                            </div>            
-                                        </div>
-                                    </fieldset>
-
-                                    <fieldset>
-                                        <legend>Fotografía</legend>
-                                        <div class="form-group">
-                                            <div class="col-sm-6">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text">
-                                                    <label for="des">Descripción</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
-                                                <div class="col-sm-12">
-                                                    <input type="file">
-                                                </div>
-                                            </div>            
-                                        </div>
-                                    </fieldset>
+                                    <div class="row">&nbsp;</div>
+                                    <div class="row">&nbsp;</div>
 
                                     <div class="form-group">
                                         <div class="col-xs-12">

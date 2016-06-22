@@ -316,7 +316,7 @@
 				                                    <!-- Bars Chart Container -->
 				                                    <!-- SAS -->
 				                                    
-				                                    <table class="table table-condensed" style="font-size: 12px;">
+				                                    <table class="table table-condensed" style="font-size: 10px;">
 				                                        <tbody>
 					                                        <tr>
 					                                            <td class="text-right" width="65%">Elaborar y entregar la Orden de Auditoría y el Acta de Inicio.</td>
@@ -429,7 +429,7 @@
 				                                    <!-- Bars Chart Container -->
 				                                    <!-- SAS -->
 				                                    
-				                                    <table class="table table-condensed" style="font-size: 12px;">
+				                                    <table class="table table-condensed" style="font-size:10px;">
 				                                        <tbody>
 					                                        <tr>
 					                                            <td class="text-right" width="65%">Elaborar y entregar la Orden de Auditoría y el Acta de Inicio.</td>
