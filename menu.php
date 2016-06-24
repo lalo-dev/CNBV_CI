@@ -151,7 +151,7 @@
                                         <a href="m4_2_solicitud_asesor">Solicitud asesor</a>
                                     </li>
                                     <li>
-                                        <a href="m4_3_informe_invio">Informe de envío</a>
+                                        <a href="m4_3_informe_envio">Informe de envío</a>
                                     </li>
                                     <li>
                                         <a href="m4_4_requerimiento">Requerimiento información</a>
