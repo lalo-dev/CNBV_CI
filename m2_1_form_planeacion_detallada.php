@@ -104,7 +104,7 @@
         <!-- Page Content -->
         <div class="content">
             <div class="block">
-                <ul class="nav nav-tabs" data-toggle="tabs">
+                <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs">
                     <li class="active">
                         <a href="#search-info">Info</a>
                     </li>
@@ -149,29 +149,112 @@
                 <div class="block-content tab-content bg-white">
                     <!-- Info -->
                     <div class="tab-pane fade fade-up in active" id="search-info">
-                        
-                        <div class="border-b push-30">
-                            <h2 class="push-10">Opciones <span class="h5 font-w400 text-muted">Documento</span></h2>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="block block-themed">
+                                    <div class="block-header bg-primary-dark">
+                                        <h3 class="block-title">Estatus</h3>
+                                    </div>
+                                    <div class="block-content">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-3">
+                                                <div class="block-content block-content-full text-center">
+                                                    <i class="fa fa-battery-0 fa-2x text-success"></i>
+                                                    <div class="font-w600 push-8-t">En desarrollo</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-3">
+                                                <div class="block-content block-content-full text-center">
+                                                    <i class="fa fa-battery-1 fa-2x text-muted"></i>
+                                                    <div class="font-w600 push-8-t">Enviado a revisión</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-3">
+                                                <div class="block-content block-content-full text-center">
+                                                    <i class="fa fa-battery-2 fa-2x text-muted"></i>
+                                                    <div class="font-w600 push-8-t">En revisión</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-3">
+                                                <div class="block-content block-content-full text-center">
+                                                    <i class="fa fa-battery-4 fa-2x text-muted"></i>
+                                                    <div class="font-w600 push-8-t">Validado</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="block block-themed">
+                                    <div class="block-header bg-primary-dark">
+                                        <h3 class="block-title">Comentarios</h3>
+                                    </div>
+                                    <div class="block-content">
+                                        <div class="js-chat-container content content-narrow" data-chat-mode="fixed" data-chat-height="300">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <!-- Single Chat (Chat Window 3) -->
+                                                    <div class="block">
+                                                        <div class="block">
+                                                            <div class="js-chat-talk overflow-y-auto block-content block-content-full" data-chat-id="3">
+                                                                <!-- Messages -->
+                                                                <div class="font-s12 text-muted text-center push-20-t push-15"><em>Yesterday</em></div>
+                                                                <div class="block block-rounded block-transparent push-15 push-50-l">
+                                                                    <div class="block-content block-content-full block-content-mini bg-gray-lighter">Hi there!</div>
+                                                                </div>
+                                                                <div class="font-s12 text-muted text-center push-20-t push-10"><em>Today</em></div>
+                                                                <div class="block block-rounded block-transparent push-15 push-50-r">
+                                                                    <div class="block-content block-content-full block-content-mini bg-gray-light">Hi!!!</div>
+                                                                </div>
+                                                                <!-- END Messages -->
+                                                            </div>
+                                                            <div class="js-chat-form block-content block-content-full block-content-mini">
+                                                                <form action="base_ui_chat.html" method="post">
+                                                                    <input class="js-chat-input form-control" type="text" data-target-chat-id="3" placeholder="Type a message and hit enter..">
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END Single Chat (Chat Window 3) -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-lg-2 col-lg-offset-4">
-                                <a class="block block-link-hover2" href="javascript:void(0)">
-                                    <div class="block-content block-content-full bg-flat clearfix">
-                                        <i class="si si-eye fa-2x text-white pull-right"></i>
-                                        <span class="h4 font-w700 text-white">Carta</span>
-                                        <span class="h4 text-white-op">Planeación</span>
+                            <div class="col-md-12">
+                                <div class="block block-themed">
+                                    <div class="block-header bg-primary-dark">
+                                        <h3 class="block-title">Opciones</h3>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
-                                    <div class="block-content block-content-full bg-primary clearfix">
-                                        <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-                                        <span class="h4 font-w700 text-white">Carta</span>
-                                        <span class="h4 text-white-op">Planeación</span>
+                                    <div class="block-content">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-lg-offset-4">
+                                                <a class="block block-link-hover2" href="javascript:void(0)">
+                                                    <div class="block-content block-content-full bg-flat clearfix">
+                                                        <i class="si si-eye fa-2x text-white pull-right"></i>
+                                                        <span class="h4 font-w700 text-white">Carta</span>
+                                                        <span class="h4 text-white-op">Planeación</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
+                                                    <div class="block-content block-content-full bg-primary clearfix">
+                                                        <i class="si si-cloud-download fa-2x text-white pull-right"></i>
+                                                        <span class="h4 font-w700 text-white">Carta</span>
+                                                        <span class="h4 text-white-op">Planeación</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1270,7 +1353,6 @@
                             <h2 class="push-10">* <span class="h5 font-w400 text-muted">Problematica</span></h2>
                         </div>
 
-
                         <div class="row">
                             <div class="col-md-12">
                                 <form class="form-horizontal push-10-t" onsubmit="return false;">
@@ -1293,7 +1375,6 @@
                         </div>
                     </div>
                     <!-- END Problematica -->
-
 
                     <!-- Revisiones -->
                     <div class="tab-pane fade fade-up" id="search-projects">
@@ -1699,6 +1780,10 @@
         // Init page helpers (BS Datepicker + BS Datetimepicker + BS Colorpicker + BS Maxlength + Select2 + Masked Input + Range Sliders + Tags Inputs plugins)
         App.initHelpers(['datepicker', 'datetimepicker', 'colorpicker', 'maxlength', 'select2', 'masked-inputs', 'rangeslider', 'tags-inputs']);
     });
+
 </script>
+
+<!-- Page JS Code -->
+<script src="assets/js/pages/base_ui_chat.js"></script>
 </body>
 </html>

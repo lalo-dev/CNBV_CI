@@ -34,7 +34,7 @@
                                         <a class="submenuCnbv" href="m1_0_pat_completo">PAT</a>
                                     </li>
                                     <li>
-                                        <a class="submenuCnbv" href="presentaciones/presentacion_form">Presentación ejecutiva</a>
+                                        <a class="submenuCnbv" href="presentacion_form">Presentación ejecutiva</a>
                                     </li>
                                     <li>
                                         <a class="submenuCnbv" href="m1_4_mapa_riesgos">Mapa de riesgos</a>
@@ -106,13 +106,13 @@
                                                     <a href="m2_2_cedula_hallazgos">C&eacute;dula de hallazgos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">C&eacute;dula Resumen de actividades</a>
+                                                    <a href="m2_2_cedula_resumen_actividades">C&eacute;dula Resumen de actividades</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">C&eacute;dula de control interno</a>
+                                                    <a href="m2_2_cedula_control_interno">C&eacute;dula de control interno</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">C&eacute;dula de observaciones</a>
+                                                    <a href="m2_2_cedula_observaciones">C&eacute;dula de observaciones</a>
                                                 </li>
                                                 <li>
                                                     <a href="#">Acta Administrativa</a>
@@ -123,7 +123,33 @@
                                         <a href="m2_3_informe">Informe</a>
                                     </li>
                                     <li>
-                                        <a href="m2_4_cierre">Cierre</a>
+                                        <a href="#" class="nav-submenu" data-toggle="nav-submenu">Cierre</a>
+                                        <ul>
+                                            <li>
+                                                <a href="m2_2_informe_auditoria">Informe de auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Anexo R1 de oportunidad</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Memo Área de oportunidad</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C&eacute;dula Unica</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C&eacute;dula de supervisión de auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Indice legajo de auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Portada</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contraportada</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </li>

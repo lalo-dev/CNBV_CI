@@ -103,14 +103,14 @@
             <div class="row items-push">
                 <div class="col-sm-7">
                     <h1 class="page-heading">
-                        Procesos <small>Catálogo</small>
+                        Alcances Carta Planeación <small>Catálogo</small>
                     </h1>
                 </div>
                 <div class="col-sm-5 text-right hidden-xs">
                     <ol class="breadcrumb push-10-t">
                         <li>Administración</li>
                         <li><a href="m50_1_catalogos.php">Catálogos</a></li>
-                        <li>Procesos</li>
+                        <li>Alcance</li>
                     </ol>
                 </div>
             </div>
@@ -147,26 +147,40 @@
                             </div>
                             <div class="block-content">
                                 <form class="form-horizontal push-10-t" action="#" method="post">
-
                                     <div class="form-group">
-                                        <div class="col-sm-4">
+                                        <div class="col-md-3">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="titulo" name="titulo">
-                                                <label for="titulo">Proceso</label>
+                                                <select class="form-control input-sm" id="estatus" name="estatus">
+                                                    <option></option>
+                                                    <option value="1">Adquiciciones</option>
+                                                    <option value="2">General</option>
+                                                    <option value="3">Estructura</option>
+                                                </select>
+                                                <label for="estatus">Proceso</label>
                                             </div>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-md-9">
+                                            <div class="form-material form-material-primary floating">
+                                                <input class="form-control input-sm" type="text" id="titulo" name="titulo">
+                                                <label for="titulo">Alcance</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="titulo" name="titulo">
                                                 <label for="titulo">Valor</label>
                                             </div>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-9">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="titulo" name="titulo">
                                                 <label for="titulo">Descripción</label>
                                             </div>
                                         </div>
+
                                     </div>
 
                                     <div class="form-group">
@@ -191,6 +205,7 @@
                                     <tr>
                                         <th class="text-center">#</th>
                                         <th class="text-left">Proceso</th>
+                                        <th class="text-left">Alcance</th>
                                         <th class="text-left">Valor</th>
                                         <th class="text-left">Descripción</th>
                                         <th class="text-center">Fecha</th>
@@ -200,7 +215,8 @@
                                 <tbody>
                                     <tr>
                                         <td class="text-center">1</td>
-                                        <td>Libro</td>
+                                        <td>General</td>
+                                        <td>Revisar los procesos de contrataciones y cumplimiento de los mismos.</td>
                                         <td>Valor del Ítem</td>
                                         <td>Descripción del Ítem</td>
                                         <td class="text-center">12-12-2016</td>
@@ -217,7 +233,8 @@
                                     </tr>
                                     <tr>
                                         <td class="text-center">2</td>
-                                        <td>Libreta</td>
+                                        <td>General</td>
+                                        <td>Revisar los procesos de contrataciones y cumplimiento de los mismos.</td>
                                         <td>Valor del Ítem</td>
                                         <td>Descripción del Ítem</td>
                                         <td class="text-center">12-12-2016</td>
@@ -234,7 +251,8 @@
                                     </tr>
                                     <tr>
                                         <td class="text-center">3</td>
-                                        <td>Hoja</td>
+                                        <td>General</td>
+                                        <td>Revisar los procesos de contrataciones y cumplimiento de los mismos.</td>
                                         <td>Valor del Ítem</td>
                                         <td>Descripción del Ítem</td>
                                         <td class="text-center">12-12-2016</td>

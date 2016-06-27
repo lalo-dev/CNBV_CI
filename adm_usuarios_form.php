@@ -495,7 +495,33 @@
                                                 <label for="coo">Coordenada</label>
                                             </div>
                                         </div>
-                                        
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <fieldset>
+                                                <legend>Cédula</legend>
+                                                <div class="form-group">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-material form-material-primary floating">
+                                                            <input class="form-control input-sm" type="text" id="cedula">
+                                                            <label for="cedula">No. Cédula</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-1">
+                                                        <button class="btn btn-info btn-sm" type="button">
+                                                            <i class="fa fa-download"></i> Descargar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-sm-5">
+                                                        <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
+                                                        <div class="col-sm-12">
+                                                            <input type="file" id="example-file-input" name="example-file-input">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
                                     </div>
 
                                     <div class="row">
@@ -556,7 +582,7 @@
                                             </fieldset>
                                         </div>
                                         <div class="col-md-6">
-                                            <legend>Fotografia</legend>
+                                            <legend>Fotografía</legend>
                                             <div class="form-group">
                                                 <div class="col-sm-2">
                                                     <button class="btn btn-info btn-sm" type="button">

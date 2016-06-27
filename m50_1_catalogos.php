@@ -147,15 +147,15 @@
                                 <a class="block block-link-hover2" href="m50_2_estatus_docs">
                                     <div class="block-content block-content-full bg-primary clearfix">
                                         <i class="fa fa-warning fa-2x text-white pull-right"></i>
-                                        <span class="h4 font-w700 text-white">3</span> <span class="h4 text-white-op">Estatus documento</span>
+                                        <span class="h4 font-w700 text-white">16</span> <span class="h4 text-white-op">Procesos</span>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-6">
-                                <a class="block block-link-hover2" href="javascript:void(0)">
+                                <a class="block block-link-hover2" href="m50_3_alcances">
                                     <div class="block-content block-content-full bg-primary clearfix">
-                                        <i class="fa fa-terminal fa-2x text-white pull-right"></i>
-                                        <span class="h4 font-w700 text-white">9</span> <span class="h4 text-white-op">Claves de programa</span>
+                                        <i class="fa fa-warning fa-2x text-white pull-right"></i>
+                                        <span class="h4 font-w700 text-white">72</span> <span class="h4 text-white-op">Alcances Carta Planeación</span>
                                     </div>
                                 </a>
                             </div>

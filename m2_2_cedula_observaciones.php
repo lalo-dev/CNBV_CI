@@ -43,30 +43,12 @@
     </head>
     <body>
         <!-- Page Container -->
-        <!--
-            Available Classes:
-
-            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
-
-            'sidebar-l'                  Left Sidebar and right Side Overlay
-            'sidebar-r'                  Right Sidebar and left Side Overlay
-            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
-            'sidebar-o'                  Visible Sidebar by default (> 991px)
-            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
-
-            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
-            'side-overlay-o'             Visible Side Overlay by default (> 991px)
-
-            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
-
-            'header-navbar-fixed'        Enables fixed header
-        -->
         <div id="page-container" class="sidebar-l sidebar-o side-scroll header-navbar-fixed">
             <!-- Side Overlay-->
             <?php include_once('sideContent.php'); ?>
             <!-- END Side Overlay -->
 
-            <!-- Sidebar -->
+            <!-- Sidebar -->            
             <?php include_once('menu.php'); ?>
             <!-- END Sidebar -->
 
@@ -103,12 +85,13 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                PAT Completo <small>Listado de PATs cargados en el sistema</small>
+                                Cedula de observaciones<small> Ejecuci&oacute;n</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Planeación anual</li>
+                                <li>Auditoría</li>
+                                <li>Ejecuci&oacute;n</li>
                             </ol>
                         </div>
                     </div>
@@ -120,7 +103,7 @@
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
                             <li class="active">
-                                <a href="#search-projects">PATs</a>
+                                <a href="#search-projects">Auditorías</a>
                             </li>
                             <li class="pull-right">
                                 <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
@@ -137,124 +120,52 @@
                             <!-- Projects -->
                             <div class="tab-pane fade fade-up in active" id="search-projects">
                                 <div class="border-b push-30">
-                                    <h2 class="push-10">7 <span class="h5 font-w400 text-muted">PAT encontrados</span></h2>
+                                    <h2 class="push-10">4 <span class="h5 font-w400 text-muted">Auditorías encontradas</span></h2>
                                 </div>
                                 <table class="table table-striped table-vcenter table-condensed">
                                     <thead>
                                         <tr>
-                                            <th style="width: 30%;"><i class="fa fa-folder-open-o text-gray"></i> PAT</th>
-                                            <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Auditorias</th>
-                                            <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Seguimientos</th>
-                                            <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Observaciones</th>
-                                            <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> PRAS</th>
-                                            <th class="text-center" style=""><i class="fa fa-warning text-gray"></i> Autorizado</th>
+                                            <th style="width: 30%;"><i class="fa fa-folder-open-o text-gray"></i> Auditoría</th>
+                                            <th class="text-left" style=""><i class="fa fa-file-o text-gray"></i> Dirección General</th>
+                                            <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Auditores</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="m1_0_0_form_pat_completo.php">Programa Anual de Trabajo 2016</a>
+                                                    <a class="link-effect" href="m2_1_form_cedula_observaciones">Auditoría XXXX XXXXX</a>
                                                 </h3>
-                                                <div class="push-10">    
-                                                    <span class="label label-primary"><i class="fa fa-check"></i> Programado</span>
-                                                </div>
                                             </td>
-                                            <td class="h3 text-center">0</td>
-                                            <td class="h3 text-center">0</td>
-                                            <td class="h3 text-center">0</td>
-                                            <td class="h3 text-center">0</td>
-                                            <td class="h3 text-center">0</td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">4</td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="javascript:void(0)">Programa Anual de Trabajo 2015</a>
+                                                    <a class="link-effect" href="m2_1_form_cedula_observaciones">Auditoría XXXX XXXXX</a>
                                                 </h3>
-                                                <div class="push-10">
-                                                    <span class="label label-warning"><i class="fa fa-refresh fa-spin"></i> En proceso</span>
-                                                </div>
                                             </td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">3</td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="javascript:void(0)">Programa Anual de Trabajo 2014</a>
+                                                    <a class="link-effect" href="#">Auditoría XXXX XXXXX</a>
                                                 </h3>
-                                                <div class="push-10">
-                                                    <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
-                                                </div>
                                             </td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">6</td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="javascript:void(0)">Programa Anual de Trabajo 2013</a>
+                                                    <a class="link-effect" href="#">Auditoría XXXX XXXXX</a>
                                                 </h3>
-                                                <div class="push-10">
-                                                    <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
-                                                </div>
                                             </td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="javascript:void(0)">Programa Anual de Trabajo 2012</a>
-                                                </h3>
-                                                <div class="push-10">
-                                                    <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
-                                                </div>
-                                            </td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="javascript:void(0)">Programa Anual de Trabajo 2011</a>
-                                                </h3>
-                                                <div class="push-10">
-                                                    <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
-                                                </div>
-                                            </td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="javascript:void(0)">Programa Anual de Trabajo 2010</a>
-                                                </h3>
-                                                <div class="push-10">
-                                                    <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
-                                                </div>
-                                            </td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
+                                            <td class="text-left">Dirección general auditada</td>
+                                            <td class="text-center">2</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -271,14 +182,6 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                            <div class="block-content block-content-full">
-                                                <i class="si si-folder fa-4x text-success"></i>
-                                                <div class="font-w600 push-15-t">Nuevo PAT</div>
-                                            </div>
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -289,7 +192,12 @@
             <!-- END Main Container -->
 
             <!-- Footer -->
-            <?php include_once('footer.php'); ?>
+            <footer id="page-footer" class="content-mini content-mini-full font-s12 bg-gray-lighter clearfix">
+                
+                <div class="pull-left">
+                    <a class="font-w600" href="" target="_blank">CNBV</a> &copy; <span class="js-year-copy"></span>
+                </div>
+            </footer>
             <!-- END Footer -->
         </div>
         <!-- END Page Container -->
