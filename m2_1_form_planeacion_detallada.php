@@ -185,7 +185,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-9">
                                 <div class="block block-themed">
                                     <div class="block-header bg-primary-dark">
                                         <h3 class="block-title">Comentarios</h3>
@@ -234,7 +234,7 @@
                                     </div>
                                     <div class="block-content">
                                         <div class="row">
-                                            <div class="col-lg-2 col-lg-offset-4">
+                                            <div class="col-lg-4 col-lg-offset-2">
                                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                                     <div class="block-content block-content-full bg-flat clearfix">
                                                         <i class="si si-eye fa-2x text-white pull-right"></i>
@@ -243,7 +243,7 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-4">
                                                 <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
                                                     <div class="block-content block-content-full bg-primary clearfix">
                                                         <i class="si si-cloud-download fa-2x text-white pull-right"></i>
