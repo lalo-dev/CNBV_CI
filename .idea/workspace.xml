@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a8f1b2a-5eeb-4454-930a-036014f8bd5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adm_usuarios_form.php" afterPath="$PROJECT_DIR$/adm_usuarios_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m1_0_0_form_pat_completo.php" afterPath="$PROJECT_DIR$/m1_0_0_form_pat_completo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m1_0_pat_completo.php" afterPath="$PROJECT_DIR$/m1_0_pat_completo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m2_1_form_orden_auditoria_detallada.php" afterPath="$PROJECT_DIR$/m2_1_form_orden_auditoria_detallada.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m2_1_form_planeacion_detallada.php" afterPath="$PROJECT_DIR$/m2_1_form_planeacion_detallada.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m50_1_catalogos.php" afterPath="$PROJECT_DIR$/m50_1_catalogos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m50_2_estatus_docs.php" afterPath="$PROJECT_DIR$/m50_2_estatus_docs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.php" afterPath="$PROJECT_DIR$/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php" afterPath="$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php" />
     </list>
     <ignored path="CNBV_pro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,32 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="m50_1_catalogos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m50_1_catalogos.php">
+      <file leaf-file-name="m2_1_form_programa_trabajo_detallada.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-35.625">
-              <caret line="141" column="99" selection-start-line="141" selection-start-column="99" selection-end-line="141" selection-end-column="99" />
+            <state vertical-scroll-proportion="0.38190183">
+              <caret line="211" column="80" selection-start-line="211" selection-start-column="80" selection-end-line="211" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m50_2_estatus_docs.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m50_2_estatus_docs.php">
+      <file leaf-file-name="m2_1_form_planeacion_detallada.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m2_1_form_planeacion_detallada.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m50_3_alcances.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/m50_3_alcances.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5291411">
-              <caret line="254" column="112" selection-start-line="254" selection-start-column="112" selection-end-line="254" selection-end-column="112" />
-              <folding />
+            <state vertical-scroll-proportion="-8.166667">
+              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="1731" selection-end-column="14" />
+              <folding>
+                <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +72,7 @@
         <option value="$PROJECT_DIR$/m50_1_catalogos.php" />
         <option value="$PROJECT_DIR$/m50_2_estatus_docs.php" />
         <option value="$PROJECT_DIR$/m50_3_alcances.php" />
+        <option value="$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php" />
       </list>
     </option>
   </component>
@@ -203,7 +189,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -241,19 +227,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/m1_0_pat_completo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m2_1_form_planeacion_detallada.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -261,7 +238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="181" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -297,7 +273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1281" column="50" selection-start-line="1281" selection-start-column="50" selection-end-line="1281" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -333,7 +308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="523" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,7 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1315" column="83" selection-start-line="1315" selection-start-column="83" selection-end-line="1315" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -398,7 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="523" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,38 +546,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="181" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2_1_form_planeacion_detallada.php">
+    <entry file="file://$PROJECT_DIR$/m50_3_alcances.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m50_1_catalogos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.625">
-          <caret line="141" column="99" selection-start-line="141" selection-start-column="99" selection-end-line="141" selection-end-column="99" />
+        <state vertical-scroll-proportion="0.5490798">
+          <caret line="254" column="112" selection-start-line="254" selection-start-column="112" selection-end-line="254" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m50_2_estatus_docs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
+        <state vertical-scroll-proportion="0.023006136">
           <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m50_3_alcances.php">
+    <entry file="file://$PROJECT_DIR$/m50_1_catalogos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5291411">
-          <caret line="254" column="112" selection-start-line="254" selection-start-column="112" selection-end-line="254" selection-end-column="112" />
+        <state vertical-scroll-proportion="0.023006136">
+          <caret line="141" column="99" selection-start-line="141" selection-start-column="99" selection-end-line="141" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2_1_form_planeacion_detallada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.166667">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="1731" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38190183">
+          <caret line="211" column="80" selection-start-line="211" selection-start-column="80" selection-end-line="211" selection-end-column="80" />
           <folding />
         </state>
       </provider>
