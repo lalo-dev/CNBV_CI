@@ -160,7 +160,11 @@
                                     </div>
                                 </div>
                             </div>
+<<<<<<< HEAD
                             <div class="col-md-8">
+=======
+                            <div class="col-md-9">
+>>>>>>> delfi
                                 <div class="block block-themed">
                                     <div class="block-header bg-primary-dark">
                                         <h3 class="block-title">Comentarios</h3>
@@ -200,7 +204,6 @@
 
                             </div>
                         </div>
-
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="block block-themed">
@@ -209,21 +212,37 @@
                                     </div>
                                     <div class="block-content">
                                         <div class="row">
+<<<<<<< HEAD
                                             <div class="col-md-3 col-md-offset-3">
+=======
+                                            <div class="col-lg-2 col-lg-offset-4">
+>>>>>>> delfi
                                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                                     <div class="block-content block-content-full bg-flat clearfix">
                                                         <i class="si si-eye fa-2x text-white pull-right"></i>
                                                         <span class="h4 font-w700 text-white">Programa</span>
+<<<<<<< HEAD
                                                         <span class="h4 text-white-op">de Trabajo</span>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div class="col-md-3">
+=======
+                                                        <span class="h4 text-white-op">Trabajo</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-2">
+>>>>>>> delfi
                                                 <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
                                                     <div class="block-content block-content-full bg-primary clearfix">
                                                         <i class="si si-cloud-download fa-2x text-white pull-right"></i>
                                                         <span class="h4 font-w700 text-white">Programa</span>
+<<<<<<< HEAD
                                                         <span class="h4 text-white-op">de Trabajo</span>
+=======
+                                                        <span class="h4 text-white-op">Trabajo</span>
+>>>>>>> delfi
                                                     </div>
                                                 </a>
                                             </div>
@@ -442,5 +461,7 @@
         App.initHelpers(['datepicker', 'datetimepicker', 'colorpicker', 'maxlength', 'select2', 'masked-inputs', 'rangeslider', 'tags-inputs']);
     });
 </script>
+<!-- Page JS Code -->
+<script src="assets/js/pages/base_ui_chat.js"></script>
 </body>
 </html>

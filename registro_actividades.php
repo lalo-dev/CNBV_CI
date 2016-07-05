@@ -842,7 +842,7 @@
                                         </a>
                                     </div>
                                     <div class="col-xs-6 col-sm-2 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="m1_0_0_form_pat_agregar.php">
+                                        <a class="block block-link-hover3 text-center" href="#">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-doc fa-4x text-primary"></i>
                                                 <div class="font-w600 push-15-t">Agregar Revisión</div>
@@ -902,7 +902,7 @@
                                         <!-- END Messages -->
                                     </div>
                                     <div class="js-chat-form block-content block-content-full block-content-mini">
-                                        <form action="m1_0_0_form_pat_completo.php" method="post">
+                                        <form action="#" method="post">
                                             <input class="js-chat-input form-control" type="text" data-target-chat-id="3" placeholder="Type a message and hit enter..">
                                         </form>
                                     </div>
@@ -952,7 +952,7 @@
                                         <!-- END Messages -->
                                     </div>
                                     <div class="js-chat-form block-content block-content-full block-content-mini">
-                                        <form action="m1_0_0_form_pat_completo.php" method="post">
+                                        <form action="#" method="post">
                                             <input class="js-chat-input form-control" type="text" data-target-chat-id="3" placeholder="Type a message and hit enter..">
                                         </form>
                                     </div>
