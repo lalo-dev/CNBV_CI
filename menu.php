@@ -31,7 +31,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Planeación anual</span></a>
                                 <ul>
                                     <li>
-                                        <a class="submenuCnbv" href="m1_0_pat_completo">PAT</a>
+                                        <a class="submenuCnbv" href="m1_0_pat">PAT</a>
                                     </li>
                                     <li>
                                         <a class="submenuCnbv" href="presentacion_form">Presentación ejecutiva</a>
@@ -123,6 +123,31 @@
                                         <a href="#" class="nav-submenu" data-toggle="nav-submenu">Cierre</a>
                                         <ul>
                                             <li>
+                                                <a href="#">Informe de Auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Oficio de envío del Informe para el Presidente</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Memorándum de Áreas de Oportunidad</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Cédula Única de Auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Cédula de Supervisión de Auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Índice del Legajo de Auditoría</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Portada</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contraportada</a>
+                                            </li>
+                                            <!--
+                                            <li>
                                                 <a href="m2_2_informe_auditoria">Informe de auditoría</a>
                                             </li>
                                             <li>
@@ -146,6 +171,7 @@
                                             <li>
                                                 <a href="#">Contraportada</a>
                                             </li>
+                                            -->
                                         </ul>
                                     </li>
                                 </ul>
@@ -153,6 +179,17 @@
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Seguimiento</span></a>
                                 <ul>
+                                    <li>
+                                        <a href="#">Cédula de Seguimiento de Observaciones</a>
+                                        <a href="#">Requerimiento de Información</a>
+                                        <a href="#">Informes de Seguimiento</a>
+                                        <a href="#">Cédula de Supervisión de Seguimiento</a>
+                                        <a href="#">Cédula Única de Seguimiento</a>
+                                        <a href="#">Índice del Legajo de Seguimiento</a>
+                                        <a href="#">Portada</a>
+                                        <a href="#">Contraportada</a>
+                                    </li>
+                                    <!--
                                     <li>
                                         <a href="m3_1_ejecucion">Ejecución</a>
                                     </li>
@@ -162,11 +199,25 @@
                                     <li>
                                         <a href="m3_3_cierre">Cierre</a>
                                     </li>
+                                    -->
                                 </ul>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">PRAS</span></a>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">PRA</span></a>
                                 <ul>
+                                    <li>
+                                        <a href="#">Solicitud de asesoría no vinculante</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Informe de Presunta Responsabilidad</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Solicitud de información</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Anexos</a>
+                                    </li>
+                                    <!--
                                     <li>
                                         <a href="m4_1_informe_pra">Informe de PRAS</a>
                                     </li>
@@ -182,12 +233,22 @@
                                     <li>
                                         <a href="m4_5_anexos">Anexos al informe de PRAS</a>
                                     </li>
+                                    -->
                                 </ul>
                             </li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Reportes</span></a>
                                 <ul>
                                     <li>
+                                        <a href="#">Reporte avance semanal auditoría</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reportes adicionales</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reportes AAI</a>
+                                    </li>
+                                    <!--<li>
                                         <a href="m5_1_reporte_auditorias">Auditorías</a>
                                     </li>
                                     <li>
@@ -208,6 +269,7 @@
                                     <li>
                                         <a href="reportes_observaciones">Observaciones</a>
                                     </li>
+                                    -->
                                 </ul>
                             </li>
                             <li>
