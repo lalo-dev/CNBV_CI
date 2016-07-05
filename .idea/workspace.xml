@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a8f1b2a-5eeb-4454-930a-036014f8bd5d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php" afterPath="$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php" />
     </list>
     <ignored path="CNBV_pro.iws" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="m2_1_form_programa_trabajo_detallada.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38190183">
-              <caret line="211" column="80" selection-start-line="211" selection-start-column="80" selection-end-line="211" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.9539877">
+              <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -38,11 +37,9 @@
       <file leaf-file-name="m2_1_form_planeacion_detallada.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m2_1_form_planeacion_detallada.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.166667">
+            <state vertical-scroll-proportion="0.0">
               <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="1731" selection-end-column="14" />
-              <folding>
-                <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,6 +132,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +186,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -553,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5490798">
           <caret line="254" column="112" selection-start-line="254" selection-start-column="112" selection-end-line="254" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.023006136">
           <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,24 +564,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.023006136">
           <caret line="141" column="99" selection-start-line="141" selection-start-column="99" selection-end-line="141" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m2_1_form_planeacion_detallada.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.166667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="1731" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m2_1_form_programa_trabajo_detallada.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38190183">
-          <caret line="211" column="80" selection-start-line="211" selection-start-column="80" selection-end-line="211" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.9539877">
+          <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
           <folding />
         </state>
       </provider>
