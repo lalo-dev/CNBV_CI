@@ -442,5 +442,6 @@
         App.initHelpers(['datepicker', 'datetimepicker', 'colorpicker', 'maxlength', 'select2', 'masked-inputs', 'rangeslider', 'tags-inputs']);
     });
 </script>
+<script src="assets/js/pages/base_ui_chat.js"></script>
 </body>
 </html>
