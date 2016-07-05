@@ -120,9 +120,6 @@
                                             </ul>
                                     </li>
                                     <li>
-                                        <a href="m2_3_informe">Informe</a>
-                                    </li>
-                                    <li>
                                         <a href="#" class="nav-submenu" data-toggle="nav-submenu">Cierre</a>
                                         <ul>
                                             <li>

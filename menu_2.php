@@ -57,9 +57,6 @@
                                         <a href="../m2_2_ejecucion">Ejecución</a>
                                     </li>
                                     <li>
-                                        <a href="../m2_3_informe">Informe</a>
-                                    </li>
-                                    <li>
                                         <a href="../m2_4_cierre">Cierre</a>
                                     </li>
                                 </ul>
