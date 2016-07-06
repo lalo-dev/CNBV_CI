@@ -410,7 +410,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
