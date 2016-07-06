@@ -154,7 +154,7 @@
                                         <tr>
                                             <td>
                                                 <h3 class="h5 font-w600 push-10">
-                                                    <a class="link-effect" href="m1_0_0_form_pat_completo.php">Programa Anual de Trabajo 2016</a>
+                                                    <a class="link-effect" href="m1_0_0_form_pat_2016">Programa Anual de Trabajo 2016</a>
                                                 </h3>
                                                 <div class="push-10">    
                                                     <span class="label label-primary"><i class="fa fa-check"></i> Programado</span>
@@ -272,7 +272,7 @@
                                         </a>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="#">
+                                        <a class="block block-link-hover3 text-center" href="m1_0_0_form_nuevo_pat">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-folder fa-4x text-success"></i>
                                                 <div class="font-w600 push-15-t">Nuevo PAT</div>

@@ -103,425 +103,164 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Agregar revisión <small>PAT 2016</small>
+                                Nuevo PAT <small>PAT</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Planeación anual</li>
-                                <li><a class="link-effect" href="m1_0_pat_completo">PAT Completo</a></li>
-                                <li><a class="link-effect" href="m1_0_0_form_pat_completo">PAT 2016</a></li>
+                                <li><a class="link-effect" href="m1_0_pat">PAT</a></li>
                             </ol>
                         </div>
                     </div>
                 </div>
                 <!-- END Page Header -->
-
                 <!-- Page Content -->
                 <div class="content">
                     
                     <div class="row">
                         <div class="col-lg-12">
-                            <!-- Material Forms Validation -->
                             <div class="block">
-                                <div class="block-content block-content-narrow">
-                                    <!-- jQuery Validation (.js-validation-material class is initialized in js/pages/base_forms_validation.js) -->
-                                    <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                                    <form class="js-validation-material form-horizontal push-10-t" action="#" method="post">
-                                        <div class="form-group">
-                                            <div class="col-sm-3">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val-username2" name="val-username2">
-                                                    <label for="val-username2">No. revisión</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill1" name="val-skill1">
-                                                        <option></option>
-                                                        <option value="pr">Auditoria</option>
-                                                        <option value="ad">Seguimiento</option>
-                                                    </select>
-                                                    <label for="val-skill1">Tipo revisión</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="pro_adic" name="pro_adic">
-                                                        <option></option>
-                                                        <option value="pr">Programada</option>
-                                                        <option value="ad">Adicional</option>
-                                                    </select>
-                                                    <label for="pro_adic">Prog / Adic</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="clave" name="clave">
-                                                        <option></option>
-                                                        <option value="100">100</option>
-                                                        <option value="200">200</option>
-                                                        <option value="300">300</option>
-                                                        <option value="400">400</option>
-                                                        <option value="500">500</option>
-                                                        <option value="600">600</option>
-                                                        <option value="700">700</option>
-                                                        <option value="800">800</option>
-                                                        <option value="900">900</option>
-                                                    </select>
-                                                    <label for="clave">Clave</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-3">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="instancia" name="instancia">
-                                                        <option></option>
-                                                        <option value="oic">OIC</option>
-                                                        <option value="otro">Otro</option>
-                                                    </select>
-                                                    <label for="instancia">Instancia</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-9">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="justificacion" name="justificacion">
-                                                        <option></option>
-                                                        <option value="j1">ÁREAS CRÍTICAS PROCLIVES A CORRUPCIÓN</option>
-                                                        <option value="j2">CANTIDAD DE OBSERVACIONES Y/O ACCIONES DE MEJORA DE CONTROL INTERNO</option>
-                                                        <option value="j3">AREA O RUBRO NO REVISADO CON ANTIGÜEDAD MAYOR A UN AÑO</option>
-                                                    </select>
-                                                    <label for="justificacion">Justificación</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="area_revisar" name="area_revisar">
-                                                        <option></option>
-                                                        <option value="a1">DGs de Supervisión de la CNBV (Proceso de Supervisión, Autorizaciones y Sanciones)</option>
-                                                        <option value="a2">Áreas involucradas (seguimiento)</option>
-                                                        <option value="a3">DG de Prevención de Operaciones con Recursos de Procedencia Ilícita A y B (Proceso de Supervisión)</option>
-                                                        <option value="a4">DG de Visitas de Investigación (Proceso de Soporte Legal)</option>
-                                                        <option value="a5">DG de Normatividad  (Proceso Soporte Legal)</option>
-                                                        <option value="a6">DG de Desarrollo Regulatorio (Proceso de Regulacion)</option>
-                                                    </select>
-                                                    <label for="area_revisar">Área a revisar</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material form-material-primary floating">
-                                                    <textarea class="form-control input-sm" id="val-suggestions2" name="val-suggestions2" rows="6"></textarea>
-                                                    <label for="val-suggestions2">Descripción</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material form-material-primary floating">
-                                                    <textarea class="form-control input-sm" id="val-suggestions2" name="val-suggestions2" rows="6"></textarea>
-                                                    <label for="val-suggestions2">Objetivo</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="sem_inicio" name="sem_inicio">
-                                                        <option></option>
-                                                        <option value="1">Semana 1</option>
-                                                        <option value="2">Semana 2</option>
-                                                        <option value="3">Semana 3</option>
-                                                        <option value="4">Semana 4</option>
-                                                        <option value="5">Semana 5</option>
-                                                        <option value="6">Semana 6</option>
-                                                        <option value="7">Semana 7</option>
-                                                        <option value="8">Semana 8</option>
-                                                        <option value="9">Semana 9</option>
-                                                        <option value="10">Semana 10</option>
-                                                        <option value="11">Semana 11</option>
-                                                        <option value="12">Semana 12</option>
-                                                        <option value="13">Semana 13</option>
-                                                        <option value="14">Semana 14</option>
-                                                        <option value="15">Semana 15</option>
-                                                        <option value="16">Semana 16<</option>
-                                                        <option value="17">Semana 17</option>
-                                                        <option value="18">Semana 18</option>
-                                                        <option value="19">Semana 19</option>
-                                                        <option value="20">Semana 20</option>
-                                                        <option value="21">Semana 21</option>
-                                                        <option value="22">Semana 22</option>
-                                                        <option value="23">Semana 23</option>
-                                                        <option value="24">Semana 24</option>
-                                                        <option value="25">Semana 25</option>
-                                                        <option value="26">Semana 26</option>
-                                                        <option value="27">Semana 27</option>
-                                                        <option value="28">Semana 28</option>
-                                                        <option value="29">Semana 29</option>
-                                                        <option value="30">Semana 30</option>
-                                                        <option value="31">Semana 31</option>
-                                                        <option value="32">Semana 32</option>
-                                                        <option value="33">Semana 33</option>
-                                                        <option value="34">Semana 34</option>
-                                                        <option value="35">Semana 35</option>
-                                                        <option value="36">Semana 36</option>
-                                                        <option value="37">Semana 37</option>
-                                                        <option value="38">Semana 38</option>
-                                                        <option value="39">Semana 39</option>
-                                                        <option value="40">Semana 40</option>
-                                                        <option value="41">Semana 41</option>
-                                                        <option value="42">Semana 42</option>
-                                                        <option value="43">Semana 43</option>
-                                                        <option value="44">Semana 44</option>
-                                                        <option value="45">Semana 45</option>
-                                                        <option value="46">Semana 46</option>
-                                                        <option value="47">Semana 47</option>
-                                                        <option value="48">Semana 48</option>
-                                                        <option value="49">Semana 49</option>
-                                                        <option value="50">Semana 50</option>
-                                                        <option value="51">Semana 51</option>
-                                                        <option value="52">Semana 52</option>
-                                                    </select>
-                                                    <label for="sem_inicio">Semana Inicio</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="sem_fin" name="sem_fin">
-                                                        <option></option>
-                                                        <option value="1">Semana 1</option>
-                                                        <option value="2">Semana 2</option>
-                                                        <option value="3">Semana 3</option>
-                                                        <option value="4">Semana 4</option>
-                                                        <option value="5">Semana 5</option>
-                                                        <option value="6">Semana 6</option>
-                                                        <option value="7">Semana 7</option>
-                                                        <option value="8">Semana 8</option>
-                                                        <option value="9">Semana 9</option>
-                                                        <option value="10">Semana 10</option>
-                                                        <option value="11">Semana 11</option>
-                                                        <option value="12">Semana 12</option>
-                                                        <option value="13">Semana 13</option>
-                                                        <option value="14">Semana 14</option>
-                                                        <option value="15">Semana 15</option>
-                                                        <option value="16">Semana 16<</option>
-                                                        <option value="17">Semana 17</option>
-                                                        <option value="18">Semana 18</option>
-                                                        <option value="19">Semana 19</option>
-                                                        <option value="20">Semana 20</option>
-                                                        <option value="21">Semana 21</option>
-                                                        <option value="22">Semana 22</option>
-                                                        <option value="23">Semana 23</option>
-                                                        <option value="24">Semana 24</option>
-                                                        <option value="25">Semana 25</option>
-                                                        <option value="26">Semana 26</option>
-                                                        <option value="27">Semana 27</option>
-                                                        <option value="28">Semana 28</option>
-                                                        <option value="29">Semana 29</option>
-                                                        <option value="30">Semana 30</option>
-                                                        <option value="31">Semana 31</option>
-                                                        <option value="32">Semana 32</option>
-                                                        <option value="33">Semana 33</option>
-                                                        <option value="34">Semana 34</option>
-                                                        <option value="35">Semana 35</option>
-                                                        <option value="36">Semana 36</option>
-                                                        <option value="37">Semana 37</option>
-                                                        <option value="38">Semana 38</option>
-                                                        <option value="39">Semana 39</option>
-                                                        <option value="40">Semana 40</option>
-                                                        <option value="41">Semana 41</option>
-                                                        <option value="42">Semana 42</option>
-                                                        <option value="43">Semana 43</option>
-                                                        <option value="44">Semana 44</option>
-                                                        <option value="45">Semana 45</option>
-                                                        <option value="46">Semana 46</option>
-                                                        <option value="47">Semana 47</option>
-                                                        <option value="48">Semana 48</option>
-                                                        <option value="49">Semana 49</option>
-                                                        <option value="50">Semana 50</option>
-                                                        <option value="51">Semana 51</option>
-                                                        <option value="52">Semana 52</option>
-                                                    </select>
-                                                    <label for="sem_fin">Semana Fin</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="xyz" name="xyz">
-                                                        <option></option>
-                                                        <option value="1">21</option>
-                                                        <option value="2">22</option>
-                                                        <option value="3">23</option>
-                                                        <option value="4">24</option>
-                                                        <option value="5">25</option>
-                                                        <option value="6">26</option>
-                                                        <option value="7">27</option>
-                                                        <option value="8">28</option>
-                                                        <option value="9">29</option>
-                                                        <option value="10">30</option>
-                                                    </select>
-                                                    <label for="xyz">TS. Revisión</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="1">191</option>
-                                                        <option value="2">192</option>
-                                                        <option value="3">193</option>
-                                                        <option value="4">194</option>
-                                                        <option value="5">195</option>
-                                                        <option value="6">196</option>
-                                                        <option value="7">197</option>
-                                                        <option value="8">198</option>
-                                                        <option value="9">199</option>
-                                                        <option value="10">200</option>
-                                                    </select>
-                                                    <label for="val-skill4">TS. Hombre</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="js-datepicker form-control input-sm" type="text" id="periodo_revision_inicio" name="periodo_revision_inicio" data-date-format="mm/dd/yy">
-                                                    <label for="periodo_revision_inicio">Periodo Revisión Inicio</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="js-datepicker form-control input-sm" type="text" id="periodo_revision_fin" name="periodo_revision_fin" data-date-format="mm/dd/yy">
-                                                    <label for="periodo_revision_fin">Periodo Revisión Fin</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-4">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="oic">1/2014</option>
-                                                        <option value="otro">2/2014</option>
-                                                        <option value="otro">3/2014</option>
-                                                        <option value="otro">4/2014</option>
-                                                        <option value="otro">5/2014</option>
-                                                        <option value="otro">6/2014</option>
-                                                        <option value="otro">7/2014</option>
-                                                        <option value="otro">8/2014</option>
-                                                        <option value="otro">9/2014</option>
-                                                        <option value="otro">10/2014</option>
-                                                        <option value="otro">11/2014</option>
-                                                        <option value="otro">12/2014</option>
-                                                        <option value="otro">13/2014</option>
-                                                        <option value="otro">14/2014</option>
-                                                    </select>
-                                                    <label for="val-skill4">Auditoría precedente</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="oic">Se determinará en la auditoría.</option>
-                                                        <option value="otro">100%</option>
-                                                    </select>
-                                                    <label for="val-skill4">Muestra</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="oic">100%</option>
-                                                        <option value="otro">90%</option>
-                                                        <option value="otro">80%</option>
-                                                        <option value="otro">70%</option>
-                                                        <option value="otro">60%</option>
-                                                        <option value="otro">50%</option>
-                                                    </select>
-                                                    <label for="val-skill4">Universo</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-9">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="1">Supervisores beneficiados a traves de acuerdos con entidades supervisadas.</option>
-                                                        <option value="2">Autorizaciones otorgadas en forma deficiente.</option>
-                                                        <option value="3">Denuncias de captacion irregular por entidades no autorizadas atendida inoportunamente.</option>
-                                                        <option value="4">Informacion incorrecta de emisoras bursatiles detectada inoportunamente.</option>
-                                                    </select>
-                                                    <label for="val-skill4">Riesgo</label>
-                                                </div>
+                                <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs">
+                                    <li class="active">
+                                        <a href="#obser1">PAT'S</a>
+                                    </li>
+                                </ul>
+                                <div class="block-content tab-content bg-white">
+                                    <!-- inicia obser1 -->
+                                    <div class="tab-pane fade fade-up in active" id="obser1">
+                                        <div class="row">
+                                            <div class="col-sm-1 col-sm-offset-5">
+                                                <label class="css-input switch switch-primary" title="Verificado">
+                                                    <input type="checkbox"><span></span> Verficado
+                                                </label>
                                             </div>
                                             <div class="col-sm-1">
-                                                <div class="form-material form-material-primary">
-                                                    <button class="btn btn-success btn-sm push-5-r push-10" type="button"><i class="fa fa-plus"></i></button>
-                                                    <label for="val-skill4">&nbsp;</label>
-                                                </div>
-                                            </div>
-                                            <!--<div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                    <label for="val-skill4">Cuadrante</label>
-                                                </div>
-                                            </div>-->
-
-                                            <div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="cuadrante" name="cuadrante">
-                                                    <label for="cuadrante">Cuadrante</label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="form-group">
-                                            <table class="table table-striped table-vcenter table-condensed">
-                                                <thead>
-                                                    <tr>
-                                                        <th>#</th>
-                                                        <th class="text-left">Riesgo</th>
-                                                        <th class="text-left">Cuadrante</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>1.2</td>
-                                                        <td>Supervisores beneficiados a traves de acuerdos con entidades supervisadas.</td>
-                                                        <td rowspan="3" class="text-center">1</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1.4</td>
-                                                        <td>Autorizaciones otorgadas en forma deficiente.</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1.5</td>
-                                                        <td>Denuncias de captacion irregular por entidades no autorizadas atendida inoportunamente.</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
-                                                <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                                <label class="css-input switch switch-success" title="Validado">
+                                                    <input type="checkbox"><span></span> Validado
+                                                </label>
                                             </div>
                                         </div>
-                                    </form>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-4">
+                                                <table class="table table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th class="text-center">AÑO</th>
+                                                        <th class="text-center">ACTIVO</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="text-center">2025</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2024</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2023</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2022</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2021</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2020</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2019</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2018</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2017</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2026</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2016</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2015</td>
+                                                        <td>
+                                                            <label class="css-input switch switch-primary">
+                                                                <input type="checkbox"><span></span> Verficado
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-4 col-md-offset-4">
+                                                <div class="form-group">
+                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                    <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- termina obser1 -->
                                 </div>
                             </div>
-                            <!-- END Material Forms Validation -->
                         </div>
                     </div>
 

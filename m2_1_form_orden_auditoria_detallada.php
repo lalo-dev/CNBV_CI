@@ -103,9 +103,15 @@
         <!-- Page Content -->
         <div class="content">
             <div class="block">
-                <ul class="nav nav-tabs" data-toggle="tabs">
+                <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs">
                     <li class="active">
                         <a href="#search-info">Info</a>
+                    </li>
+                    <li>
+                        <a href="#obser2">General</a>
+                    </li>
+                    <li>
+                        <a href="#obser3">Orden</a>
                     </li>
                 </ul>
                 <div class="block-content tab-content bg-white">
@@ -218,366 +224,304 @@
                         </div>
                     </div>
                     <!-- End Info -->
-
-                    <!-- Revisiones -->
-                    <div class="tab-pane fade fade-up" id="search-projects">
-                        <div class="border-b push-30">
-                            <h2 class="push-10">5 <span class="h5 font-w400 text-muted">Revisiones encontrados</span></h2>
-                        </div>
-                        <table class="table table-striped table-vcenter table-condensed">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th class="text-center">P/A/C</th>
-                                <th class="text-center">Clave</th>
-                                <th class="text-left">Área a revisar</th>
-                                <th class="text-left">Inicio</th>
-                                <th class="text-left">Fin</th>
-                                <th class="text-left">Validar</th>
-                                <th class="text-left">&nbsp;</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-small2">
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado" href="./archivos/curso_taller_SD.tiff">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </a>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado" href="./archivos/curso_taller SD.pdf" target="_blank">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </a>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <button class="btn btn-success btn-xs" disabled type="button" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <button class="btn btn-success btn-xs" disabled type="button" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <button class="btn btn-success btn-xs" disabled type="button" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- END Revisiones -->
-                    <!-- Validaciones -->
-                    <div class="tab-pane fade fade-up" id="search-validaciones">
-                        <div class="border-b push-30">
-                            <h2 class="push-10">5 <span class="h5 font-w400 text-muted">Validaciones encontrados</span></h2>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-condensed">
-                                <thead>
-                                <tr>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="No. Revisión">#</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Tipo de revisión">Tipo</th>
-                                    <th class="text-left" data-toggle="tooltip" data-placement="top" title="Programada / Adicional">P/A</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Clave Programa">Clave</th>
-                                    <th class="text-center">Instancia</th>
-                                    <th class="text-left">Justificación</th>
-                                    <th class="text-left" data-toggle="tooltip" data-placement="top" title="Área a Revisar">Área</th>
-                                    <th class="text-left">Descripción</th>
-                                    <th class="text-left">Objetivo</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Semana Programada de Inicio">S.P.I.</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Semanan Programada de Término">S.P.T.</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Total Semanas Revisión">T.S.R.</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Total Semanas Hombre">T.S.H.</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Periodo de Revisión Inicio">P.R.I.</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Periodo de Revisión Fin">P.R.F.</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Auditoria Procedente">A.P.</th>
-                                    <th class="text-center">Muestra</th>
-                                    <th class="text-center">Universo</th>
-                                    <th class="text-left">Riesgos</th>
-                                    <th class="text-left">Cuadrante</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Revisado">R</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Validado">V</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="Comentarios">C</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr class="info">
-                                    <td class="text-center">1</td>
-                                    <td class="text-center">Auditoria</td>
-                                    <td class="text-center">P</td>
-                                    <td class="text-center">700</td>
-                                    <td class="text-center">OIC</td>
-                                    <td class="text-left">ÁREAS CRÍTICAS PROCLIVES A CORRUPCIÓN</td>
-                                    <td class="text-left">DGs de Supervisión de la CNBV (Proceso de Supervisión, Autorizaciones y Sanciones)</td>
-                                    <td class="text-left">
-                                        Evaluar que el control interno establecido en las áreas sustantivas de la CNBV respecto a los procesos de la supervisión, autorizaciones y sanciones de las Vicepresidencias de Supervisión de Grupos e Intermediarios Financieros A y B, Banca de Desarrollo y Finanzas Populares y Supervisión Bursátil; asi como la alineación con la Dirección General de Métodos y Procesos de Supervisión ; la coordinación con las Direcciones Generales de Autorizaciones al Sistema Financiero y de Autorizaciones Especializadas y la Dirección General de Delitos y Sanciones; además de la interacción con las áreas soporte de las Vicepresidencias Técnica y de Supervisión de Procesos Preventivos, se haya efectuado de conformidad con el marco legal aplicable y que los resultados hayan sido debidamente informados.
-                                    </td>
-                                    <td class="text-left">
-                                        Verificar el cumplimiento de los procesos de supervisión, autorizaciones y sanciones de las Vicepresidencias de Supervisión de Grupos e Intermediarios Financieros A y B, Banca de Desarrollo y Finanzas Populares y Supervisión Bursátil; asi como la alineación con la Dirección General de Métodos y Procesos de Supervisión; la coordinación con las Direcciones Generales de Autorizaciones al Sistema Financiero y de Autorizaciones Especializadas y la Dirección General de Delitos y Sanciones; además de la interacción con las áreas soporte de las Vicepresidencias Técnica y de Supervisión de Procesos Preventivos, conforme al marco legal aplicable y que los resultados hayan sido informados.
-                                    </td>
-                                    <td>1</td>
-                                    <td>26</td>
-                                    <td>26</td>
-                                    <td>193</td>
-                                    <td>01/01/2013</td>
-                                    <td>31/12/2013</td>
-                                    <td>0/0</td>
-                                    <td>Se determinará en la auditoría.</td>
-                                    <td>100%</td>
-                                    <td>
-                                        <p>1.2 Supervisores beneficiados a traves de acuerdos con entidades supervisadas.</p>
-                                        <p>1.3 Autorizaciones otorgadas en forma deficiente.</p>
-                                    </td>
-                                    <td class="text-center">
-                                        <p>1</p>
-                                        <p>1</p>
-                                    </td>
-                                    <td class="text-center">
-                                        <label class="css-input switch switch-primary">
-                                            <input type="checkbox"><span></span>
-                                        </label>
-                                    </td>
-                                    <td class="text-center">
-                                        <label class="css-input switch switch-primary">
-                                            <input type="checkbox" checked><span></span>
-                                        </label>
-                                    </td>
-                                    <td class="text-center">
-                                        <a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-small">
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">2</td>
-                                    <td class="text-center">Auditoria</td>
-                                    <td class="text-center">P</td>
-                                    <td class="text-center">700</td>
-                                    <td class="text-center">OIC</td>
-                                    <td class="text-left">ÁREAS CRÍTICAS PROCLIVES A CORRUPCIÓN</td>
-                                    <td class="text-left">DGs de Supervisión de la CNBV (Proceso de Supervisión, Autorizaciones y Sanciones)</td>
-                                    <td class="text-left">
-                                        Evaluar que el control interno establecido en las áreas sustantivas de la CNBV respecto a los procesos de la supervisión, autorizaciones y sanciones de las Vicepresidencias de Supervisión de Grupos e Intermediarios Financieros A y B, Banca de Desarrollo y Finanzas Populares y Supervisión Bursátil; asi como la alineación con la Dirección General de Métodos y Procesos de Supervisión ; la coordinación con las Direcciones Generales de Autorizaciones al Sistema Financiero y de Autorizaciones Especializadas y la Dirección General de Delitos y Sanciones; además de la interacción con las áreas soporte de las Vicepresidencias Técnica y de Supervisión de Procesos Preventivos, se haya efectuado de conformidad con el marco legal aplicable y que los resultados hayan sido debidamente informados.
-                                    </td>
-                                    <td class="text-left">
-                                        Verificar el cumplimiento de los procesos de supervisión, autorizaciones y sanciones de las Vicepresidencias de Supervisión de Grupos e Intermediarios Financieros A y B, Banca de Desarrollo y Finanzas Populares y Supervisión Bursátil; asi como la alineación con la Dirección General de Métodos y Procesos de Supervisión; la coordinación con las Direcciones Generales de Autorizaciones al Sistema Financiero y de Autorizaciones Especializadas y la Dirección General de Delitos y Sanciones; además de la interacción con las áreas soporte de las Vicepresidencias Técnica y de Supervisión de Procesos Preventivos, conforme al marco legal aplicable y que los resultados hayan sido informados.
-                                    </td>
-                                    <td>1</td>
-                                    <td>26</td>
-                                    <td>26</td>
-                                    <td>193</td>
-                                    <td>01/01/2013</td>
-                                    <td>31/12/2013</td>
-                                    <td>0/0</td>
-                                    <td>Se determinará en la auditoría.</td>
-                                    <td>100%</td>
-                                    <td>
-                                        <p>1.2 Supervisores beneficiados a traves de acuerdos con entidades supervisadas.</p>
-                                        <p>1.3 Autorizaciones otorgadas en forma deficiente.</p>
-                                    </td>
-                                    <td class="text-center">
-                                        <p>1</p>
-                                        <p>1</p>
-                                    </td>
-                                    <td class="text-center">
-                                        <label class="css-input switch switch-primary">
-                                            <input type="checkbox"><span></span>
-                                        </label>
-                                    </td>
-                                    <td class="text-center">
-                                        <label class="css-input switch switch-primary">
-                                            <input type="checkbox" checked><span></span>
-                                        </label>
-                                    </td>
-                                    <td class="text-center">
-                                        <a class="btn btn-primary btn-sm">
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                    <!-- END Revisiones -->
-                    <!-- Settings -->
-                    <div class="tab-pane" id="btabs-alt-static-settings">
-                        <h4 class="font-w300 push-15">Opciones</h4>
+                    <!-- Inicia dir-g2 -->
+                    <div class="tab-pane fade fade-up" id="obser2">
                         <div class="row">
-                            <div class="col-xs-6 col-sm-2 col-lg-2 col-lg-offset-3">
-                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                    <div class="block-content block-content-full">
-                                        <i class="si si-list fa-4x text-primary"></i>
-                                        <div class="font-w600 push-15-t">Ordenar</div>
-                                    </div>
-                                </a>
+                            <div class="row">
+                                <div class="col-sm-1 col-sm-offset-5">
+                                    <label class="css-input switch switch-primary" title="Verificado">
+                                        <input type="checkbox"><span></span> Verficado
+                                    </label>
+                                </div>
+                                <div class="col-sm-1">
+                                    <label class="css-input switch switch-success" title="Validado">
+                                        <input type="checkbox"><span></span> Validado
+                                    </label>
+                                </div>
                             </div>
-                            <div class="col-xs-6 col-sm-2 col-lg-2">
-                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                    <div class="block-content block-content-full">
-                                        <i class="si si-printer fa-4x text-primary"></i>
-                                        <div class="font-w600 push-15-t">Imprimir lista</div>
-                                    </div>
-                                </a>
+                            <div class="col-md-4 col-md-offset-2">
+                                <div class="form-material floating open">
+                                    <select class="form-control" id="periodoReserva" name="periodoReserva" size="1">
+                                        <option>  </option><!-- Empty value for demostrating material select box -->
+                                        <option value="1">Periodo x</option>
+                                        <option value="2">Periodo xx</option>
+                                    </select>
+                                    <label for="periodoReserva">Periodo de reserva</label>
+                                </div>
                             </div>
-                            <div class="col-xs-6 col-sm-2 col-lg-2">
-                                <a class="block block-link-hover3 text-center" href="m1_0_0_form_pat_agregar.php">
-                                    <div class="block-content block-content-full">
-                                        <i class="si si-doc fa-4x text-primary"></i>
-                                        <div class="font-w600 push-15-t">Agregar Revisión</div>
-                                    </div>
-                                </a>
+                            <div class="col-md-4">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="fundamnt" name="fundamnt">
+                                    <label for="fundamnt">Fundamento legal</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-md-offset-2">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="amplia_reser" name="amplia_reser">
+                                    <label for="amplia_reser">Ampliación de reserva</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="confidencial" name="confidencial">
+                                    <label for="confidencial">Confidencial</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-md-offset-2">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="fundlegal" name="fundlegal">
+                                    <label for="fundlegal">Fundamento legal</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="clasifica" name="clasifica">
+                                    <label for="clasifica">Clasifico (titulos)</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-md-offset-2">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="fundlegal" name="fundlegal">
+                                    <label for="fundlegal">Fecha de clasificación</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="desclasifico" name="desclasifico">
+                                    <label for="desclasifico">Desclasifico</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-md-offset-2">
+                                <div class="form-material floating">
+                                    <input class="form-control" type="text" id="fdescla" name="fdescla">
+                                    <label for="fdescla">Fecha de desclasificación</label>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-md-offset-2">
+                                <div class="form-group">
+                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                    <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    <!-- END Settings -->
+                    <!-- termina obser2 -->
+                    <!-- Inicia dir-g3 -->
+                    <div class="tab-pane fade fade-up" id="obser3">
+                        <div class="row">
+                            <div class="col-sm-1 col-sm-offset-5">
+                                <label class="css-input switch switch-primary" title="Verificado">
+                                    <input type="checkbox"><span></span> Verficado
+                                </label>
+                            </div>
+                            <div class="col-sm-1">
+                                <label class="css-input switch switch-success" title="Validado">
+                                    <input type="checkbox"><span></span> Validado
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-2">
+                                    <div class="form-material floating">
+                                        <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="fecha" name="fecha">
+                                        <label for="fecha">Fecha</label>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="col-md-2">
+                                    <label>Auditores:</label>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating">
+                                        <input class="form-control" type="text" id="rol" name="rol">
+                                        <label for="rol">Rol</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating">
+                                        <input class="form-control" type="text" id="nombre" name="nombre">
+                                        <label for="nombre">Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating">
+                                        <input class="form-control" type="text" id="grado" name="grado">
+                                        <label for="grado">Grado</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="coordinacb" name="coordinacb" size="1">
+                                            <option>  </option><!-- Empty value for demostrating material select box -->
+                                            <option value="1">Coordinado 1</option>
+                                            <option value="2">Coordinado 2</option>
+                                        </select>
+                                        <label for="coordinacb">Coordinado</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating">
+                                        <input class="form-control" type="text" id="periodo" name="periodo">
+                                        <label for="periodo">Periodo</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating">
+                                        <input class="form-control" type="text" id="verificar" name="verificar">
+                                        <label for="verificar">Verificar</label>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <blockquote>
+                                    <div class="col-md-12">Firmas: </div>
+                                    <div class="col-md-3">
+                                        <div class="form-material floating open">
+                                            <select class="form-control" id="rol" name="rol" size="1">
+                                                <option>  </option><!-- Empty value for demostrating material select box -->
+                                                <option value="1">Rol 1</option>
+                                                <option value="2">Rol 2</option>
+                                                <option value="3">Rol 3</option>
+                                            </select>
+                                            <label for="rol">Rol</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-material floating open">
+                                            <select class="form-control" id="auditor" name="auditor" size="1">
+                                                <option>  </option><!-- Empty value for demostrating material select box -->
+                                                <option value="1">Auditor 1</option>
+                                                <option value="2">Auditor 2</option>
+                                                <option value="3">Auditor 3</option>
+                                            </select>
+                                            <label for="auditor">Auditor</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div class="form-material floating">
+                                            <button class="btn btn-xs btn-success">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <table class="table table-condensed" style="font-size: 10px;">
+                                            <thead>
+                                            <tr>
+                                                <td><strong>Rol</strong></td>
+                                                <td><strong>Nombre</strong></td>
+                                                <td class="text-center"><strong>Eliminar</strong></td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Rol 1</td>
+                                                <td>Auditor 1</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rol 2</td>
+                                                <td>Auditor 2</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rol 3</td>
+                                                <td>Auditor 3</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <blockquote>
+                                    <div class="col-md-10">CC: </div>
+                                    <div class="col-md-3">
+                                        <div class="form-material floating open">
+                                            <select class="form-control" id="nombr" name="nombr" size="1">
+                                                <option>  </option><!-- Empty value for demostrating material select box -->
+                                                <option value="1">Nombre 1</option>
+                                                <option value="2">Nombre 2</option>
+                                                <option value="3">Nombre 3</option>
+                                            </select>
+                                            <label for="nombr">Rol</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div class="form-material floating">
+                                            <button class="btn btn-xs btn-success">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <table class="table table-condensed" style="font-size: 10px;">
+                                            <thead>
+                                            <tr>
+                                                <td class="text-center"><strong>CC</strong></td>
+                                                <td class="text-center"><strong>Eliminar</strong></td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center">CC 1</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">CC 2</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">CC 3</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- termina obser3 -->
                 </div>
             </div>
         </div>
