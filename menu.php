@@ -115,7 +115,7 @@
                                                     <a href="m2_2_cedula_observaciones">C&eacute;dula de observaciones</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"> Acta Administrativa</a>
+                                                    <a href="m_acta_administrativa">Acta Administrativa</a>
                                                 </li>
                                             </ul>
                                     </li>
