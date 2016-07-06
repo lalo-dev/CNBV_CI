@@ -111,7 +111,7 @@
                         <a href="#informe">Informe</a>
                     </li>
                     <li>
-                        <a href="#area-auditada2">&Aacute;rea auditada 2</a>
+                        <a href="#antecedentes">Antecedentes</a>
                     </li>
                     <li>
                         <a href="#area-auditada3">&Aacute;rea auditada 3</a>
@@ -233,213 +233,404 @@
                         </div>
                     </div>
                     <!-- End Info -->
-                    <!-- Area auditada -->
+                    <!-- Area Informe -->
                     <div class="tab-pane fade fade-up" id="informe">
+                        <form class="form-horizontal push-10-t" onsubmit="return false;">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="col-sm-1 col-sm-offset-5">
+                                        <label class="css-input switch switch-primary" title="Verificado">
+                                            <input type="checkbox"><span></span> Verficado
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <label class="css-input switch switch-success" title="Validado">
+                                            <input type="checkbox"><span></span> Validado
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">&nbsp;</div><div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-3">
+                                    <div class="form-material floating">
+                                        <!--<input class="js-datepicker form-control" type="text" id="hinicio" data-date-format="dd/mm/yy" placeholder="dd/mm/yy">-->
+                                        <input class="js-datepicker form-control" type="text" id="fecha">
+                                        <label for="fecha">Fecha</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="clasifica" name="clasifica" size="1">
+                                            <option>&nbsp;</option>
+                                            <option value="1">Clasifica #1</option>
+                                            <option value="2">Clasifica #2</option>
+                                            <option value="3">Clasifica #3</option>
+                                        </select>
+                                        <label for="clasifica">Clasifica</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="per-reserva" name="per-reserva" size="1">
+                                            <option>&nbsp;</option>
+                                            <option value="1">Periodo reserva #1</option>
+                                            <option value="2">Periodo reserva #2</option>
+                                            <option value="3">Periodo reserva #3</option>
+                                        </select>
+                                        <label for="per-reserva">Periodo reserva</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-material floating">
+                                        <!--<input class="js-datepicker form-control" type="text" id="hinicio" data-date-format="dd/mm/yy" placeholder="dd/mm/yy">-->
+                                        <input class="js-datepicker form-control" type="text" id="f-creacion">
+                                        <label for="f-creacion">Fecha creación</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="no-oficio" name="no-oficio" size="1">
+                                            <option>&nbsp;</option>
+                                            <option value="1">No Oficio #1</option>
+                                            <option value="2">No Oficio #2</option>
+                                            <option value="3">No Oficio #3</option>
+                                        </select>
+                                        <label for="no-oficio">No. Oficio</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="unidad-auditada" name="unidad-auditada" size="1">
+                                            <option>&nbsp;</option>
+                                            <option value="1">Unidad auditada #1</option>
+                                            <option value="2">Unidad auditada #2</option>
+                                            <option value="3">Unidad auditada #3</option>
+                                        </select>
+                                        <label for="unidad-auditada">Unidad Auditada</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="table-responsive">
+                                        <table class="table table-condensed" style="font-size: 10px;">
+                                            <thead>
+                                            <tr>
+                                                <td class="text-center"><strong>#</strong></td>
+                                                <td><strong>Nombre</strong></td>
+                                                <td class="text-center"><strong>Eliminar</strong></td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center">1</td>
+                                                <td>Unidad auditada #1</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">2</td>
+                                                <td>Unidad auditada #2</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">3</td>
+                                                <td>Unidad auditada #3</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote>
+                                <div class="form-group">
+                                    <fielset>
+                                        <legend>Observaciones</legend>
+                                        <div class="col-md-3">
+                                            <div class="form-material floating">
+                                                <input class="form-control" type="text" id="numero">
+                                                <label for="numero">Fecha</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-material floating">
+                                                <input class="form-control" type="text" id="titulo">
+                                                <label for="titulo">Titulo</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material">
+                                                <textarea class="form-control" id="cuerpo" name="cuerpo" rows="3"></textarea>
+                                                <label for="cuerpo">Cuerpo</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material">
+                                                <textarea class="form-control" id="recomendo" name="recomendo" rows="3"></textarea>
+                                                <label for="recomendo">Se recomendó</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material">
+                                                <textarea class="form-control" id="conclusion" name="conclusion" rows="3"></textarea>
+                                                <label for="conclusion">Conclusión</label>
+                                            </div>
+                                        </div>
 
-                      
-                    </div>
-                    <!-- End Area auditada -->
-                    <!-- Revisiones -->
-                    <div class="tab-pane fade fade-up" id="search-projects">
-                        <div class="border-b push-30">
-                            <h2 class="push-10">5 <span class="h5 font-w400 text-muted">Revisiones encontrados</span></h2>
-                        </div>
-                        <table class="table table-striped table-vcenter table-condensed">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th class="text-center">P/A/C</th>
-                                <th class="text-center">Clave</th>
-                                <th class="text-left">Área a revisar</th>
-                                <th class="text-left">Inicio</th>
-                                <th class="text-left">Fin</th>
-                                <th class="text-left">Validar</th>
-                                <th class="text-left">&nbsp;</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-small2">
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado" href="./archivos/curso_taller_SD.tiff">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </a>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-success btn-xs" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado" href="./archivos/curso_taller SD.pdf" target="_blank">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </a>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <button class="btn btn-success btn-xs" disabled type="button" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <button class="btn btn-success btn-xs" disabled type="button" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td class="text-center">P</td>
-                                <td class="text-center">700</td>
-                                <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                <td>01/01/2013</td>
-                                <td>31/12/2013</td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
-                                            <i class="fa fa-send-o"></i>
-                                        </a>
-                                        <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
-                                            <i class="fa fa-commenting-o"></i>
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="btn-group">
-                                        <button class="btn btn-success btn-xs" disabled type="button" data-toggle="tooltip" data-placement="top" title="Archivo digitalizado">
-                                            <i class="fa fa-cloud-download"></i>
-                                        </button>
-                                        <button class="btn btn-info btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Consulta">
-                                            <i class="fa fa-eye"></i>
-                                        </button>
-                                        <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Editar">
-                                            <i class="fa fa-pencil"></i>
-                                        </button>
-                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- END Revisiones -->
-                    <!-- Area auditada 2 -->
-                    <div class="tab-pane fade fade-up" id="area-auditada2">
+                                    </fielset>
+                                </div>
+                            </blockquote>
 
-                        <div class="border-b push-30">
-                            <h2 class="push-10">*<span class="h5 font-w400 text-muted"> &Aacute;rea auditada2</span></h2>
-                        </div>
+                            <blockquote>
+                                <div class="form-group">
+                                    <fielset>
+                                        <legend>CCP</legend>
+                                        <div class="col-md-6">
+                                            <div class="form-material floating open">
+                                                <select class="form-control" id="nomb" name="nomb" size="1">
+                                                    <option>&nbsp;</option>
+                                                    <option value="1">Nombre #1</option>
+                                                    <option value="2">Nombre #2</option>
+                                                    <option value="3">Nombre #3</option>
+                                                </select>
+                                                <label for="nomb">Nombre</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="table-responsive">
+                                                <table class="table table-condensed" style="font-size: 10px;">
+                                                    <thead>
+                                                    <tr>
+                                                        <td class="text-center"><strong>#</strong></td>
+                                                        <td><strong>Nombre</strong></td>
+                                                        <td class="text-center"><strong>Eliminar</strong></td>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td>Unidad auditada #1</td>
+                                                        <td class="text-center">
+                                                            <div class="btn-group">
+                                                                <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2</td>
+                                                        <td>Unidad auditada #2</td>
+                                                        <td class="text-center">
+                                                            <div class="btn-group">
+                                                                <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">3</td>
+                                                        <td>Unidad auditada #3</td>
+                                                        <td class="text-center">
+                                                            <div class="btn-group">
+                                                                <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </fielset>
+                                </div>
+                            </blockquote>
+
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                    <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <!-- END Area 2 -->
+                    <!-- End Area informe -->
+                    <!-- Antecedentes -->
+                    <div class="tab-pane fade fade-up" id="antecedentes">
+                        <form class="form-horizontal push-10-t" onsubmit="return false;">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="col-sm-1 col-sm-offset-5">
+                                        <label class="css-input switch switch-primary" title="Verificado">
+                                            <input type="checkbox"><span></span> Verficado
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <label class="css-input switch switch-success" title="Validado">
+                                            <input type="checkbox"><span></span> Validado
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="uni-a" name="uni-a" size="1">
+                                            <option>&nbsp;</option>
+                                            <option value="1">Unidad A. #1</option>
+                                            <option value="2">Unidad A. #2</option>
+                                            <option value="3">Unidad A. #3</option>
+                                        </select>
+                                        <label for="uni-a">Unidad auditada</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="form-material floating">
+                                        <button class="btn btn-sm btn-success">+</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="table-responsive border">
+                                        <table class="table table-condensed" style="font-size: 10px;">
+                                            <thead>
+                                            <tr>
+                                                <td class="text-center"><strong>Unidad</strong></td>
+                                                <td><strong>Objetivos</strong></td>
+                                                <td class="text-center"><strong>Eliminar</strong></td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center">Unidad A. #1</td>
+                                                <td>Objetivo 1</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">Unidad A. #2</td>
+                                                <td>Objetivo 2</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">Unidad A. #3</td>
+                                                <td>Objetivo 3</td>
+                                                <td class="text-center">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-material">
+                                        <textarea class="form-control" id="objetivo" name="objetivo" rows="3"></textarea>
+                                        <label for="cuerpo">Objetivo</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-12">
+                                    <div class="table-responsive border">
+                                        <table class="table table-condensed" style="font-size: 10px;">
+                                            <thead>
+                                            <tr>
+                                                <td class="text-center"></td>
+                                                <td colspan="2" class="text-center"><strong>No. Plazas</strong></td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center"><strong>Puesto</strong></td>
+                                                <td class="text-center"><strong>DG Auditada</strong></td>
+                                                <td class="text-center"><strong>DG Auditada</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">Puesto x</td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="8" />
+                                                </td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="1" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">Puesto y</td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="1" />
+                                                </td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="3" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">Puesto z</td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="2" />
+                                                </td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="3" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">Total</td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="11" />
+                                                </td>
+                                                <td class="text-center">
+                                                    <input class="text-center" value="6" />
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote>
+                                <div class="form-group">
+                                    <div class="col-md-12">&nbsp;</div>
+
+                                    <div class="col-sm-1 col-sm-offset-1">
+                                        <label class="css-input switch switch-primary" title="Verificado">
+                                            <input type="checkbox"><span></span> Respectivamente
+                                        </label>
+                                    </div>
+                                    <div class="col-md-2 col-md-offset-1">
+                                        <div class="form-material floating">
+                                            <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="f-dof" name="f-dof">
+                                            <label for="f-dof">Fecha de DOF</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-md-offset-1">
+                                        <div class="form-material floating">
+                                            <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="f-reforma" name="f-reforma">
+                                            <label for="f-reforma">Fecha de reforma</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2 col-md-offset-1">
+                                        <div class="form-material floating">
+                                            <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="f-publicado" name="f-publicado">
+                                            <label for="f-publicado">Fecha publicada</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </form>
+                    </div>
+                    <!-- Antecedentes -->
                     <!-- Area auditada 3 -->
                     <div class="tab-pane fade fade-up" id="area-auditada3">
 
