@@ -123,7 +123,7 @@
                                         <a href="#" class="nav-submenu" data-toggle="nav-submenu">Cierre</a>
                                         <ul>
                                             <li>
-                                                <a href="#">Informe de Auditoría</a>
+                                                <a href="m2_2_cierre_informe_auditoria">Informe de Auditoría</a>
                                             </li>
                                             <li>
                                                 <a href="#">Oficio de envío del Informe para el Presidente</a>
