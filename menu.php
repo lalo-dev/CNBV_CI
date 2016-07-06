@@ -129,7 +129,7 @@
                                                 <a href="m_oficio_informe_presidente">Oficio de envío del Informe para el Presidente</a>
                                             </li>
                                             <li>
-                                                <a href="#">Memorándum de Áreas de Oportunidad</a>
+                                                <a href="m_memorandum_area_oportunidad">Memorándum de Áreas de Oportunidad</a>
                                             </li>
                                             <li>
                                                 <a href="#">Cédula Única de Auditoría</a>
