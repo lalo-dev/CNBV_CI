@@ -132,10 +132,10 @@
                                                 <a href="m_memorandum_area_oportunidad">Memorándum de Áreas de Oportunidad</a>
                                             </li>
                                             <li>
-                                                <a href="#">Cédula Única de Auditoría</a>
+                                                <a href="m_cedula_unica_auditoria">Cédula Única de Auditoría</a>
                                             </li>
                                             <li>
-                                                <a href="#">Cédula de Supervisión de Auditoría</a>
+                                                <a href="m_cedula_supervision_auditoria">Cédula de Supervisión de Auditoría</a>
                                             </li>
                                             <li>
                                                 <a href="#">Índice del Legajo de Auditoría</a>
