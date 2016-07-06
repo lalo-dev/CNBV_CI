@@ -244,7 +244,7 @@
                             </div>
                         </div>
 
-                        
+
 
                         <div class="row">
                             <div class="col-md-12">
@@ -268,7 +268,7 @@
                                     <blockquote>
                                         <div class="form-group">
                                             <fielset>
-                                                <legend>CCP</legend>
+                                                <legend>Testigos</legend>
                                                 <div class="col-md-5">
                                                     <div class="form-material floating open">
                                                         <select class="form-control" id="material-select2" name="material-select2" size="1">
@@ -331,29 +331,73 @@
                                         </div>
                                     </blockquote>
 
+                                    <blockquote>
+                                        <div class="form-group">
+                                            <fielset>
+                                                <legend>Credenciales</legend>
+                                                <div class="col-md-5">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="material-select2" name="material-select2" size="1">
+                                                            <option>&nbsp;</option>
+                                                            <option value="1">Auditor #1</option>
+                                                            <option value="2">Auditor #2</option>
+                                                            <option value="3">Auditor #3</option>
+                                                        </select>
+                                                        <label for="material-select2">Nombre</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="form-material floating">
+                                                        <button class="btn btn-sm btn-success">+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-condensed" style="font-size: 10px;">
+                                                            <thead>
+                                                            <tr>
+                                                                <td class="text-center"><strong>#</strong></td>
+                                                                <td><strong>Nombre</strong></td>
+                                                                <td class="text-center"><strong>Eliminar</strong></td>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="text-center">1</td>
+                                                                <td>Amy Hunter</td>
+                                                                <td class="text-center">
+                                                                    <div class="btn-group">
+                                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">2</td>
+                                                                <td>Adam Hall</td>
+                                                                <td class="text-center">
+                                                                    <div class="btn-group">
+                                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">3</td>
+                                                                <td>John Parker</td>
+                                                                <td class="text-center">
+                                                                    <div class="btn-group">
+                                                                        <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </fielset>
+                                        </div>
+                                    </blockquote>
+
                                     <div class="form-group">
-                                        <div class="col-md-4">
-                                            <div class="form-material floating open">
-                                                <select class="form-control" id="areavisitada">
-                                                    <option> --- </option>
-                                                    <option value="1">Option #1</option>
-                                                    <option value="2">Option #2</option>
-                                                    <option value="3">Option #3</option>
-                                                </select>
-                                                <label for="areavisitada">Área visitada</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-material floating open">
-                                                <select class="form-control" id="titulararea">
-                                                    <option> --- </option>
-                                                    <option value="1">Option #1</option>
-                                                    <option value="2">Option #2</option>
-                                                    <option value="3">Option #3</option>
-                                                </select>
-                                                <label for="titulararea">Titular área</label>
-                                            </div>
-                                        </div>
                                         <div class="col-md-4">
                                             <div class="form-material floating open">
                                                 <select class="form-control" id="areacredenciales">
@@ -362,92 +406,11 @@
                                                     <option value="2">Option #2</option>
                                                     <option value="3">Option #3</option>
                                                 </select>
-                                                <label for="areacredenciales">Área credenciales</label>
+                                                <label for="areacredenciales">Área expide</label>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    <div class="form-group">
-                                        <div class="col-md-4">
-                                            <div class="form-material floating">
-                                                <input class="form-control" type="text" id="encurso" name="encurso">
-                                                <label for="encurso">Identificación</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-material floating">
-                                                <input class="form-control" type="text" id="instancia">
-                                                <label for="instancia">Instancia que expide</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-material floating">
-                                                <input class="form-control" type="text" id="lugarfotografia">
-                                                <label for="lugarfotografia">Lugar fotografía</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <div class="col-md-6">
-                                            <div class="form-material floating">
-                                                <input class="form-control" type="text" id="encurso" name="encurso">
-                                                <label for="encurso">En curso:</label>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <div class="form-material floating open">
-                                                <select class="form-control" id="material-select2" name="material-select2" size="1">
-                                                    <option> --- </option><!-- Empty value for demostrating material select box -->
-                                                    <option value="1">Option #1</option>
-                                                    <option value="2">Option #2</option>
-                                                    <option value="3">Option #3</option>
-                                                </select>
-                                                <label for="material-select2">CCP</label>
-                                            </div>
-                                        </div>
-                                        <div class="block-content">
-                                            <table class="table">
-                                                <thead>
-                                                <tr>
-                                                    <th>Nombre</th>
-                                                    <th class="hidden-xs" style="width: 15%;">Apellido</th>
-                                                    <th class="text-center" style="width: 100px;">Acci&oacute;n</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td class="text-center">1</td>
-                                                    <td>Amy Hunter</td>
-                                                    <td class="text-center">
-                                                        <div class="btn-group">
-                                                            <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-center">2</td>
-                                                    <td>Adam Hall</td>
-                                                    <td class="text-center">
-                                                        <div class="btn-group">
-                                                            <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-center">3</td>
-                                                    <td>John Parker</td>
-                                                    <td class="text-center">
-                                                        <div class="btn-group">
-                                                            <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
