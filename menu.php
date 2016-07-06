@@ -126,7 +126,7 @@
                                                 <a href="m2_2_cierre_informe_auditoria">Informe de Auditoría</a>
                                             </li>
                                             <li>
-                                                <a href="#">Oficio de envío del Informe para el Presidente</a>
+                                                <a href="m_oficio_informe_presidente">Oficio de envío del Informe para el Presidente</a>
                                             </li>
                                             <li>
                                                 <a href="#">Memorándum de Áreas de Oportunidad</a>
