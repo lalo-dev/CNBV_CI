@@ -538,7 +538,7 @@
                                 <div class="col-md-5">
                                     <div class="form-material">
                                         <textarea class="form-control" id="objetivo" name="objetivo" rows="3"></textarea>
-                                        <label for="cuerpo">Objetivo</label>
+                                        <label for="objetivo">Objetivo</label>
                                     </div>
                                 </div>
                                 <div class="col-md-12">&nbsp;</div>
@@ -616,7 +616,7 @@
                                     <div class="col-md-2 col-md-offset-1">
                                         <div class="form-material floating">
                                             <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="f-reforma" name="f-reforma">
-                                            <label for="f-reforma">Fecha de reforma</label>
+                                            <label for="f-reforma">Fecha reforma</label>
                                         </div>
                                     </div>
 
@@ -628,7 +628,147 @@
                                     </div>
                                 </div>
                             </blockquote>
+                            <blockquote>
+                                <fieldset>
+                                    <legend>Mapas de proceso</legend>
+                                    <div class="form-group">
+                                        <div class="col-md-5">
+                                            <div class="form-material floating open">
+                                                <select class="form-control" id="uni-aa" name="uni-aa" size="1">
+                                                    <option>&nbsp;</option>
+                                                    <option value="1">Unidad A. #1</option>
+                                                    <option value="2">Unidad A. #2</option>
+                                                    <option value="3">Unidad A. #3</option>
+                                                </select>
+                                                <label for="uni-aa">Unidad auditada</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <div class="form-material floating">
+                                                <button class="btn btn-sm btn-success">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="table-responsive border">
+                                                <table class="table table-condensed" style="font-size: 10px;">
+                                                    <thead>
+                                                    <tr>
+                                                        <td class="text-center"><strong>Unidad</strong></td>
+                                                        <td class="text-center"><strong>Descripción</strong></td>
+                                                        <td class="text-center"><strong>Imagen</strong></td>
+                                                        <td class="text-center"><strong>Elimiar</strong></td>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="text-center">Unidad x</td>
+                                                        <td class="text-center">
+                                                            Descripción x
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Imagen
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <div class="btn-group">
+                                                                <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">Unidad y</td>
+                                                        <td class="text-center">
+                                                            Descripción y
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Imagen
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <div class="btn-group">
+                                                                <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">Unidad z</td>
+                                                        <td class="text-center">
+                                                            Descripción z
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Imagen
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <div class="btn-group">
+                                                                <button class="btn btn-xs btn-danger" type="button" data-toggle="tooltip" title="" data-original-title="Eliminar"><i class="fa fa-times"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label class="col-xs-12" for="example-file-input">Imagen</label>
+                                                <div class="col-xs-12">
+                                                    <input type="file" id="imagen" name="imagen">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">&nbsp;</div>
+                                        <div class="col-md-5">
+                                            <div class="form-material">
+                                                <textarea class="form-control" id="objetivo" name="descripcion" rows="3"></textarea>
+                                                <label for="descripcion">Descripción</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+                            </blockquote>
+                            <blockquote>
+                                <fieldset>
+                                    <legend>Auditores anteriores</legend>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <label>Observaciones</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material floating">
+                                                <input class="form-control" type="text" id="titulo" name="titulo">
+                                                <label for="titulo">Titulo</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material floating">
+                                                <textarea class="form-control" id="material3" rows="3"></textarea>
+                                                <label for="material-textarea-small2">Diagnosticos:</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label>Mejoras</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material floating">
+                                                <input class="form-control" type="text" id="titulo" name="titulo">
+                                                <label for="titulo">Titulo</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-material floating">
+                                                <textarea class="form-control" id="material3" rows="3"></textarea>
+                                                <label for="material-textarea-small2">Diagnosticos:</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </blockquote>
                         </form>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                            </div>
+                        </div>
                     </div>
                     <!-- Antecedentes -->
                     <!-- Area auditada 3 -->
