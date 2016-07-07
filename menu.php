@@ -182,7 +182,7 @@
                                     <li>
                                         <a href="m3_cedula_seguimiento">Cédula de Seguimiento de Observaciones</a>
                                         <a href="m3_requerimiento_informacion">Requerimiento de Información</a>
-                                        <a href="#">Informes de Seguimiento</a>
+                                        <a href="m3_informe_seguimiento">Informes de Seguimiento</a>
                                         <a href="#">Cédula de Supervisión de Seguimiento</a>
                                         <a href="#">Cédula Única de Seguimiento</a>
                                         <a href="#">Índice del Legajo de Seguimiento</a>
