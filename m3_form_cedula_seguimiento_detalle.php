@@ -202,8 +202,8 @@
                                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                                     <div class="block-content block-content-full bg-flat clearfix">
                                                         <i class="si si-eye fa-2x text-white pull-right"></i>
-                                                        <span class="h4 font-w700 text-white">Requerimiento </span>
-                                                        <span class="h4 text-white-op">Información 1</span>
+                                                        <span class="h4 font-w700 text-white">Seguimiento </span>
+                                                        <span class="h4 text-white-op">Observación</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -211,8 +211,8 @@
                                                 <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
                                                     <div class="block-content block-content-full bg-primary clearfix">
                                                         <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-                                                        <span class="h4 font-w700 text-white">Requerimiento </span>
-                                                        <span class="h4 text-white-op">Información 1</span>
+                                                        <span class="h4 font-w700 text-white">Seguimiento </span>
+                                                        <span class="h4 text-white-op">Observación</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -337,7 +337,7 @@
                         </form>
                     </div>
                     <!-- End Area cedula-->
-                    
+
                 </div>
             </div>
         </div>
