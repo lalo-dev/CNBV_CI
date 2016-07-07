@@ -180,8 +180,8 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Seguimiento</span></a>
                                 <ul>
                                     <li>
-                                        <a href="#">Cédula de Seguimiento de Observaciones</a>
-                                        <a href="#">Requerimiento de Información</a>
+                                        <a href="m3_cedula_seguimiento">Cédula de Seguimiento de Observaciones</a>
+                                        <a href="m3_requerimiento_informacion">Requerimiento de Información</a>
                                         <a href="#">Informes de Seguimiento</a>
                                         <a href="#">Cédula de Supervisión de Seguimiento</a>
                                         <a href="#">Cédula Única de Seguimiento</a>
