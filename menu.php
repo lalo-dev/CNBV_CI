@@ -183,23 +183,12 @@
                                         <a href="m3_cedula_seguimiento">Cédula de Seguimiento de Observaciones</a>
                                         <a href="m3_requerimiento_informacion">Requerimiento de Información</a>
                                         <a href="m3_informe_seguimiento">Informes de Seguimiento</a>
-                                        <a href="#">Cédula de Supervisión de Seguimiento</a>
-                                        <a href="#">Cédula Única de Seguimiento</a>
-                                        <a href="#">Índice del Legajo de Seguimiento</a>
-                                        <a href="#">Portada</a>
-                                        <a href="#">Contraportada</a>
+                                        <a href="m3_supervision_seguimiento">Cédula de Supervisión de Seguimiento</a>
+                                        <a href="m3_supervision_unica">Cédula Única de Seguimiento</a>
+                                        <a href="m3_indice_legajo">Índice del Legajo de Seguimiento</a>
+                                        <a href="m3_portada">Portada</a>
+                                        <a href="m3_contraportada">Contraportada</a>
                                     </li>
-                                    <!--
-                                    <li>
-                                        <a href="m3_1_ejecucion">Ejecución</a>
-                                    </li>
-                                    <li>
-                                        <a href="m3_2_informe">Informe</a>
-                                    </li>
-                                    <li>
-                                        <a href="m3_3_cierre">Cierre</a>
-                                    </li>
-                                    -->
                                 </ul>
                             </li>
                             <li>
