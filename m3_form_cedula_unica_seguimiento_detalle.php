@@ -83,15 +83,15 @@
         <!-- Page Header -->
         <div class="content bg-gray-lighter">
             <div class="row items-push">
-                <div class="col-sm-6">
+                <div class="col-sm-7">
                     <h1 class="page-heading">
-                        Detalle<small> Cédula de supervision de seguimiento</small>
+                        Detalle<small> Cédula única de seguimiento</small>
                     </h1>
                 </div>
-                <div class="col-sm-6 text-right hidden-xs">
+                <div class="col-sm-5 text-right hidden-xs">
                     <ol class="breadcrumb push-10-t">
                         <li>Seguimiento</li>
-                        <li><a href="m3_cedula_supervision_seguimiento">Cédula de supervisión de seguimiento</a></li>
+                        <li><a href="m3_cedula_unica_seguimiento">Cédula única de Seguimiento</a></li>
 						<li>Detalle</li>
                     </ol>
                 </div>
@@ -107,7 +107,7 @@
                         <a href="#search-info">Info</a>
                     </li>
                     <li>
-                        <a href="#cedula">Cédula</a>
+                        <a href="#cuseguimiento">Cédula</a>
                     </li>
                 </ul>
                 <div class="block-content tab-content bg-white">
@@ -202,7 +202,7 @@
                                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                                     <div class="block-content block-content-full bg-flat clearfix">
                                                         <i class="si si-eye fa-2x text-white pull-right"></i>
-                                                        <span class="h4 font-w700 text-white">Supervisión</span>
+                                                        <span class="h4 font-w700 text-white">Cédula única</span>
                                                         <span class="h4 text-white-op">Seguimiento</span>
                                                     </div>
                                                 </a>
@@ -211,7 +211,7 @@
                                                 <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
                                                     <div class="block-content block-content-full bg-primary clearfix">
                                                         <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-                                                        <span class="h4 font-w700 text-white">Supervisión </span>
+                                                        <span class="h4 font-w700 text-white">Cédula única </span>
                                                         <span class="h4 text-white-op">Seguimiento</span>
                                                     </div>
                                                 </a>
@@ -223,8 +223,8 @@
                         </div>
                     </div>
                     <!-- End Info -->
-                    <!-- Area cedula -->
-                    <div class="tab-pane fade fade-up" id="cedula">
+                    <!-- cedula unica de seguimiento-->
+                    <div class="tab-pane fade fade-up" id="cuseguimiento">
                         <form class="form-horizontal push-10-t" onsubmit="return false;">
                             <div class="form-group">
                                 <div class="col-md-12">
@@ -239,71 +239,64 @@
                                         </label>
                                     </div>
                                 </div>
-
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4 col-md-offset-2">
+                                    <div class="form-material floating">
+                                        <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="fecha1" name="fecha1">
+                                        <label for="fecha1">Fecha Inicio</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating">
+                                        <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="fecha2" name="fecha2">
+                                        <label for="fecha2">Fecha Termino</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-md-offset-2">
+                                    <div class="form-material floating">
+                                        <input type="text" class="js-datepicker form-control" data-date-format="dd/mm/yyyy" id="fecha3" name="fecha3">
+                                        <label for="fecha3">Tiempo Real</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-material floating open">
+                                        <select class="form-control" id="pauditado" name="pauditado" size="1">
+                                            <option>  </option><!-- Empty value for demostrating material select box -->
+                                            <option value="1">Periodo 1</option>
+                                            <option value="2">Periodo 2</option>
+                                        </select>
+                                        <label for="pauditado">Periodo auditado</label>
+                                    </div>
+                                </div>
                                 <div class="col-md-8 col-md-offset-2">
                                     <div class="table-responsive border">
                                         <table class="table table-condensed" style="font-size: 10px;">
                                             <thead>
                                             <tr>
-                                                <td class="text-center"><strong>#</strong></td>
                                                 <td><strong>Concepto</strong></td>
-                                                <td class="text-center"><strong>Rev.</strong></td>
+                                                <td><strong>Cantidad</strong></td>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td class="text-center">1</td>
-                                                <td>
-                                                    <div class="col-md-12">
-                                                        <div class="form-material floating">
-                                                            <input class="form-control" type="text" id="Concepto" name="Concepto">
-                                                            <label for="Concepto"></label>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <div class="col-sm-1 col-sm-offset-5">
-                                                        <label class="css-input switch switch-primary" title="Verificado">
-                                                            <input type="checkbox"><span></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
+                                                <td>Observaciones Oriinales</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-center">2</td>
-                                                <td>
-                                                    <div class="col-md-12">
-                                                        <div class="form-material floating">
-                                                            <input class="form-control" type="text" id="Concepto" name="Concepto">
-                                                            <label for="Concepto"></label>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <div class="col-sm-1 col-sm-offset-5">
-                                                        <label class="css-input switch switch-primary" title="Verificado">
-                                                            <input type="checkbox"><span></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
+                                                <td>Solventadas</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-center">3</td>
-                                                <td>
-                                                    <div class="col-md-12">
-                                                        <div class="form-material floating">
-                                                            <input class="form-control" type="text" id="Concepto" name="Concepto">
-                                                            <label for="Concepto"></label>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-center">
-                                                    <div class="col-sm-1 col-sm-offset-5">
-                                                        <label class="css-input switch switch-primary" title="Verificado">
-                                                            <input type="checkbox"><span></span>
-                                                        </label>
-                                                    </div>
-                                                </td>
+                                                <td>No solventadas</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Saldo por aclarar</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Saldo por recuperar</td>
+                                                <td></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -316,9 +309,11 @@
                                     </div>
                                 </div>
                             </div>
+
                         </form>
                     </div>
-                    <!-- End Cedula-->
+                    <!-- End cedula unica de seguimiento -->
+
                 </div>
             </div>
         </div>

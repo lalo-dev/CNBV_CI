@@ -184,7 +184,7 @@
                                         <a href="m3_requerimiento_informacion">Requerimiento de Información</a>
                                         <a href="m3_informe_seguimiento">Informes de Seguimiento</a>
                                         <a href="m3_cedula_supervision_seguimiento">Cédula de Supervisión de Seguimiento</a>
-                                        <a href="m3_supervision_unica">Cédula Única de Seguimiento</a>
+                                        <a href="m3_cedula_unica_seguimiento">Cédula Única de Seguimiento</a>
                                         <a href="m3_indice_legajo">Índice del Legajo de Seguimiento</a>
                                         <a href="m3_portada">Portada</a>
                                         <a href="m3_contraportada">Contraportada</a>
