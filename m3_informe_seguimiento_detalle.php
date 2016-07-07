@@ -208,8 +208,8 @@
                                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                                     <div class="block-content block-content-full bg-flat clearfix">
                                                         <i class="si si-eye fa-2x text-white pull-right"></i>
-                                                        <span class="h4 font-w700 text-white">Acta </span>
-                                                        <span class="h4 text-white-op">Administrativa</span>
+                                                        <span class="h4 font-w700 text-white">Informe </span>
+                                                        <span class="h4 text-white-op">Seguimiento detalle</span>
                                                     </div>
                                                 </a>
                                             </div>
@@ -217,8 +217,8 @@
                                                 <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
                                                     <div class="block-content block-content-full bg-primary clearfix">
                                                         <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-                                                        <span class="h4 font-w700 text-white">Acta </span>
-                                                        <span class="h4 text-white-op">Administrativa</span>
+                                                        <span class="h4 font-w700 text-white">Informe </span>
+                                                        <span class="h4 text-white-op">Seguimiento detalle</span>
                                                     </div>
                                                 </a>
                                             </div>
