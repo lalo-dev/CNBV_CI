@@ -103,7 +103,7 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Nuevo PAT <small>PAT</small>
+                                Nuevo<small> PAT</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
@@ -130,131 +130,113 @@
                                     <!-- inicia obser1 -->
                                     <div class="tab-pane fade fade-up in active" id="obser1">
                                         <div class="row">
-                                            <div class="col-sm-1 col-sm-offset-5">
-                                                <label class="css-input switch switch-primary" title="Verificado">
-                                                    <input type="checkbox"><span></span> Verficado
-                                                </label>
-                                            </div>
-                                            <div class="col-sm-1">
-                                                <label class="css-input switch switch-success" title="Validado">
-                                                    <input type="checkbox"><span></span> Validado
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="row">
                                             <div class="col-md-5 col-md-offset-4">
-                                                <table class="table table">
+                                                <table class="table table-condensed">
                                                     <thead>
-                                                    <tr>
-                                                        <th class="text-center">AÑO</th>
-                                                        <th class="text-center">ACTIVO</th>
-                                                    </tr>
+                                                        <tr>
+                                                            <th class="text-center">AÑO</th>
+                                                            <th class="text-center">ACTIVO</th>
+                                                        </tr>
                                                     </thead>
                                                     <tbody>
-                                                    <tr>
-                                                        <td class="text-center">2025</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2024</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2023</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2022</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2021</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2020</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2019</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2018</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2017</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2026</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2016</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">2015</td>
-                                                        <td>
-                                                            <label class="css-input switch switch-primary">
-                                                                <input type="checkbox"><span></span> Verficado
-                                                            </label>
-                                                        </td>
-                                                    </tr>
+                                                        <tr>
+                                                            <td class="text-center">2026</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2025</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2024</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2023</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2022</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2021</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2020</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2019</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2018</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2017</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox"><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2016</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox" checked><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">2015</td>
+                                                            <td class="text-center">
+                                                                <label class="css-input switch switch-primary">
+                                                                    <input type="checkbox" checked><span></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
-                                            </div>
-                                            <div class="col-md-4 col-md-offset-4">
-                                                <div class="form-group">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
-                                                    <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>

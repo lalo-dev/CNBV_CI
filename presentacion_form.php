@@ -220,15 +220,7 @@
                             <div class="tab-pane" id="btabs-alt-static-settings">
                                 <h4 class="font-w300 push-15">Opciones</h4>
                                 <div class="row">
-                                    <div class="col-xs-6 col-sm-2 col-lg-2 col-lg-offset-2">
-                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                            <div class="block-content block-content-full">
-                                                <i class="si si-list fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Ordenar</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-2 col-lg-2">
+                                    <div class="col-md-2 col-lg-offset-4">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-printer fa-4x text-primary"></i>
@@ -236,7 +228,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-2 col-lg-2">
+                                    <div class="col-md-2">
                                         <a class="block block-link-hover3 text-center" href="presentacion_ejecutiva_form.php">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-doc fa-4x text-primary"></i>

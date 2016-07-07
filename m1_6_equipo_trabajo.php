@@ -43,24 +43,6 @@
     </head>
     <body>
         <!-- Page Container -->
-        <!--
-            Available Classes:
-
-            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
-
-            'sidebar-l'                  Left Sidebar and right Side Overlay
-            'sidebar-r'                  Right Sidebar and left Side Overlay
-            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
-            'sidebar-o'                  Visible Sidebar by default (> 991px)
-            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
-
-            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
-            'side-overlay-o'             Visible Side Overlay by default (> 991px)
-
-            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
-
-            'header-navbar-fixed'        Enables fixed header
-        -->
         <div id="page-container" class="sidebar-l sidebar-o side-scroll header-navbar-fixed">
             <!-- Side Overlay-->
             <?php include_once('sideContent.php'); ?>
@@ -103,13 +85,13 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Equipo de trabajo <small>Descripción</small>
+                                Equipo de trabajo <small>Planeación anual</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Planeación anual</li>
-                                <li><a class="link-effect" href="">Equipo de trabajo</a></li>
+                                <li>Equipo de trabajo</li>
                             </ol>
                         </div>
                     </div>
@@ -197,15 +179,7 @@
                             <div class="tab-pane" id="btabs-alt-static-settings">
                                 <h4 class="font-w300 push-15">Opciones</h4>
                                 <div class="row">
-                                    <div class="col-xs-6 col-sm-4 col-lg-2 col-lg-offset-1">
-                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                            <div class="block-content block-content-full">
-                                                <i class="si si-paper-plane fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Revisión</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                                    <div class="col-md-2 col-md-offset-5">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-printer fa-4x text-primary"></i>

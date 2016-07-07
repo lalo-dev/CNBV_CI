@@ -127,6 +127,9 @@
                         <a href="#search-mapa">Mapa</a>
                     </li>
                     <li class="pull-right">
+                        <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
+                    </li>
+                    <li class="pull-right">
                         <ul class="block-options push-10-t push-10-r">
                             <li>
                                 <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
@@ -137,443 +140,184 @@
                 <div class="block-content tab-content bg-white">
                     <!-- Mapa de risegos -->
                     <div class="tab-pane fade fade-up in active" id="search-mapa-riesgos">
-                        <!-- Agregar -->
-                        <div class="block block-themed block-opt-hidden">
-                            <div class="block-header bg-primary">
-                                <ul class="block-options">
-                                    <li>
-                                        <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-                                    </li>
-                                </ul>
-                                <h3 class="block-title">Riesgos</h3>
-                            </div>
-                            <div class="block-content">
-                                <form class="form-horizontal push-10-t" action="#" method="post">
 
-                                    <div class="form-group">
-                                        <div class="col-sm-6">
-                                            <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="descripcion" name="descripcion">
-                                                <label for="descripcion">Descripción del riesgo</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="impacto_x" name="impacto_x">
-                                                <label for="impacto_x">Impacto (X)</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="impacto_y" name="impacto_y">
-                                                <label for="impacto_y">Impacto (Y)</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="cuadrante" name="cuadrante">
-                                                <label for="cuadrante">Cuadrante</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="riesgo_ponderado" name="riesgo_ponderado">
-                                                <label for="riesgo_ponderado">Riesgo ponderado</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-12">
-                                            <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
-                                            <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
-                                        </div>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                        <!-- End Agregar -->
-                        <div class="row">&nbsp;</div>
                         <!-- Lista -->
+                        <div class="border-b push-30">
+                            <h2 class="push-10">20 <span class="h5 font-w400 text-muted">Elementos encontrados</span></h2>
+                        </div>
                         <div class="table-responsive">
-                            <div class="border-b push-30">
-                                <h2 class="push-10">20 <span class="h5 font-w400 text-muted">Elementos encontrados</span></h2>
-                            </div>
                             <table class="table table-striped table-vcenter table-condensed">
                                 <thead>
-                                <tr>
-                                    <th class="text-center"># Riesgo</th>
-                                    <th class="text-left">Descripción del riesgo 2016</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="0.6">Impacto (x)</th>
-                                    <th class="text-center" data-toggle="tooltip" data-placement="top" title="0.4">Probabilidad (y)</th>
-                                    <th class="text-center">Cuadrante</th>
-                                    <th class="text-left">Riesgo ponderado</th>
-                                    <th class="text-center">Acciones</th>
-                                </tr>
+                                    <tr>
+                                        <th class="text-center">#</th>
+                                        <th class="text-left">Descripción</th>
+                                        <th class="text-center" data-toggle="tooltip" data-placement="top" title="IMPACTO 0.6">Imp(x)</th>
+                                        <th class="text-center" data-toggle="tooltip" data-placement="top" title="PROBABILIDAD 0.4">Pro(y)</th>
+                                        <th class="text-center">Cuadrante</th>
+                                        <th class="text-center" data-toggle="tooltip" data-placement="top" title="RIESGO PONDERADO">RP</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td class="text-left">Procesos susantivos aplicados ineficiente o inoportunamente</td>
-                                    <td class="text-center">9</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">8.6</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td class="text-left">Actos de autoridad dictados a las entidades financieras con seguimiento inadecuado</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td class="text-left">Irregularidades de entidaes financieras determinadas con discrecionalidad</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td class="text-left">Riesgos determinados inapropiadamente</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">7.6</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td class="text-left">Contrataciones Celebradas o Ejecutadas deficientemente.</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">7.4</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td class="text-left">Solicitudes de acceso a información  atendidas con opacidad.</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">6.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td class="text-left">Recursos financieros y materiales ejercidos y/o utilizados inadecuadamente.</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">I</td>
-                                    <td class="text-left">6.6</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td class="text-left">Sanciones aplicadas extemporáneamente.</td>
-                                    <td class="text-center">5</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-center">II</td>
-                                    <td class="text-left">5.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td class="text-left">Procesos sustantivos aplicados inadecuadamente a cambio de un beneficio</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">II</td>
-                                    <td class="text-left">4.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td class="text-left">Regulación secundaria elaborada para favorecer a un sector de manera deliberada a cambio de un beneficio.</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">II</td>
-                                    <td class="text-left">4.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td class="text-left">Servicio médico proporcionado ineficientemente.</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">II</td>
-                                    <td class="text-left">4.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td class="text-left">Sistemas informaticos amenazados por posibles vulnerabilidades.</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">II</td>
-                                    <td class="text-left">4.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td class="text-left">Autorizaciones atendidas discrecionalmente en forma prioritaria o diferida</td>
-                                    <td class="text-center">5</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">III</td>
-                                    <td class="text-left">4.6</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td class="text-left">Sanciones  impuestas de manera discrecional.</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">III</td>
-                                    <td class="text-left">4</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td class="text-left">Recursos humanos administrados con deficiencia.</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">IV</td>
-                                    <td class="text-left">5.8</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td class="text-left">Solicitudes de autoridades atendidas inoportunamente.</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">5</td>
-                                    <td class="text-center">IV</td>
-                                    <td class="text-left">5.6</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>17</td>
-                                    <td class="text-left">Criterios normativos publicados a destiempo</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">IV</td>
-                                    <td class="text-left">5.2</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td class="text-left">Tecnologías de Información y Comunicación utilizadas  de manera ineficiente.</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">4</td>
-                                    <td class="text-center">IV</td>
-                                    <td class="text-left">5.2</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>19</td>
-                                    <td class="text-left">Hostigamiento y acoso laboral o sexual atendido de manera inapropiada.</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">2</td>
-                                    <td class="text-center">IV</td>
-                                    <td class="text-left">4.4</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td class="text-left">Solicitudes, quejas y denuncias ciudadanas atendidas sin transparencia.</td>
-                                    <td class="text-center">6</td>
-                                    <td class="text-center">2</td>
-                                    <td class="text-center">IV</td>
-                                    <td class="text-left">4.4</td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                <i class="fa fa-pencil"></i>
-                                            </a>
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td class="text-left">Procesos susantivos aplicados ineficiente o inoportunamente</td>
+                                        <td class="text-center">9</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">8.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="text-left">Actos de autoridad dictados a las entidades financieras con seguimiento inadecuado</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td class="text-left">Irregularidades de entidaes financieras determinadas con discrecionalidad</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td class="text-left">Riesgos determinados inapropiadamente</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">7</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">7.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td class="text-left">Contrataciones Celebradas o Ejecutadas deficientemente.</td>
+                                        <td class="text-center">7</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">7.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td class="text-left">Solicitudes de acceso a información  atendidas con opacidad.</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">8</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">6.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td class="text-left">Recursos financieros y materiales ejercidos y/o utilizados inadecuadamente.</td>
+                                        <td class="text-center">7</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">I</td>
+                                        <td class="text-left">6.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td class="text-left">Sanciones aplicadas extemporáneamente.</td>
+                                        <td class="text-center">5</td>
+                                        <td class="text-center">7</td>
+                                        <td class="text-center">II</td>
+                                        <td class="text-left">5.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td class="text-left">Procesos sustantivos aplicados inadecuadamente a cambio de un beneficio</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">II</td>
+                                        <td class="text-left">4.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td class="text-left">Regulación secundaria elaborada para favorecer a un sector de manera deliberada a cambio de un beneficio.</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">II</td>
+                                        <td class="text-left">4.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td class="text-left">Servicio médico proporcionado ineficientemente.</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">II</td>
+                                        <td class="text-left">4.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td class="text-left">Sistemas informaticos amenazados por posibles vulnerabilidades.</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">II</td>
+                                        <td class="text-left">4.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td class="text-left">Autorizaciones atendidas discrecionalmente en forma prioritaria o diferida</td>
+                                        <td class="text-center">5</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">III</td>
+                                        <td class="text-left">4.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td class="text-left">Sanciones  impuestas de manera discrecional.</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">III</td>
+                                        <td class="text-left">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td class="text-left">Recursos humanos administrados con deficiencia.</td>
+                                        <td class="text-center">7</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">IV</td>
+                                        <td class="text-left">5.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td class="text-left">Solicitudes de autoridades atendidas inoportunamente.</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">5</td>
+                                        <td class="text-center">IV</td>
+                                        <td class="text-left">5.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td class="text-left">Criterios normativos publicados a destiempo</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">IV</td>
+                                        <td class="text-left">5.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td class="text-left">Tecnologías de Información y Comunicación utilizadas  de manera ineficiente.</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">IV</td>
+                                        <td class="text-left">5.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td class="text-left">Hostigamiento y acoso laboral o sexual atendido de manera inapropiada.</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">2</td>
+                                        <td class="text-center">IV</td>
+                                        <td class="text-left">4.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td class="text-left">Solicitudes, quejas y denuncias ciudadanas atendidas sin transparencia.</td>
+                                        <td class="text-center">6</td>
+                                        <td class="text-center">2</td>
+                                        <td class="text-center">IV</td>
+                                        <td class="text-left">4.4</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -582,72 +326,40 @@
                     <!-- End Mapa de riesgos -->
                     <!-- Mapa -->
                     <div class="tab-pane fade fade-up" id="search-mapa">
-                        <!-- Agregar -->
-                        <div class="block block-themed block-opt-hidden">
-                            
-                        </div>
-                        <!-- End Agregar -->
-                            <div class="row">&nbsp;</div>
-                            <!-- Lista -->
-                            <div class="table-responsive">
-                                <div class="border-b push-30">
-                                    <h2 class="push-10">2 <span class="h5 font-w400 text-muted">Resutados en el mapa...</span></h2>
-                                </div>
-
-                                Aquí el mapa ! ! !
-                                <!--                <table class="table table-striped table-vcenter table-condensed">
-                                    <thead>
-                                    <tr>
-                                        <th class="text-center">#</th>
-                                        <th class="text-left">Habilidad</th>
-                                        <th class="text-center">Nivel</th>
-                                        <th class="text-center" data-toggle="tooltip" data-placement="top" title="Años de experiencia">Años</th>
-                                        <th class="text-center">Acciones</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="text-center">1</td>
-                                        <td class="text-left">Conocimiento de las regulaciones estatales y federales</td>
-                                        <td class="text-center">Básico</td>
-                                        <td class="text-center">3</td>
-                                        <td class="text-center">
-                                            <div class="btn-group">
-                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                    <i class="fa fa-pencil"></i>
-                                                </a>
-                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                    <i class="fa fa-times"></i>
-                                                </button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td class="text-left">Administración de información</td>
-                                        <td class="text-center">Intermedio</td>
-                                        <td class="text-center">5</td>
-                                        <td class="text-center">
-                                            <div class="btn-group">
-                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                    <i class="fa fa-pencil"></i>
-                                                </a>
-                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                    <i class="fa fa-times"></i>
-                                                </button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>                        -->
+                        <!-- Lista -->
+                        <div class="table-responsive">
+                            <div class="border-b push-30">
+                                <h2 class="push-10">2 <span class="h5 font-w400 text-muted">Resutados en el mapa...</span></h2>
                             </div>
-                            <!-- END Lista -->
+                            Aquí el mapa ! ! !
                         </div>
-                        <!-- END Mapa -->
-
                     </div>
-                </div>
+                    <!-- END Mapa -->
 
+                    <!-- Settings -->
+                    <div class="tab-pane" id="btabs-alt-static-settings">
+                        <h4 class="font-w300 push-15">Opciones</h4>
+                        <div class="row">
+                            <div class="col-md-2 col-lg-offset-4">
+                                <a class="block block-link-hover3 text-center" href="javascript:void(0)">
+                                    <div class="block-content block-content-full">
+                                        <i class="si si-printer fa-4x text-primary"></i>
+                                        <div class="font-w600 push-15-t">Imprimir lista</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a class="block block-link-hover3 text-center" href="m1_4_mapa_riesgos_form">
+                                    <div class="block-content block-content-full">
+                                        <i class="si si-doc fa-4x text-primary"></i>
+                                        <div class="font-w600 push-15-t">Agregar riesgo</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Settings -->
+                </div>
             </div>
             <!-- END Page Content -->
     </main>

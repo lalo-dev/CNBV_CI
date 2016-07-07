@@ -43,24 +43,6 @@
     </head>
     <body>
         <!-- Page Container -->
-        <!--
-            Available Classes:
-
-            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
-
-            'sidebar-l'                  Left Sidebar and right Side Overlay
-            'sidebar-r'                  Right Sidebar and left Side Overlay
-            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
-            'sidebar-o'                  Visible Sidebar by default (> 991px)
-            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
-
-            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
-            'side-overlay-o'             Visible Side Overlay by default (> 991px)
-
-            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
-
-            'header-navbar-fixed'        Enables fixed header
-        -->
         <div id="page-container" class="sidebar-l sidebar-o side-scroll header-navbar-fixed">
             <!-- Side Overlay-->
             <?php include_once('sideContent.php'); ?>
@@ -101,16 +83,16 @@
                 <!-- Page Header -->
                 <div class="content bg-gray-lighter">
                     <div class="row items-push">
-                        <div class="col-sm-7">
+                        <div class="col-md-5">
                             <h1 class="page-heading">
-                                Agregar documento <small>AAI</small>
+                                Agregar documento <small>Presentación ejecutiva</small>
                             </h1>
                         </div>
-                        <div class="col-sm-5 text-right hidden-xs">
+                        <div class="col-md-7 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Normativa</li>
-                                <li><a class="link-effect" href="m7_1_normativa_aai.php">AAI</a></li>
-                                <li>Agregar documento</li>
+                                <li>Planeación anual</li>
+                                <li><a class="link-effect" href="presentacion_form">Presentación ejecutiva</a></li>
+                                <li>Agregar</li>
                             </ol>
                         </div>
                     </div>

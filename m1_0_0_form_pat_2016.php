@@ -147,7 +147,7 @@
                                     <h2 class="push-10">Estatus <span class="h5 font-w400 text-muted">PAT</span></h2>
                                 </div>
                                 <div class="row">
-                                    <div class="col-xs-6 col-sm-2 col-lg-2 col-lg-offset-1">
+                                    <div class="col-md-2 col-md-offset-2">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="fa fa-battery-0 fa-4x text-success"></i>
@@ -155,7 +155,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                                    <div class="col-md-2">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="fa fa-battery-1 fa-4x text-muted"></i>
@@ -163,7 +163,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                                    <div class="col-md-2">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="fa fa-battery-2 fa-4x text-muted"></i>
@@ -171,7 +171,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                                    <div class="col-md-2">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="fa fa-battery-4 fa-4x text-muted"></i>
@@ -186,7 +186,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-2">
-                                        <a class="block block-link-hover2" href="javascript:void(0)">
+                                        <a class="block block-link-hover2" href="javascript:void(0)" disabled data-toggle="tooltip" data-placement="top" title="Vista previa">
                                             <div class="block-content block-content-full bg-flat clearfix">
                                                 <i class="si si-eye fa-2x text-white pull-right"></i>
                                                 <span class="h4 font-w700 text-white">PAT</span>
@@ -195,7 +195,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
+                                        <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx" disabled data-toggle="tooltip" data-placement="top" title="Descargar">
                                             <div class="block-content block-content-full bg-primary clearfix">
                                                 <i class="si si-cloud-download fa-2x text-white pull-right"></i>
                                                 <span class="h4 font-w700 text-white">PAT</span>
@@ -204,7 +204,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a class="block block-link-hover2" href="javascript:void(0)">
+                                        <a class="block block-link-hover2" href="javascript:void(0)" disabled data-toggle="tooltip" data-placement="top" title="Vista previa">
                                             <div class="block-content block-content-full bg-flat clearfix">
                                                 <i class="si si-eye fa-2x text-white pull-right"></i>
                                                 <span class="h4 font-w700 text-white">PAT</span>
@@ -213,7 +213,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a class="block block-link-hover2" href="./archivos/PAT_DETALLADO.xlsx">
+                                        <a class="block block-link-hover2" href="./archivos/PAT_DETALLADO.xlsx" disabled data-toggle="tooltip" data-placement="top" title="Descargar">
                                             <div class="block-content block-content-full bg-primary clearfix">
                                                 <i class="si si-cloud-download fa-2x text-white pull-right"></i>
                                                 <span class="h4 font-w700 text-white">PAT</span>
@@ -222,7 +222,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a class="block block-link-hover2" href="javascript:void(0)">
+                                        <a class="block block-link-hover2" href="javascript:void(0)" disabled data-toggle="tooltip" data-placement="top" title="Vista previa">
                                             <div class="block-content block-content-full bg-flat clearfix">
                                                 <i class="si si-eye fa-2x text-white pull-right"></i>
                                                 <span class="h4 font-w700 text-white">PAT</span>
@@ -231,7 +231,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-2">
-                                        <a class="block block-link-hover2" href="./archivos/PAT_DETALLADO.xlsx">
+                                        <a class="block block-link-hover2" href="./archivos/PAT_DETALLADO.xlsx" disabled data-toggle="tooltip" data-placement="top" title="Descargar">
                                             <div class="block-content block-content-full bg-primary clearfix">
                                                 <i class="si si-cloud-download fa-2x text-white pull-right"></i>
                                                 <span class="h4 font-w700 text-white">PAT</span>
@@ -254,10 +254,10 @@
                                             <th class="text-center">P/A/C</th>
                                             <th class="text-center">Clave</th>
                                             <th class="text-left">Área a revisar</th>
-                                            <th class="text-left">Inicio</th>
-                                            <th class="text-left">Fin</th>
-                                            <th class="text-left">Validar</th>
-                                            <th class="text-left">&nbsp;</th>
+                                            <th class="text-center">Inicio</th>
+                                            <th class="text-center">Fin</th>
+                                            <th class="text-center">Validar</th>
+                                            <th class="text-center">Acciones</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -266,11 +266,11 @@
                                             <td class="text-center">P</td>
                                             <td class="text-center">700</td>
                                             <td>DG de Visitas de Investigación (Proceso de Soporte Legal)</td>
-                                            <td>01/01/2013</td>
-                                            <td>31/12/2013</td>
+                                            <td class="text-center">01/01/2013</td>
+                                            <td class="text-center">31/12/2013</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Enviar a validación">
+                                                    <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Revisar/Validar">
                                                         <i class="fa fa-send-o"></i>
                                                     </a>
                                                     <a class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-small2">
@@ -304,7 +304,7 @@
                                             <td>31/12/2013</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Enviar a validación">
+                                                    <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Revisar/Validar">
                                                         <i class="fa fa-send-o"></i>
                                                     </a>
                                                     <a class="btn btn-warning btn-xs" data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >
@@ -338,7 +338,7 @@
                                             <td>31/12/2013</td>
                                             <td class="text-center">
                                                 <div class="btn-group">
-                                                    <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Enviar a validación">
+                                                    <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Revisar/Validar">
                                                         <i class="fa fa-send-o"></i>
                                                     </a>
                                                     <a class="btn btn-warning btn-xs" disabled data-toggle="tooltip" data-placement="top" title="Validar" href="m1_0_0_form_pat_validar.php" >

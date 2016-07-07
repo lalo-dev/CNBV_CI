@@ -43,24 +43,6 @@
     </head>
     <body>
         <!-- Page Container -->
-        <!--
-            Available Classes:
-
-            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
-
-            'sidebar-l'                  Left Sidebar and right Side Overlay
-            'sidebar-r'                  Right Sidebar and left Side Overlay
-            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
-            'sidebar-o'                  Visible Sidebar by default (> 991px)
-            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
-
-            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
-            'side-overlay-o'             Visible Side Overlay by default (> 991px)
-
-            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
-
-            'header-navbar-fixed'        Enables fixed header
-        -->
         <div id="page-container" class="sidebar-l sidebar-o side-scroll header-navbar-fixed">
             <!-- Side Overlay-->
             <?php include_once('sideContent.php'); ?>
@@ -103,14 +85,14 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Agregar documento <small>AAI</small>
+                                Capturar semanas <small>Semanas hombre</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Normativa</li>
-                                <li><a class="link-effect" href="m7_1_normativa_aai.php">AAI</a></li>
-                                <li>Agregar documento</li>
+                                <li>Planeación anual</li>
+                                <li><a class="link-effect" href="m1_5_semanas_hombre">Semanas hombre</a></li>
+                                <li>Capturar</li>
                             </ol>
                         </div>
                     </div>
@@ -122,7 +104,7 @@
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
                             <li class="active">
-                                <a href="#search-escolaridad">Lista usuarios</a>
+                                <a href="#search-escolaridad">Lista de actividades</a>
                             </li>
                             <li class="pull-right">
                                 <ul class="block-options push-10-t push-10-r">
@@ -137,16 +119,6 @@
                             <div class="tab-pane fade fade-up in active" id="search-escolaridad">
                                 <!-- Agregar -->
                                 <div class="block block-themed">
-                                    <div class="block-header bg-primary">
-                                        <ul class="block-options">
-                                            <!--
-                                            <li>
-                                                <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-                                            </li>
-                                            -->
-                                        </ul>
-                                        <h3 class="block-title">Agregar valores</h3>
-                                    </div>
                                     <div class="block-content">
                                         <form class="form-horizontal push-10-t" action="#" method="post">
                                             <div class="form-group">
@@ -280,6 +252,12 @@
 				                                                <input class="form-control input-sm" type="text" id="example-hf-email" name="example-hf-email">
 				                                            </div>
 				                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="col-md-6 control-label" for="example-hf-email">TOTAL</label>
+                                                            <div class="col-md-2">
+                                                                <input class="form-control input-sm" type="text" id="example-hf-email" name="example-hf-email">
+                                                            </div>
+                                                        </div>
 			                                            <div class="form-group">
 			                                            	&nbsp;
 			                                            </div>

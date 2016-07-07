@@ -448,7 +448,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <div class="col-sm-9">
+                                            <div class="col-md-11">
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="val-skill4" name="val-skill4">
                                                         <option></option>
@@ -460,29 +460,10 @@
                                                     <label for="val-skill4">Riesgo</label>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-1">
+                                            <div class="col-md-1">
                                                 <div class="form-material form-material-primary">
                                                     <button class="btn btn-success btn-sm push-5-r push-10" type="button"><i class="fa fa-plus"></i></button>
                                                     <label for="val-skill4">&nbsp;</label>
-                                                </div>
-                                            </div>
-                                            <!--<div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val-skill4" name="val-skill4">
-                                                        <option></option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                    <label for="val-skill4">Cuadrante</label>
-                                                </div>
-                                            </div>-->
-
-                                            <div class="col-sm-2">
-                                                <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="cuadrante" name="cuadrante">
-                                                    <label for="cuadrante">Cuadrante</label>
                                                 </div>
                                             </div>
 
@@ -491,24 +472,26 @@
                                             <table class="table table-striped table-vcenter table-condensed">
                                                 <thead>
                                                     <tr>
-                                                        <th>#</th>
+                                                        <th class="text-center">#</th>
                                                         <th class="text-left">Riesgo</th>
                                                         <th class="text-left">Cuadrante</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>1.2</td>
+                                                        <td class="text-center">1</td>
                                                         <td>Supervisores beneficiados a traves de acuerdos con entidades supervisadas.</td>
-                                                        <td rowspan="3" class="text-center">1</td>
+                                                        <td class="text-center">1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>1.4</td>
+                                                        <td class="text-center">2</td>
                                                         <td>Autorizaciones otorgadas en forma deficiente.</td>
+                                                        <td class="text-center">1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>1.5</td>
+                                                        <td class="text-center">3</td>
                                                         <td>Denuncias de captacion irregular por entidades no autorizadas atendida inoportunamente.</td>
+                                                        <td class="text-center">1</td>
                                                     </tr>
                                                 </tbody>
                                             </table>

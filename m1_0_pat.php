@@ -147,7 +147,6 @@
                                             <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Seguimientos</th>
                                             <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> Observaciones</th>
                                             <th class="text-center" style=""><i class="fa fa-file-o text-gray"></i> PRAS</th>
-                                            <th class="text-center" style=""><i class="fa fa-warning text-gray"></i> Autorizado</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -160,7 +159,6 @@
                                                     <span class="label label-primary"><i class="fa fa-check"></i> Programado</span>
                                                 </div>
                                             </td>
-                                            <td class="h3 text-center">0</td>
                                             <td class="h3 text-center">0</td>
                                             <td class="h3 text-center">0</td>
                                             <td class="h3 text-center">0</td>
@@ -179,7 +177,6 @@
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -190,7 +187,6 @@
                                                     <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
                                                 </div>
                                             </td>
-                                            <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
@@ -209,7 +205,6 @@
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -220,7 +215,6 @@
                                                     <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
                                                 </div>
                                             </td>
-                                            <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
@@ -239,7 +233,6 @@
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
-                                            <td class="h3 text-center">-</td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -250,7 +243,6 @@
                                                     <span class="label label-success"><i class="fa fa-check"></i> Completado</span>
                                                 </div>
                                             </td>
-                                            <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
                                             <td class="h3 text-center">-</td>
