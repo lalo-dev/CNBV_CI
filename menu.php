@@ -195,7 +195,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">PRA</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m4_solicitud_auditoria_no_vinculante">Solicitud de asesoría no vinculante</a>
+                                        <a href="m4_solicitud_asesoria_no_vinculante">Solicitud de asesoría no vinculante</a>
                                     </li>
                                     <li>
                                         <a href="m4_informe_presunta_responsabilidad">Informe de Presunta Responsabilidad</a>
