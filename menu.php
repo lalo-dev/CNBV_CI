@@ -31,7 +31,15 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Planeación anual</span></a>
                                 <ul>
                                     <li>
-                                        <a class="submenuCnbv" href="m1_0_pat">PAT</a>
+                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#"><span class="sidebar-mini-hide">PAT</span></a>
+                                        <ul>
+                                            <li>
+                                                <a href="m1_0_pat">PAT</a>
+                                            </li>
+                                            <li>
+                                                <a href="m1_1_acta_administrativa">Acta Administrativa</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a class="submenuCnbv" href="presentacion_form">Presentación ejecutiva</a>
