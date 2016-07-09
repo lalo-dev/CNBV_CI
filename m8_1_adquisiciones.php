@@ -121,7 +121,7 @@
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
                             <li class="active">
-                                <a href="#search-documentos">Lista de terminos</a>
+                                <a href="#search-documentos">Lista</a>
                             </li>
                             <li class="pull-right">
                                 <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
@@ -142,17 +142,6 @@
                                 <div class="col-md-12">
                                 	<!-- Block -->
                                 	<div class="block">
-                                		
-                                		<div class="block-header">
-		                                    <ul class="block-options">
-		                                        <li>
-		                                            <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
-		                                        </li>
-		                                        <li>
-		                                            <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-		                                        </li>
-		                                    </ul>
-		                                </div>
 	                                    <!-- Blockquotes -->
 	                                    <div class="block block-themed">
 	                                    	<h3 class="block-title">Tema 01</h3>
@@ -222,21 +211,8 @@
                                 
                                 <!-- Tabla_Tema-->
                                 <div class="col-md-12">
-                                	
                                 	<!-- Block -->
                                 	<div class="block">
-                                		
-                                		<div class="block-header">
-		                                    <ul class="block-options">
-		                                        <li>
-		                                            <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
-		                                        </li>
-		                                        <li>
-		                                            <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-		                                        </li>
-		                                    </ul>
-		                                </div>
-	                                
 	                                    <!-- Blockquotes -->
 	                                    <div class="block block-themed">
 	                                    	<h3 class="block-title">Tema 02</h3>
@@ -308,17 +284,6 @@
                                 <div class="col-md-12">
                                 	<!-- Block -->
                                 	<div class="block">
-                                		
-                                		<div class="block-header">
-		                                    <ul class="block-options">
-		                                        <li>
-		                                            <button type="button" data-toggle="block-option" data-action="fullscreen_toggle"></button>
-		                                        </li>
-		                                        <li>
-		                                            <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
-		                                        </li>
-		                                    </ul>
-		                                </div>
 	                                    <!-- Blockquotes -->
 	                                    <div class="block block-themed">
 	                                    	<h3 class="block-title">Tema 03</h3>
@@ -393,15 +358,7 @@
                             <div class="tab-pane" id="btabs-alt-static-settings">
                                 <h4 class="font-w300 push-15">Opciones</h4>
                                 <div class="row">
-                                    <div class="col-xs-6 col-sm-2 col-lg-2 col-lg-offset-2">
-                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
-                                            <div class="block-content block-content-full">
-                                                <i class="si si-list fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Ordenar</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-2 col-lg-2">
+                                    <div class="col-md-2 col-md-offset-4">
                                         <a class="block block-link-hover3 text-center" href="javascript:void(0)">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-printer fa-4x text-primary"></i>
@@ -409,11 +366,11 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-2 col-lg-2">
-                                        <a class="block block-link-hover3 text-center" href="m8_2_comsoc_form.php">
+                                    <div class="col-md-2">
+                                        <a class="block block-link-hover3 text-center" href="m8_1_adquisiciones_form">
                                             <div class="block-content block-content-full">
                                                 <i class="si si-doc fa-4x text-primary"></i>
-                                                <div class="font-w600 push-15-t">Agregar COMSOC</div>
+                                                <div class="font-w600 push-15-t">Agregar Adquisición</div>
                                             </div>
                                         </a>
                                     </div>
