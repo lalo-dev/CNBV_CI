@@ -31,15 +31,7 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-layers"></i><span class="sidebar-mini-hide">Planeación anual</span></a>
                                 <ul>
                                     <li>
-                                        <a class="nav-submenu" data-toggle="nav-submenu" href="#"><span class="sidebar-mini-hide">PAT</span></a>
-                                        <ul>
-                                            <li>
-                                                <a href="m1_0_pat">PAT</a>
-                                            </li>
-                                            <li>
-                                                <a href="m1_1_acta_administrativa">Acta Administrativa</a>
-                                            </li>
-                                        </ul>
+                                        <a class="submenuCnbv" href="m1_0_pat">PAT</a>
                                     </li>
                                     <li>
                                         <a class="submenuCnbv" href="presentacion_form">Presentación ejecutiva</a>
@@ -234,59 +226,6 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Reportes</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Reporte avance semanal auditoría</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Reportes adicionales</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Reportes AAI</a>
-                                    </li>
-                                    <!--<li>
-                                        <a href="m5_1_reporte_auditorias">Auditorías</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Seguimientos</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Auditores</a>
-                                    </li>
-                                    <li>
-                                        <a href="">PRAS</a>
-                                    </li>
-                                    <li>
-                                        <a href="reportes_adisionales">Adisionales</a>
-                                    </li>
-                                    <li>
-                                        <a href="reportes_hallazgos">Hallazgos</a>
-                                    </li>
-                                    <li>
-                                        <a href="reportes_observaciones">Observaciones</a>
-                                    </li>
-                                    -->
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Estadísticas</span></a>
-                                <ul>
-                                    <li>
-                                        <a href="m6_1_estadistica_auditorias">Auditorías ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Seguimientos ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Auditores ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="">PRAS ?</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-calendar"></i><span class="sidebar-mini-hide">Actividades</span></a>
                                 <ul>
                                     <li>
@@ -345,6 +284,37 @@
                                 <a href="blogLista">
                                     <i class="si si-notebook"></i><span class="sidebar-mini-hide">Blog</span>
                                 </a>
+                            </li>
+                            <li>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Reportes</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Reporte avance semanal auditoría</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reportes adicionales</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reportes AAI</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Estadísticas</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="m6_1_estadistica_auditorias">Auditorías</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Seguimientos</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Auditores</a>
+                                    </li>
+                                    <li>
+                                        <a href="">PRAS</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
                             <li>
