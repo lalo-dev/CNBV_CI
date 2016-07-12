@@ -164,7 +164,7 @@
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="impacto_y" name="impacto_y">
-                                                <label for="impacto_y">Impacto (Y)</label>
+                                                <label for="impacto_y">Probabilidad (Y)</label>
                                             </div>
                                         </div>
                                     </div>

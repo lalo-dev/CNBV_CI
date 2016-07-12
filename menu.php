@@ -242,10 +242,6 @@
                                     <i class="si si-notebook"></i><span class="sidebar-mini-hide">Blog</span>
                                 </a>
                             </li>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
                             <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
                             <li>
                                 <a href="adm_usuarios">
@@ -301,14 +297,3 @@
             </div>
             <!-- END Sidebar Scroll Container -->
         </nav>
-        <!--<script>
-            //Mostrar que link del menu esta activo
-            $('.submenuCnbv').on('click',function(){
-                alert('menu');
-                $('.nav-main').find('li, a').removeClass('active');
-                $('.nav-main').find('ul').css({ display: 'none' });
-                $(this).addClass('active');
-                $(this).parent().parent().parent().addClass('active');
-                $(this).parent().parent().css({ display: 'block' });
-            });
-        </script>-->
