@@ -149,12 +149,14 @@
                                 <form class="form-horizontal push-10-t" action="#" method="post">
 
                                     <div class="form-group">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-12">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="descripcion" name="descripcion">
                                                 <label for="descripcion">Descripción del riesgo</label>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="form-group">
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="impacto_x" name="impacto_x">
@@ -167,8 +169,6 @@
                                                 <label for="impacto_y">Probabilidad (Y)</label>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
                                                 <input class="form-control input-sm" type="text" id="cuadrante" name="cuadrante">
