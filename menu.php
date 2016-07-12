@@ -146,32 +146,6 @@
                                             <li>
                                                 <a href="#">Contraportada</a>
                                             </li>
-                                            <!--
-                                            <li>
-                                                <a href="m2_2_informe_auditoria">Informe de auditoría</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Anexo R1 de oportunidad</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Memo Área de oportunidad</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">C&eacute;dula Unica</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">C&eacute;dula de supervisión de auditoría</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Indice legajo de auditoría</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Portada</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Contraportada</a>
-                                            </li>
-                                            -->
                                         </ul>
                                     </li>
                                 </ul>
@@ -206,23 +180,6 @@
                                     <li>
                                         <a href="m4_anexos">Anexos</a>
                                     </li>
-                                    <!--
-                                    <li>
-                                        <a href="m4_1_informe_pra">Informe de PRAS</a>
-                                    </li>
-                                    <li>
-                                        <a href="m4_2_solicitud_asesor">Solicitud asesor</a>
-                                    </li>
-                                    <li>
-                                        <a href="m4_3_informe_envio">Informe de envío</a>
-                                    </li>
-                                    <li>
-                                        <a href="m4_4_requerimiento">Requerimiento información</a>
-                                    </li>
-                                    <li>
-                                        <a href="m4_5_anexos">Anexos al informe de PRAS</a>
-                                    </li>
-                                    -->
                                 </ul>
                             </li>
                             <li>
@@ -285,6 +242,10 @@
                                     <i class="si si-notebook"></i><span class="sidebar-mini-hide">Blog</span>
                                 </a>
                             </li>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
                             <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
                             <li>
                                 <a href="adm_usuarios">
