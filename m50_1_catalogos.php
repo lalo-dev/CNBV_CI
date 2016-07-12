@@ -210,7 +210,7 @@
                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                     <div class="block-content block-content-full bg-primary clearfix">
                                         <i class="fa fa-users fa-2x text-white pull-right"></i>
-                                        <span class="h4 font-w700 text-white">10</span> <span class="h4 text-white-op">Criterios para las cedulas</span>
+                                        <span class="h4 font-w700 text-white">10</span> <span class="h4 text-white-op">Vicepresidencia</span>
                                     </div>
                                 </a>
                             </div>
@@ -218,7 +218,7 @@
                                 <a class="block block-link-hover2" href="javascript:void(0)">
                                     <div class="block-content block-content-full bg-primary clearfix">
                                         <i class="fa fa-building-o fa-2x text-white pull-right"></i>
-                                        <span class="h4 font-w700 text-white">1</span> <span class="h4 text-white-op">Áreas CNBV</span>
+                                        <span class="h4 font-w700 text-white">1</span> <span class="h4 text-white-op">Direcciones Generales Adjuntas</span>
                                     </div>
                                 </a>
                             </div>

@@ -285,6 +285,22 @@
                                     <i class="si si-notebook"></i><span class="sidebar-mini-hide">Blog</span>
                                 </a>
                             </li>
+                            <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
+                            <li>
+                                <a href="adm_usuarios">
+                                    <i class="si si-users"></i><span class="sidebar-mini-hide">Usuarios</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="m50_1_catalogos.php">
+                                    <i class="si si-list"></i><span class="sidebar-mini-hide">Catálogos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blogAdmin">
+                                    <i class="si si-speech"></i><span class="sidebar-mini-hide">Blog</span>
+                                </a>
+                            </li>
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Reportes</span></a>
                                 <ul>
@@ -315,22 +331,6 @@
                                         <a href="">PRAS</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="nav-main-heading"><span class="sidebar-mini-hide">Administración</span></li>
-                            <li>
-                                <a href="adm_usuarios">
-                                    <i class="si si-users"></i><span class="sidebar-mini-hide">Usuarios</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="m50_1_catalogos.php">
-                                    <i class="si si-list"></i><span class="sidebar-mini-hide">Catálogos</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="blogAdmin">
-                                    <i class="si si-speech"></i><span class="sidebar-mini-hide">Blog</span>
-                                </a>
                             </li>
                         </ul>
                     </div>
