@@ -491,6 +491,12 @@
                             </div>
                         </div>
                         <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                                <div class="form-material floating">
+                                    <textarea class="form-control" id="cuerpo" name="cuerpo" rows="2"></textarea>
+                                    <label for="cuerpo">Titulo</label>
+                                </div>
+                            </div>
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="form-material floating">
                                     <textarea class="form-control" id="cuerpo" name="cuerpo" rows="2"></textarea>
