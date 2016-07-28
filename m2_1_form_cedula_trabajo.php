@@ -607,9 +607,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group">
-                                            <a class="btn btn-danger btn-xs" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Eliminar">
-                                                <i class="fa fa-minus"></i>
-                                            </a>
+                                            
                                             <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
                                                 <i class="fa fa-plus"></i>
                                             </button>
@@ -671,9 +669,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group">
-                                            <a class="btn btn-danger btn-xs" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Eliminar">
-                                                <i class="fa fa-minus"></i>
-                                            </a>
+                                            
                                             <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
                                                 <i class="fa fa-plus"></i>
                                             </button>
