@@ -308,6 +308,14 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <br>
+                                    <br>
+                                    <div class="form-group">
+                                        <div class="form-material floating">
+                                            <input class="form-control" type="text" id="coment" name="coment">
+                                            <label for="coment">Comentarios</label>
+                                        </div>
+                                    </div>
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
