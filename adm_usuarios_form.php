@@ -600,6 +600,40 @@
                                         </div>
                                     </div>
 
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <legend>Asiganción - Otras actividades</legend>
+                                            <div class="form-group">
+                                                <div class="col-md-2">
+                                                    <label class="css-input switch switch-primary">
+                                                        <input type="checkbox" checked><span></span> Adquisiciones
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <label class="css-input switch switch-primary">
+                                                        <input type="checkbox" checked><span></span> COMSOC
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <label class="css-input switch switch-primary">
+                                                        <input type="checkbox" checked><span></span> Actas de entrega
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <label class="css-input switch switch-primary">
+                                                        <input type="checkbox" checked><span></span> Auditores externos
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <label class="css-input switch switch-primary">
+                                                        <input type="checkbox" checked><span></span> ASF
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            </fieldset>
+                                        </div>                                        
+                                    </div>
+
                                     <div class="row">&nbsp;</div>
                                     <div class="row">&nbsp;</div>
 
