@@ -108,19 +108,10 @@
                         <a href="#info">Info</a>
                     </li>
                     <li>
-                        <a href="#a">A</a>
+                        <a href="#d">D. "Nombre de la actividad"</a>
                     </li>
                     <li>
-                        <a href="#b">B</a>
-                    </li>
-                    <li>
-                        <a href="#c">C</a>
-                    </li>
-                    <li>
-                        <a href="#d">D</a>
-                    </li>
-                    <li>
-                        <a href="#e">E</a>
+                        <a href="#e">E. "Nombre de la actividad"</a>
                     </li>
                 </ul>
                 <div class="block-content tab-content bg-white">
@@ -129,15 +120,6 @@
                         <div class="block"> <!-- INICIA SEGUNDO BLOCK-->
                             <ul class="nav nav-tabs nav-tabs-alt" data-toggle="tabs">
                                 <li class="active">
-                                    <a href="#aa">A</a>
-                                </li>
-                                <li>
-                                    <a href="#bb">B</a>
-                                </li>
-                                <li>
-                                    <a href="#cc">C</a>
-                                </li>
-                                <li>
                                     <a href="#dd">D</a>
                                 </li>
                                 <li>
@@ -145,175 +127,8 @@
                                 </li>
                             </ul>
                             <div class="block-content tab-content bg-white">
-                                <!-- Inicia Area aa -->
-                                <div class="tab-pane fade fade-up in active" id="aa">
-                                    <div class="row">
-			                            <div class="col-md-3">
-			                                <div class="block block-themed">
-			                                    <div class="block-header bg-primary-dark">
-			                                        <h3 class="block-title">Estatus</h3>
-			                                    </div>
-			                                    <div class="block-content">
-			                                        <div class="row">
-			                                            <div class="col-md-12 col-sm-3">
-			                                                <div class="block-content block-content-full text-center">
-			                                                    <i class="fa fa-battery-0 fa-2x text-success"></i>
-			                                                    <div class="font-w600 push-8-t">En desarrollo</div>
-			                                                </div>
-			                                            </div>
-			                                            <div class="col-md-12 col-sm-3">
-			                                                <div class="block-content block-content-full text-center">
-			                                                    <i class="fa fa-battery-1 fa-2x text-muted"></i>
-			                                                    <div class="font-w600 push-8-t">Enviado a revisión</div>
-			                                                </div>
-			                                            </div>
-			                                            <div class="col-md-12 col-sm-3">
-			                                                <div class="block-content block-content-full text-center">
-			                                                    <i class="fa fa-battery-2 fa-2x text-muted"></i>
-			                                                    <div class="font-w600 push-8-t">En revisión</div>
-			                                                </div>
-			                                            </div>
-			                                            <div class="col-md-12 col-sm-3">
-			                                                <div class="block-content block-content-full text-center">
-			                                                    <i class="fa fa-battery-4 fa-2x text-muted"></i>
-			                                                    <div class="font-w600 push-8-t">Validado</div>
-			                                                </div>
-			                                            </div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </div>
-			                            <div class="col-md-9">
-			                                <div class="block block-themed">
-			                                    <div class="block-header bg-primary-dark">
-			                                        <h3 class="block-title">Comentarios</h3>
-			                                    </div>
-			                                    <div class="block-content">
-			                                        <div class="js-chat-container content content-narrow" data-chat-mode="fixed" data-chat-height="300">
-			                                            <div class="row">
-			                                                <div class="col-sm-12">
-			                                                    <!-- Single Chat (Chat Window 3) -->
-			                                                    <div class="block">
-			                                                        <div class="block">
-			                                                            <div class="js-chat-talk overflow-y-auto block-content block-content-full" data-chat-id="3">
-			                                                                <!-- Messages -->
-			                                                                <div class="font-s12 text-muted text-center push-20-t push-15"><em>Yesterday</em></div>
-			                                                                <div class="block block-rounded block-transparent push-15 push-50-l">
-			                                                                    <div class="block-content block-content-full block-content-mini bg-gray-lighter">Hi there!</div>
-			                                                                </div>
-			                                                                <div class="font-s12 text-muted text-center push-20-t push-10"><em>Today</em></div>
-			                                                                <div class="block block-rounded block-transparent push-15 push-50-r">
-			                                                                    <div class="block-content block-content-full block-content-mini bg-gray-light">Hi!!!</div>
-			                                                                </div>
-			                                                                <!-- END Messages -->
-			                                                            </div>
-			                                                            <div class="js-chat-form block-content block-content-full block-content-mini">
-			                                                                <form action="base_ui_chat.html" method="post">
-			                                                                    <input class="js-chat-input form-control" type="text" data-target-chat-id="3" placeholder="Type a message and hit enter..">
-			                                                                </form>
-			                                                            </div>
-			                                                        </div>
-			                                                    </div>
-			                                                    <!-- END Single Chat (Chat Window 3) -->
-			                                                </div>
-			                                            </div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			
-			                            </div>
-			                        </div>
-			
-			                        <div class="row">
-			                            <div class="col-md-12">
-			                                <div class="block block-themed">
-			                                    <div class="block-header bg-primary-dark">
-			                                        <h3 class="block-title">Opciones</h3>
-			                                    </div>
-			                                    <div class="block-content">
-			                                        <div class="row">
-			                                            <div class="col-lg-4 col-lg-offset-2">
-			                                                <a class="block block-link-hover2" href="javascript:void(0)">
-			                                                    <div class="block-content block-content-full bg-flat clearfix">
-			                                                        <i class="si si-eye fa-2x text-white pull-right"></i>
-			                                                        <span class="h4 font-w700 text-white">Cédula</span>
-			                                                        <span class="h4 text-white-op">de Trabajo</span>
-			                                                    </div>
-			                                                </a>
-			                                            </div>
-			                                            <div class="col-lg-4">
-			                                                <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
-			                                                    <div class="block-content block-content-full bg-primary clearfix">
-			                                                        <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-			                                                        <span class="h4 font-w700 text-white">Cédula</span>
-			                                                        <span class="h4 text-white-op">de Trabajo</span>
-			                                                    </div>
-			                                                </a>
-			                                            </div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </div>
-			                        </div>
-                                </div>
-                                <!-- Inicia Area aa -->
-                                <div class="tab-pane fade fade-up" id="bb">
-                                    <div class="border-b push-30">
-                                        <h2 class="push-10">Opciones <span class="h5 font-w400 text-muted">Documento</span></h2>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4 col-lg-offset-2">
-                                            <a class="block block-link-hover2" href="javascript:void(0)">
-                                                <div class="block-content block-content-full bg-flat clearfix">
-                                                    <i class="si si-eye fa-2x text-white pull-right"></i>
-                                                    <span class="h4 font-w700 text-white">Cedula</span>
-                                                    <span class="h4 text-white-op">Trabajo</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
-                                                <div class="block-content block-content-full bg-primary clearfix">
-                                                    <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-                                                    <span class="h4 font-w700 text-white">Cedula</span>
-                                                    <span class="h4 text-white-op">Trabajo</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End bb -->
-                                <!-- Inicia Area cc -->
-                                <div class="tab-pane fade fade-up" id="cc">
-                                    <div class="border-b push-30">
-                                        <h2 class="push-10">Opciones <span class="h5 font-w400 text-muted">Documento</span></h2>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4 col-lg-offset-2">
-                                            <a class="block block-link-hover2" href="javascript:void(0)">
-                                                <div class="block-content block-content-full bg-flat clearfix">
-                                                    <i class="si si-eye fa-2x text-white pull-right"></i>
-                                                    <span class="h4 font-w700 text-white">Cedula</span>
-                                                    <span class="h4 text-white-op">Trabajo</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a class="block block-link-hover2" href="./archivos/PAT_COMPLETOex.xlsx">
-                                                <div class="block-content block-content-full bg-primary clearfix">
-                                                    <i class="si si-cloud-download fa-2x text-white pull-right"></i>
-                                                    <span class="h4 font-w700 text-white">Cedula</span>
-                                                    <span class="h4 text-white-op">Trabajo</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End cc -->
-
-
                                 <!-- Inicia Area dd -->
-                                <div class="tab-pane fade fade-up" id="dd">
+                                <div class="tab-pane fade fade-up in active" id="dd">
                                     <div class="row">
                                         <div class="col-md-2">
                                             <h4>Sumaria</h4>
@@ -496,34 +311,10 @@
                         </div><!--TERMINA SEGUNDO BLOCK -->
                     </div>
                     <!-- End Info -->
-                    <!-- Inicia Area A -->
-                    <div class="tab-pane fade fade-up" id="a">
-
-                        <div class="border-b push-30">
-                            <h2 class="push-10">*<span class="h5 font-w400 text-muted"> A</span></h2>
-                        </div>
-                    </div>
-                    <!-- End A -->
-                    <!-- Inicia Area B -->
-                    <div class="tab-pane fade fade-up" id="b">
-
-                        <div class="border-b push-30">
-                            <h2 class="push-10">*<span class="h5 font-w400 text-muted"> B</span></h2>
-                        </div>
-                    </div>
-                    <!-- End B -->
-                    <!-- Inicia Area C -->
-                    <div class="tab-pane fade fade-up" id="c">
-
-                        <div class="border-b push-30">
-                            <h2 class="push-10">*<span class="h5 font-w400 text-muted"> C</span></h2>
-                        </div>
-                    </div>
-                    <!-- End C -->
                     <!-- Inicia Area D -->
                     <div class="tab-pane fade fade-up" id="d">
                         <div class="border-b push-30">
-                            <h2 class="push-10">*<span class="h5 font-w400 text-muted"> Cedula de trabajo</span></h2>
+                            <h2 class="push-10">*<span class="h5 font-w400 text-muted"> Nombre de la actividad</span></h2>
                         </div>
 
                         <div class="row">
@@ -541,198 +332,199 @@
                         <div class="block-content">
                             <table class="js-table-sections table table-hover">
                                 <thead>
-                                <tr>
-                                    <th style="width: 1%;"></th>
-                                    <th style="width: 3%;">#</th>
-                                    <th style="width: 3%;">#</th>
-                                    <th style="width: 5%;">Cedula</th>
-                                    <th style="width: 5%;">Word</th>
-                                    <th style="width: 5%;">Adj.</th>
-                                    <th style="width: 5%;">Avance</th>
-                                    <th style="width: 30%;">Comentario</th>
-                                    <th style="width: 5%;"> Acción </th>
-
-                                </tr>
+                                    <tr>
+                                        <th style="width: 1%;"></th>
+                                        <th style="width: 3%;">#</th>
+                                        <th style="width: 3%;">#</th>
+                                        <th style="width: 5%;">Cedula</th>
+                                        <th style="width: 5%;">Word</th>
+                                        <th style="width: 5%;">Adj.</th>
+                                        <th style="width: 5%;">Avance</th>
+                                        <th style="width: 30%;">Comentario</th>
+                                        <th style="width: 5%;"> Acción </th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td class="text-center">
-                                        <i class="fa fa-angle-right"></i>
-                                    </td>
-                                    <td class="font-w600 text-center">1</td>
-                                    <td class="font-w600 text-center">1</td>
-                                    <td class="font-w600 text-center"><span class="label label-default">A-1</span></td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
+                                    <tr>
+                                        <td class="text-center">
+                                            <i class="fa fa-folder-open"></i>
+                                        </td>
+                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center"></td>
+                                        <td class="font-w600 text-center"><span class="label label-default">D</span></td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
 
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material floating open">
-                                                    <select class="form-control" id="material-select2" name="material-select2" size="1">
-                                                        <option>----</option><!-- Empty value for demostrating material select box -->
-                                                        <option value="1">10%</option>
-                                                        <option value="2">20%</option>
-                                                        <option value="3">30%</option>
-                                                        <option value="3">40%</option>
-                                                        <option value="3">50%</option>
-                                                        <option value="3">60%</option>
-                                                        <option value="3">70%</option>
-                                                        <option value="3">80%</option>
-                                                        <option value="3">90%</option>
-                                                        <option value="3">100%</option>
-                                                    </select>
-                                                    <label for="material-select2">Avance</label>
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="material-select2" name="material-select2" size="1">
+                                                            <option>----</option><!-- Empty value for demostrating material select box -->
+                                                            <option value="1">10%</option>
+                                                            <option value="2">20%</option>
+                                                            <option value="3">30%</option>
+                                                            <option value="3">40%</option>
+                                                            <option value="3">50%</option>
+                                                            <option value="3">60%</option>
+                                                            <option value="3">70%</option>
+                                                            <option value="3">80%</option>
+                                                            <option value="3">90%</option>
+                                                            <option value="3">100%</option>
+                                                        </select>
+                                                        <label for="material-select2">Avance</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="form-material">
-                                                    <textarea class="form-control" id="material-textarea-small" name="material-textarea-small" rows="1"></textarea>
-                                                    <label for="material-textarea-small">Comentario</label>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <div class="form-material">
+                                                        <textarea class="form-control" id="material-textarea-small" name="material-textarea-small" rows="1"></textarea>
+                                                        <label for="material-textarea-small">Comentario</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="btn-group">
-                                            
-                                            <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
-                                                <i class="fa fa-plus"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                
+                                                <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                                 <tbody>
                                 </tbody>
                                 <tbody class="js-table-sections-header">
-                                <tr>
-                                    <td class="text-center">
-                                        <i class="fa fa-angle-right"></i>
-                                    </td>
-                                    <td class="font-w600 text-center">2</td>
-                                    <td class="font-w600 text-center">1</td>
-                                    <td class="font-w600 text-center"><span class="label label-default">A-2</span></td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material floating open">
-                                                    <select class="form-control" id="avanc2" name="avanc2" size="1">
-                                                        <option>----</option><!-- Empty value for demostrating material select box -->
-                                                        <option value="1">10%</option>
-                                                        <option value="2">20%</option>
-                                                        <option value="3">30%</option>
-                                                        <option value="3">40%</option>
-                                                        <option value="3">50%</option>
-                                                        <option value="3">60%</option>
-                                                        <option value="3">70%</option>
-                                                        <option value="3">80%</option>
-                                                        <option value="3">90%</option>
-                                                        <option value="3">100%</option>
-                                                    </select>
-                                                    <label for="avanc2">Avance</label>
+                                    <tr>
+                                        <td class="text-center">
+                                            <i class="fa fa-angle-right"></i>
+                                        </td>
+                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center"><span class="label label-default">D-1</span></td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="avanc2" name="avanc2" size="1">
+                                                            <option>----</option><!-- Empty value for demostrating material select box -->
+                                                            <option value="1">10%</option>
+                                                            <option value="2">20%</option>
+                                                            <option value="3">30%</option>
+                                                            <option value="3">40%</option>
+                                                            <option value="3">50%</option>
+                                                            <option value="3">60%</option>
+                                                            <option value="3">70%</option>
+                                                            <option value="3">80%</option>
+                                                            <option value="3">90%</option>
+                                                            <option value="3">100%</option>
+                                                        </select>
+                                                        <label for="avanc2">Avance</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="form-material">
-                                                    <textarea class="form-control" id="comen2" name="comen2" rows="1"></textarea>
-                                                    <label for="comen2">Comentario</label>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <div class="form-material">
+                                                        <textarea class="form-control" id="comen2" name="comen2" rows="1"></textarea>
+                                                        <label for="comen2">Comentario</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="btn-group">
-                                            
-                                            <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
-                                                <i class="fa fa-plus"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-minus"></i>
+                                                </button>
+                                                <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                                 <tbody>
-                                <tr>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"><small>2</small></td>
-                                    <td class="text-center"><small><span class="label label-default">A-2/1</span></small></td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="text-center">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material floating open">
-                                                    <select class="form-control" id="avanc3" name="avanc3" size="1">
-                                                        <option>----</option><!-- Empty value for demostrating material select box -->
-                                                        <option value="1">10%</option>
-                                                        <option value="2">20%</option>
-                                                        <option value="3">30%</option>
-                                                        <option value="3">40%</option>
-                                                        <option value="3">50%</option>
-                                                        <option value="3">60%</option>
-                                                        <option value="3">70%</option>
-                                                        <option value="3">80%</option>
-                                                        <option value="3">90%</option>
-                                                        <option value="3">100%</option>
-                                                    </select>
-                                                    <label for="avanc3"><small>Avance</small></label>
+                                    <tr>
+                                        <td class="text-center">&nbsp;</td>
+                                        <td class="text-center">&nbsp;</td>
+                                        <td class="font-w600text-center"><small>2</small></td>
+                                        <td class="text-center"><small><span class="label label-default">D-1/1</span></small></td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="avanc3" name="avanc3" size="1">
+                                                            <option>----</option><!-- Empty value for demostrating material select box -->
+                                                            <option value="1">10%</option>
+                                                            <option value="2">20%</option>
+                                                            <option value="3">30%</option>
+                                                            <option value="3">40%</option>
+                                                            <option value="3">50%</option>
+                                                            <option value="3">60%</option>
+                                                            <option value="3">70%</option>
+                                                            <option value="3">80%</option>
+                                                            <option value="3">90%</option>
+                                                            <option value="3">100%</option>
+                                                        </select>
+                                                        <label for="avanc3"><small>Avance</small></label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="form-material">
-                                                    <textarea class="form-control" id="com3" name="com3" rows="1"></textarea>
-                                                    <label for="com3"><small>Comentario</small></label>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <div class="form-material">
+                                                        <textarea class="form-control" id="com3" name="com3" rows="1"></textarea>
+                                                        <label for="com3"><small>Comentario</small></label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
-                                                <i class="fa fa-minus"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-minus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -768,202 +560,199 @@
                         <div class="block-content">
                             <table class="js-table-sections table table-hover">
                                 <thead>
-                                <tr>
-                                    <th style="width: 1%;"></th>
-                                    <th style="width: 3%;">#</th>
-                                    <th style="width: 3%;">#</th>
-                                    <th style="width: 5%;">Cedula</th>
-                                    <th style="width: 5%;">Word</th>
-                                    <th style="width: 5%;">Adj.</th>
-                                    <th style="width: 5%;">Avance</th>
-                                    <th style="width: 30%;">Comentario</th>
-                                    <th style="width: 5%;"> Acción </th>
-
-                                </tr>
+                                    <tr>
+                                        <th style="width: 1%;"></th>
+                                        <th style="width: 3%;">#</th>
+                                        <th style="width: 3%;">#</th>
+                                        <th style="width: 5%;">Cedula</th>
+                                        <th style="width: 5%;">Word</th>
+                                        <th style="width: 5%;">Adj.</th>
+                                        <th style="width: 5%;">Avance</th>
+                                        <th style="width: 30%;">Comentario</th>
+                                        <th style="width: 5%;"> Acción </th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td class="text-center">
-                                        <i class="fa fa-angle-right"></i>
-                                    </td>
-                                    <td class="font-w600 text-center">1</td>
-                                    <td class="font-w600 text-center">1</td>
-                                    <td class="font-w600 text-center"><span class="label label-default">A-1</span></td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
+                                    <tr>
+                                        <td class="text-center">
+                                            <i class="fa fa-folder-open"></i>
+                                        </td>
+                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center"></td>
+                                        <td class="font-w600 text-center"><span class="label label-default">E</span></td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
 
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material floating open">
-                                                    <select class="form-control" id="material-select2" name="material-select2" size="1">
-                                                        <option>----</option><!-- Empty value for demostrating material select box -->
-                                                        <option value="1">10%</option>
-                                                        <option value="2">20%</option>
-                                                        <option value="3">30%</option>
-                                                        <option value="3">40%</option>
-                                                        <option value="3">50%</option>
-                                                        <option value="3">60%</option>
-                                                        <option value="3">70%</option>
-                                                        <option value="3">80%</option>
-                                                        <option value="3">90%</option>
-                                                        <option value="3">100%</option>
-                                                    </select>
-                                                    <label for="material-select2">Avance</label>
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="material-select2" name="material-select2" size="1">
+                                                            <option>----</option><!-- Empty value for demostrating material select box -->
+                                                            <option value="1">10%</option>
+                                                            <option value="2">20%</option>
+                                                            <option value="3">30%</option>
+                                                            <option value="3">40%</option>
+                                                            <option value="3">50%</option>
+                                                            <option value="3">60%</option>
+                                                            <option value="3">70%</option>
+                                                            <option value="3">80%</option>
+                                                            <option value="3">90%</option>
+                                                            <option value="3">100%</option>
+                                                        </select>
+                                                        <label for="material-select2">Avance</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="form-material">
-                                                    <textarea class="form-control" id="material-textarea-small" name="material-textarea-small" rows="1"></textarea>
-                                                    <label for="material-textarea-small">Comentario</label>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <div class="form-material">
+                                                        <textarea class="form-control" id="material-textarea-small" name="material-textarea-small" rows="1"></textarea>
+                                                        <label for="material-textarea-small">Comentario</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <a class="btn btn-danger btn-xs" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Eliminar">
-                                                <i class="fa fa-minus"></i>
-                                            </a>
-                                            <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
-                                                <i class="fa fa-plus"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                
+                                                <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                                 <tbody>
                                 </tbody>
                                 <tbody class="js-table-sections-header">
-                                <tr>
-                                    <td class="text-center">
-                                        <i class="fa fa-angle-right"></i>
-                                    </td>
-                                    <td class="font-w600 text-center">2</td>
-                                    <td class="font-w600 text-center">1</td>
-                                    <td class="font-w600 text-center"><span class="label label-default">A-2</span></td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material floating open">
-                                                    <select class="form-control" id="avanc2" name="avanc2" size="1">
-                                                        <option>----</option><!-- Empty value for demostrating material select box -->
-                                                        <option value="1">10%</option>
-                                                        <option value="2">20%</option>
-                                                        <option value="3">30%</option>
-                                                        <option value="3">40%</option>
-                                                        <option value="3">50%</option>
-                                                        <option value="3">60%</option>
-                                                        <option value="3">70%</option>
-                                                        <option value="3">80%</option>
-                                                        <option value="3">90%</option>
-                                                        <option value="3">100%</option>
-                                                    </select>
-                                                    <label for="avanc2">Avance</label>
+                                    <tr>
+                                        <td class="text-center">
+                                            <i class="fa fa-angle-right"></i>
+                                        </td>
+                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center"><span class="label label-default">E-1</span></td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="avanc2" name="avanc2" size="1">
+                                                            <option>----</option><!-- Empty value for demostrating material select box -->
+                                                            <option value="1">10%</option>
+                                                            <option value="2">20%</option>
+                                                            <option value="3">30%</option>
+                                                            <option value="3">40%</option>
+                                                            <option value="3">50%</option>
+                                                            <option value="3">60%</option>
+                                                            <option value="3">70%</option>
+                                                            <option value="3">80%</option>
+                                                            <option value="3">90%</option>
+                                                            <option value="3">100%</option>
+                                                        </select>
+                                                        <label for="avanc2">Avance</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="form-material">
-                                                    <textarea class="form-control" id="comen2" name="comen2" rows="1"></textarea>
-                                                    <label for="comen2">Comentario</label>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <div class="form-material">
+                                                        <textarea class="form-control" id="comen2" name="comen2" rows="1"></textarea>
+                                                        <label for="comen2">Comentario</label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <a class="btn btn-danger btn-xs" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="Eliminar">
-                                                <i class="fa fa-minus"></i>
-                                            </a>
-                                            <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
-                                                <i class="fa fa-plus"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-minus"></i>
+                                                </button>
+                                                <button class="btn btn-primary btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                                 <tbody>
-                                <tr>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"><small>2</small></td>
-                                    <td class="text-center"><small><span class="label label-default">A-2/1</span></small></td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="text-center">
-                                        <div class="btn-group">
-                                            <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
-                                        </div>
-                                    </td>
-                                    <td class="text-center">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div class="form-material floating open">
-                                                    <select class="form-control" id="avanc3" name="avanc3" size="1">
-                                                        <option>----</option><!-- Empty value for demostrating material select box -->
-                                                        <option value="1">10%</option>
-                                                        <option value="2">20%</option>
-                                                        <option value="3">30%</option>
-                                                        <option value="3">40%</option>
-                                                        <option value="3">50%</option>
-                                                        <option value="3">60%</option>
-                                                        <option value="3">70%</option>
-                                                        <option value="3">80%</option>
-                                                        <option value="3">90%</option>
-                                                        <option value="3">100%</option>
-                                                    </select>
-                                                    <label for="avanc3"><small>Avance</small></label>
+                                    <tr>
+                                        <td class="text-center">&nbsp;</td>
+                                        <td class="text-center">&nbsp;</td>
+                                        <td class="font-w600text-center"><small>2</small></td>
+                                        <td class="text-center"><small><span class="label label-default">E-1/1</span></small></td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <button class="btn btn-xs btn-primary" type="button" data-toggle="tooltip" title="" data-original-title="Adjunar Doc."><i class="fa fa-paperclip"></i></button>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <div class="form-material floating open">
+                                                        <select class="form-control" id="avanc3" name="avanc3" size="1">
+                                                            <option>----</option><!-- Empty value for demostrating material select box -->
+                                                            <option value="1">10%</option>
+                                                            <option value="2">20%</option>
+                                                            <option value="3">30%</option>
+                                                            <option value="3">40%</option>
+                                                            <option value="3">50%</option>
+                                                            <option value="3">60%</option>
+                                                            <option value="3">70%</option>
+                                                            <option value="3">80%</option>
+                                                            <option value="3">90%</option>
+                                                            <option value="3">100%</option>
+                                                        </select>
+                                                        <label for="avanc3"><small>Avance</small></label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="font-w600 text-center">
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="form-material">
-                                                    <textarea class="form-control" id="com3" name="com3" rows="1"></textarea>
-                                                    <label for="com3"><small>Comentario</small></label>
+                                        </td>
+                                        <td class="font-w600 text-center">
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <div class="form-material">
+                                                        <textarea class="form-control" id="com3" name="com3" rows="1"></textarea>
+                                                        <label for="com3"><small>Comentario</small></label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
-                                                <i class="fa fa-minus"></i>
-                                            </button>
-                                        </div>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Agregar">
+                                                    <i class="fa fa-minus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
