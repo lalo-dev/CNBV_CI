@@ -349,7 +349,7 @@
                                         <td class="text-center">
                                             <i class="fa fa-folder-open"></i>
                                         </td>
-                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center"></td>
                                         <td class="font-w600 text-center"></td>
                                         <td class="font-w600 text-center"><span class="label label-default">D</span></td>
                                         <td class="font-w600 text-center">
@@ -577,7 +577,7 @@
                                         <td class="text-center">
                                             <i class="fa fa-folder-open"></i>
                                         </td>
-                                        <td class="font-w600 text-center">1</td>
+                                        <td class="font-w600 text-center"></td>
                                         <td class="font-w600 text-center"></td>
                                         <td class="font-w600 text-center"><span class="label label-default">E</span></td>
                                         <td class="font-w600 text-center">
