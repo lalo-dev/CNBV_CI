@@ -96,20 +96,20 @@
             </header>
             <!-- END Header -->
 
-            <!-- Main Container -->
+           <!-- Main Container -->
             <main id="main-container">
                 <!-- Page Header -->
                 <div class="content bg-gray-lighter">
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Configuración <small>Actividades</small>
+                                Consultar <small>Actividades</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
                                 <li>Actividades</li>
-                                <li>Configuración</li>
+                                <li>Consultar</li>
                             </ol>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
                             <li class="active">
-                                <a href="#search-escolaridad">Actividades</a>
+                                <a href="#search-escolaridad">Consulta</a>
                             </li>
                             <li class="pull-right">
                                 <ul class="block-options push-10-t push-10-r">
@@ -134,112 +134,125 @@
                         <div class="block-content tab-content bg-white">
                             <!-- Escolaridad -->
                             <div class="tab-pane fade fade-up in active" id="search-escolaridad">
-                                <!-- Agregar -->
-                                <div class="block block-themed block-opt-hidden">
+                                <!-- Agregar termino -->
+                                <div class="block block-themed">
                                     <div class="block-header bg-primary">
                                         <ul class="block-options">
                                             <li>
                                                 <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
                                             </li>
                                         </ul>
-                                        <h3 class="block-title">Agregar</h3>
+                                        <h3 class="block-title">Generar</h3>
                                     </div>
                                     <div class="block-content">
                                         <form class="form-horizontal push-10-t" action="#" method="post">
-
                                             <div class="form-group">
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="titulo" name="titulo">
-                                                        <label for="titulo">Actividad</label>
+                                                        <select class="form-control input-sm" multiple="" id="responsable" name="responsable">
+                                                            <option selected></option>
+                                                            <option value="1">Usuario 1</option>
+                                                            <option value="2">Usuario 2</option>
+                                                            <option value="3">Usuario 3</option>
+                                                            <option value="4">Usuario 4</option>
+                                                        </select>
+                                                        <label for="responsable">Usuario</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6">
-                                                    <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="titulo" name="titulo">
-                                                        <label for="titulo">Descripción</label>
+                                                <div class="col-sm-3">
+                                                    <div class="form-material">
+                                                        <input class="js-datepicker form-control" type="text" id="example-datepicker6" name="example-datepicker6" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy">
+                                                        <label for="example-datepicker6">De:</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="form-material">
+                                                        <input class="js-datepicker form-control" type="text" id="example-datepicker6" name="example-datepicker6" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy">
+                                                        <label for="example-datepicker6">A:</label>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
-                                                    <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                                    <button class="btn btn-sm btn-primary" type="submit">Generar</button>
+                                                    <button class="btn btn-sm btn-default" type="reset">Limpiar</button>
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
                                 </div>
-                                <!-- End Agregar -->
+                                <!-- End Agregar termino -->
+                                <hr>
+                                <hr>
                                 <div class="row">&nbsp;</div>
                                 <!-- Lista -->
                                 <div class="table-responsive">
                                     <div class="border-b push-30">
-                                        <h2 class="push-10">3 <span class="h5 font-w400 text-muted">Elementos encontrados</span></h2>
+                                        <h2 class="push-10">5 <span class="h5 font-w400 text-muted">Elementos encontrados</span></h2>
                                     </div>
-                                    <table class="table table-striped table-vcenter table-condensed">
+                                    <table class="table table-striped table-vcenter table-condensed table-header-bg">
                                         <thead>
                                             <tr>
                                                 <th class="text-center">#</th>
-                                                <th class="text-left">Actividad</th>
-                                                <th class="text-left">Descripción</th>
-                                                <th class="text-center">Acciones</th>
+                                                <th class="text-center">Revisión</th>
+                                                <th>Actividad</th>
+                                                <th>Descripción</th>
+                                                <th class="text-center">Horas</th>
+                                                <th class="text-center">Fecha</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td class="text-center">1</td>
-                                                <td>Nombre de la actividad</td>
-                                                <td>Descripción de la actividad</td>
-                                                <td class="text-center">
-                                                    <div class="btn-group">
-                                                        <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                            <i class="fa fa-pencil"></i>
-                                                        </a>
-                                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                            <i class="fa fa-times"></i>
-                                                        </button>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
+                                                <td class="text-center">12/16</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
                                                 <td class="text-center">2</td>
-                                                <td>Nombre de la actividad</td>
-                                                <td>Descripción de la actividad</td>
-                                                <td class="text-center">
-                                                    <div class="btn-group">
-                                                        <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                            <i class="fa fa-pencil"></i>
-                                                        </a>
-                                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                            <i class="fa fa-times"></i>
-                                                        </button>
-                                                    </div>
-                                                </td>
+                                                <td class="text-center">12/12/16</td>
+                                                
                                             </tr>
                                             <tr>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/16</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/12/16</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/16</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/12/16</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/16</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/12/16</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">1</td>
+                                                <td class="text-center">12/16</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
+                                                <td>Lorem ipsum dolor sit amet</td>
                                                 <td class="text-center">3</td>
-                                                <td>Nombre de la actividad</td>
-                                                <td>Descripción de la actividad</td>
-                                                <td class="text-center">
-                                                    <div class="btn-group">
-                                                        <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                            <i class="fa fa-pencil"></i>
-                                                        </a>
-                                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                            <i class="fa fa-times"></i>
-                                                        </button>
-                                                    </div>
-                                                </td>
+                                                <td class="text-center">12/12/16</td>
+                                                
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <!-- End Lista -->
                             </div>
-                            <!-- End Escolaridad -->
                         </div>
                     </div>
 
