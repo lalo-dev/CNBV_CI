@@ -268,7 +268,7 @@
                                         <a href="#">Reportes adicionales</a>
                                     </li>
                                     <li>
-                                        <a href="#">Reportes AAI</a>
+                                        <a href="reportes_aai">Reportes AAI</a>
                                     </li>
                                 </ul>
                             </li>
