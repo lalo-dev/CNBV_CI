@@ -188,7 +188,7 @@
                                     <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Estadísticas</span></a>
                                     <ul>
                                         <li>
-                                            <a href="m6_1_estadistica_auditorias">Auditorías ?</a>
+                                            <a href="estadisticas_semanal.php">Auditorías ?</a>
                                         </li>
                                         <li>
                                             <a href="">Seguimientos ?</a>

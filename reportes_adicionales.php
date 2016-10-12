@@ -103,14 +103,14 @@
             <div class="row items-push">
                 <div class="col-sm-7">
                     <h1 class="page-heading">
-                        AAI<small> Reportes</small>
+                        Adicionales<small> Reportes</small>
                     </h1>
                 </div>
                 <div class="col-sm-5 text-right hidden-xs">
                     <ol class="breadcrumb push-10-t">
                         <li>Administración</li>
                         <li>Reportes</li>
-                        <li>AAI</li>
+                        <li>Adicionales</li>
                     </ol>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                                 <div class="block-content block-content-full bg-primary clearfix">
                                     <i class="si si-cloud-download fa-2x text-white pull-right"></i>
                                     <span class="h4 font-w700 text-white">Reportes</span>
-                                    <span class="h4 text-white-op"> AAI</span>
+                                    <span class="h4 text-white-op"> Adicionales</span>
                                 </div>
                             </a>
                         </div>

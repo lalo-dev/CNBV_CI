@@ -262,13 +262,13 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Reportes</span></a>
                                 <ul>
                                     <li>
-                                        <a href="#">Reporte avance semanal auditoría</a>
+                                        <a href="reportes_semanal">Avance semanal auditoría</a>
                                     </li>
                                     <li>
-                                        <a href="#">Reportes adicionales</a>
+                                        <a href="reportes_adicionales">Adicionales</a>
                                     </li>
                                     <li>
-                                        <a href="reportes_aai">Reportes AAI</a>
+                                        <a href="reportes_aai">AAI</a>
                                     </li>
                                 </ul>
                             </li>
@@ -276,16 +276,10 @@
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-bar-chart"></i><span class="sidebar-mini-hide">Estadísticas</span></a>
                                 <ul>
                                     <li>
-                                        <a href="m6_1_estadistica_auditorias">Auditorías</a>
+                                        <a href="estadisticas_semanal">Avance semanal auditoría</a>
                                     </li>
                                     <li>
-                                        <a href="">Seguimientos</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Auditores</a>
-                                    </li>
-                                    <li>
-                                        <a href="">PRAS</a>
+                                        <a href="estadisticas_aai">AAI</a>
                                     </li>
                                 </ul>
                             </li>
